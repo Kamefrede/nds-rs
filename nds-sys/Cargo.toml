@@ -1,0 +1,17 @@
+[package]
+name = "nds-sys"
+version = "0.1.0"
+authors = ["Kamefrede <kamefrede@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = []
+use-bindgen = ["bindgen"]
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = {version = "0.52.0", optional = true}
