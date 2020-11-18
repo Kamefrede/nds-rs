@@ -52,7 +52,8 @@ fn main() {
 
 #[cfg(not(feature = "use-bindgen"))]
 fn main() {
-	let dkp_path = std::env::var("DEVKITPRO").unwrap();
+
+	/*let dkp_path = std::env::var("DEVKITPRO").unwrap();
 
 	println!(
 		"cargo:rustc-link-search=native={}/devkitARM/arm-none-eabi/lib",
@@ -64,5 +65,5 @@ fn main() {
 	println!("cargo:rustc-link-lib=static=nds9");
 	println!("cargo:rustc-link-lib=static=filesystem");
 	println!("cargo:rustc-link-lib=static=fat");
-	println!("cargo:rustc-link-lib=static=mm9");
+	println!("cargo:rustc-link-lib=static=mm9");*/
 }
