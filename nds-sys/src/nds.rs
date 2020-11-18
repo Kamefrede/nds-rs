@@ -124,28 +124,15 @@ impl<T> ::core::cmp::PartialEq for __BindgenUnionField<T> {
     }
 }
 impl<T> ::core::cmp::Eq for __BindgenUnionField<T> {}
-pub const __NEWLIB_H__: u32 = 1;
+pub const _LIBNDS_MAJOR_: u32 = 1;
+pub const _LIBNDS_MINOR_: u32 = 8;
+pub const _LIBNDS_PATCH_: u32 = 0;
+pub const _LIBNDS_STRING: &'static [u8; 21usize] = b"libNDS Release 1.8.0\0";
 pub const _NEWLIB_VERSION_H__: u32 = 1;
 pub const _NEWLIB_VERSION: &'static [u8; 6usize] = b"3.3.0\0";
 pub const __NEWLIB__: u32 = 3;
 pub const __NEWLIB_MINOR__: u32 = 3;
 pub const __NEWLIB_PATCHLEVEL__: u32 = 0;
-pub const _WANT_IO_C99_FORMATS: u32 = 1;
-pub const _WANT_IO_LONG_LONG: u32 = 1;
-pub const _WANT_IO_POS_ARGS: u32 = 1;
-pub const _REENT_CHECK_VERIFY: u32 = 1;
-pub const _MB_CAPABLE: u32 = 1;
-pub const _MB_LEN_MAX: u32 = 8;
-pub const HAVE_INITFINI_ARRAY: u32 = 1;
-pub const _ATEXIT_DYNAMIC_ALLOC: u32 = 1;
-pub const _HAVE_LONG_DOUBLE: u32 = 1;
-pub const _HAVE_CC_INHIBIT_LOOP_TO_LIBCALL: u32 = 1;
-pub const _LDBL_EQ_DBL: u32 = 1;
-pub const _FVWRITE_IN_STREAMIO: u32 = 1;
-pub const _FSEEK_OPTIMIZATION: u32 = 1;
-pub const _UNBUF_STREAM_OPT: u32 = 1;
-pub const __OBSOLETE_MATH_DEFAULT: u32 = 1;
-pub const __OBSOLETE_MATH: u32 = 1;
 pub const _DEFAULT_SOURCE: u32 = 1;
 pub const _POSIX_SOURCE: u32 = 1;
 pub const _POSIX_C_SOURCE: u32 = 200809;
@@ -162,7 +149,6 @@ pub const __XSI_VISIBLE: u32 = 0;
 pub const __SSP_FORTIFY_LEVEL: u32 = 0;
 pub const _POSIX_MONOTONIC_CLOCK: u32 = 200112;
 pub const _POSIX_TIMERS: u32 = 1;
-pub const __RAND_MAX: u32 = 2147483647;
 pub const __have_longlong64: u32 = 1;
 pub const __have_long32: u32 = 1;
 pub const ___int8_t_defined: u32 = 1;
@@ -173,27 +159,6 @@ pub const ___int_least8_t_defined: u32 = 1;
 pub const ___int_least16_t_defined: u32 = 1;
 pub const ___int_least32_t_defined: u32 = 1;
 pub const ___int_least64_t_defined: u32 = 1;
-pub const __GNUCLIKE_ASM: u32 = 3;
-pub const __GNUCLIKE___TYPEOF: u32 = 1;
-pub const __GNUCLIKE___OFFSETOF: u32 = 1;
-pub const __GNUCLIKE___SECTION: u32 = 1;
-pub const __GNUCLIKE_CTOR_SECTION_HANDLING: u32 = 1;
-pub const __GNUCLIKE_BUILTIN_CONSTANT_P: u32 = 1;
-pub const __GNUCLIKE_BUILTIN_VARARGS: u32 = 1;
-pub const __GNUCLIKE_BUILTIN_STDARG: u32 = 1;
-pub const __GNUCLIKE_BUILTIN_VAALIST: u32 = 1;
-pub const __GNUC_VA_LIST_COMPATIBILITY: u32 = 1;
-pub const __GNUCLIKE_BUILTIN_NEXT_ARG: u32 = 1;
-pub const __GNUCLIKE_BUILTIN_MEMCPY: u32 = 1;
-pub const __CC_SUPPORTS_INLINE: u32 = 1;
-pub const __CC_SUPPORTS___INLINE: u32 = 1;
-pub const __CC_SUPPORTS___INLINE__: u32 = 1;
-pub const __CC_SUPPORTS___FUNC__: u32 = 1;
-pub const __CC_SUPPORTS_WARNING: u32 = 1;
-pub const __CC_SUPPORTS_VARADIC_XXX: u32 = 1;
-pub const __CC_SUPPORTS_DYNAMIC_ARRAY_INIT: u32 = 1;
-pub const __GNUC_VA_LIST: u32 = 1;
-pub const _NULL: u32 = 0;
 pub const __int20: u32 = 2;
 pub const __int20__: u32 = 2;
 pub const __INT8: &'static [u8; 3usize] = b"hh\0";
@@ -218,112 +183,6 @@ pub const __int_fast16_t_defined: u32 = 1;
 pub const __int_fast32_t_defined: u32 = 1;
 pub const __int_fast64_t_defined: u32 = 1;
 pub const WINT_MIN: u32 = 0;
-pub const _ATEXIT_SIZE: u32 = 32;
-pub const _RAND48_SEED_0: u32 = 13070;
-pub const _RAND48_SEED_1: u32 = 43981;
-pub const _RAND48_SEED_2: u32 = 4660;
-pub const _RAND48_MULT_0: u32 = 58989;
-pub const _RAND48_MULT_1: u32 = 57068;
-pub const _RAND48_MULT_2: u32 = 5;
-pub const _RAND48_ADD: u32 = 11;
-pub const _REENT_EMERGENCY_SIZE: u32 = 25;
-pub const _REENT_ASCTIME_SIZE: u32 = 26;
-pub const _REENT_SIGNAL_SIZE: u32 = 24;
-pub const _N_LISTS: u32 = 30;
-pub const __BIT_TYPES_DEFINED__: u32 = 1;
-pub const _LITTLE_ENDIAN: u32 = 1234;
-pub const _BIG_ENDIAN: u32 = 4321;
-pub const _PDP_ENDIAN: u32 = 3412;
-pub const _BYTE_ORDER: u32 = 1234;
-pub const _QUAD_HIGHWORD: u32 = 1;
-pub const _QUAD_LOWWORD: u32 = 0;
-pub const LITTLE_ENDIAN: u32 = 1234;
-pub const BIG_ENDIAN: u32 = 4321;
-pub const PDP_ENDIAN: u32 = 3412;
-pub const BYTE_ORDER: u32 = 1234;
-pub const FD_SETSIZE: u32 = 64;
-pub const SCHED_OTHER: u32 = 0;
-pub const SCHED_FIFO: u32 = 1;
-pub const SCHED_RR: u32 = 2;
-pub const PTHREAD_SCOPE_PROCESS: u32 = 0;
-pub const PTHREAD_SCOPE_SYSTEM: u32 = 1;
-pub const PTHREAD_INHERIT_SCHED: u32 = 1;
-pub const PTHREAD_EXPLICIT_SCHED: u32 = 2;
-pub const PTHREAD_CREATE_DETACHED: u32 = 0;
-pub const PTHREAD_CREATE_JOINABLE: u32 = 1;
-pub const __SLBF: u32 = 1;
-pub const __SNBF: u32 = 2;
-pub const __SRD: u32 = 4;
-pub const __SWR: u32 = 8;
-pub const __SRW: u32 = 16;
-pub const __SEOF: u32 = 32;
-pub const __SERR: u32 = 64;
-pub const __SMBF: u32 = 128;
-pub const __SAPP: u32 = 256;
-pub const __SSTR: u32 = 512;
-pub const __SOPT: u32 = 1024;
-pub const __SNPT: u32 = 2048;
-pub const __SOFF: u32 = 4096;
-pub const __SORD: u32 = 8192;
-pub const __SL64: u32 = 32768;
-pub const __SNLK: u32 = 1;
-pub const __SWID: u32 = 8192;
-pub const _IOFBF: u32 = 0;
-pub const _IOLBF: u32 = 1;
-pub const _IONBF: u32 = 2;
-pub const EOF: i32 = -1;
-pub const BUFSIZ: u32 = 1024;
-pub const FOPEN_MAX: u32 = 20;
-pub const FILENAME_MAX: u32 = 1024;
-pub const L_tmpnam: u32 = 1024;
-pub const P_tmpdir: &'static [u8; 5usize] = b"/tmp\0";
-pub const SEEK_SET: u32 = 0;
-pub const SEEK_CUR: u32 = 1;
-pub const SEEK_END: u32 = 2;
-pub const TMP_MAX: u32 = 26;
-pub const L_ctermid: u32 = 16;
-pub const M_MXFAST: u32 = 1;
-pub const M_NLBLKS: u32 = 2;
-pub const M_GRAIN: u32 = 3;
-pub const M_KEEP: u32 = 4;
-pub const M_TRIM_THRESHOLD: i32 = -1;
-pub const M_TOP_PAD: i32 = -2;
-pub const M_MMAP_THRESHOLD: i32 = -3;
-pub const M_MMAP_MAX: i32 = -4;
-pub const EXIT_FAILURE: u32 = 1;
-pub const EXIT_SUCCESS: u32 = 0;
-pub const RAND_MAX: u32 = 2147483647;
-pub const _M_LN2: f64 = 0.6931471805599453;
-pub const FP_NAN: u32 = 0;
-pub const FP_INFINITE: u32 = 1;
-pub const FP_ZERO: u32 = 2;
-pub const FP_SUBNORMAL: u32 = 3;
-pub const FP_NORMAL: u32 = 4;
-pub const MATH_ERRNO: u32 = 1;
-pub const MATH_ERREXCEPT: u32 = 2;
-pub const math_errhandling: u32 = 1;
-pub const M_E: f64 = 2.718281828459045;
-pub const M_LOG2E: f64 = 1.4426950408889634;
-pub const M_LOG10E: f64 = 0.4342944819032518;
-pub const M_LN2: f64 = 0.6931471805599453;
-pub const M_LN10: f64 = 2.302585092994046;
-pub const M_PI: f64 = 3.141592653589793;
-pub const M_PI_2: f64 = 1.5707963267948966;
-pub const M_PI_4: f64 = 0.7853981633974483;
-pub const M_1_PI: f64 = 0.3183098861837907;
-pub const M_2_PI: f64 = 0.6366197723675814;
-pub const M_2_SQRTPI: f64 = 1.1283791670955126;
-pub const M_SQRT2: f64 = 1.4142135623730951;
-pub const M_SQRT1_2: f64 = 0.7071067811865476;
-pub const M_TWOPI: f64 = 6.283185307179586;
-pub const M_SQRTPI: f64 = 1.772453850905516;
-pub const M_SQRT3: f64 = 1.7320508075688772;
-pub const M_IVLN10: f64 = 0.4342944819032518;
-pub const M_LOG2_E: f64 = 0.6931471805599453;
-pub const _LIBNDS_MAJOR_: u32 = 1;
-pub const _LIBNDS_MINOR_: u32 = 8;
-pub const _LIBNDS_PATCH_: u32 = 0;
-pub const _LIBNDS_STRING: &'static [u8; 21usize] = b"libNDS Release 1.8.0\0";
 pub const true_: u32 = 1;
 pub const false_: u32 = 0;
 pub const __bool_true_false_are_defined: u32 = 1;
@@ -381,6 +240,24 @@ pub const DMA_SRC_INC: u32 = 0;
 pub const DMA_DST_INC: u32 = 0;
 pub const DMA_DST_RESET: u32 = 6291456;
 pub const MAX_INTERRUPTS: u32 = 25;
+pub const __NEWLIB_H__: u32 = 1;
+pub const _WANT_IO_C99_FORMATS: u32 = 1;
+pub const _WANT_IO_LONG_LONG: u32 = 1;
+pub const _WANT_IO_POS_ARGS: u32 = 1;
+pub const _REENT_CHECK_VERIFY: u32 = 1;
+pub const _MB_CAPABLE: u32 = 1;
+pub const _MB_LEN_MAX: u32 = 8;
+pub const HAVE_INITFINI_ARRAY: u32 = 1;
+pub const _ATEXIT_DYNAMIC_ALLOC: u32 = 1;
+pub const _HAVE_LONG_DOUBLE: u32 = 1;
+pub const _HAVE_CC_INHIBIT_LOOP_TO_LIBCALL: u32 = 1;
+pub const _LDBL_EQ_DBL: u32 = 1;
+pub const _FVWRITE_IN_STREAMIO: u32 = 1;
+pub const _FSEEK_OPTIMIZATION: u32 = 1;
+pub const _UNBUF_STREAM_OPT: u32 = 1;
+pub const __OBSOLETE_MATH_DEFAULT: u32 = 1;
+pub const __OBSOLETE_MATH: u32 = 1;
+pub const __RAND_MAX: u32 = 2147483647;
 pub const BUS_OWNER_ARM9: u32 = 1;
 pub const BUS_OWNER_ARM7: u32 = 0;
 pub const ARGV_MAGIC: u32 = 1600221799;
@@ -393,6 +270,49 @@ pub const TIMER_DIV_1: u32 = 0;
 pub const TIMER_DIV_64: u32 = 1;
 pub const TIMER_DIV_256: u32 = 2;
 pub const TIMER_DIV_1024: u32 = 3;
+pub const _NULL: u32 = 0;
+pub const _ATEXIT_SIZE: u32 = 32;
+pub const _RAND48_SEED_0: u32 = 13070;
+pub const _RAND48_SEED_1: u32 = 43981;
+pub const _RAND48_SEED_2: u32 = 4660;
+pub const _RAND48_MULT_0: u32 = 58989;
+pub const _RAND48_MULT_1: u32 = 57068;
+pub const _RAND48_MULT_2: u32 = 5;
+pub const _RAND48_ADD: u32 = 11;
+pub const _REENT_EMERGENCY_SIZE: u32 = 25;
+pub const _REENT_ASCTIME_SIZE: u32 = 26;
+pub const _REENT_SIGNAL_SIZE: u32 = 24;
+pub const _N_LISTS: u32 = 30;
+pub const __GNUCLIKE_ASM: u32 = 3;
+pub const __GNUCLIKE___TYPEOF: u32 = 1;
+pub const __GNUCLIKE___OFFSETOF: u32 = 1;
+pub const __GNUCLIKE___SECTION: u32 = 1;
+pub const __GNUCLIKE_CTOR_SECTION_HANDLING: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_CONSTANT_P: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_VARARGS: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_STDARG: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_VAALIST: u32 = 1;
+pub const __GNUC_VA_LIST_COMPATIBILITY: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_NEXT_ARG: u32 = 1;
+pub const __GNUCLIKE_BUILTIN_MEMCPY: u32 = 1;
+pub const __CC_SUPPORTS_INLINE: u32 = 1;
+pub const __CC_SUPPORTS___INLINE: u32 = 1;
+pub const __CC_SUPPORTS___INLINE__: u32 = 1;
+pub const __CC_SUPPORTS___FUNC__: u32 = 1;
+pub const __CC_SUPPORTS_WARNING: u32 = 1;
+pub const __CC_SUPPORTS_VARADIC_XXX: u32 = 1;
+pub const __CC_SUPPORTS_DYNAMIC_ARRAY_INIT: u32 = 1;
+pub const EXIT_FAILURE: u32 = 1;
+pub const EXIT_SUCCESS: u32 = 0;
+pub const RAND_MAX: u32 = 2147483647;
+pub const M_MXFAST: u32 = 1;
+pub const M_NLBLKS: u32 = 2;
+pub const M_GRAIN: u32 = 3;
+pub const M_KEEP: u32 = 4;
+pub const M_TRIM_THRESHOLD: i32 = -1;
+pub const M_TOP_PAD: i32 = -2;
+pub const M_MMAP_THRESHOLD: i32 = -3;
+pub const M_MMAP_MAX: i32 = -4;
 pub const SCREEN_HEIGHT: u32 = 192;
 pub const SCREEN_WIDTH: u32 = 256;
 pub const VRAM_ENABLE: u32 = 128;
@@ -492,6 +412,27 @@ pub const ATTR1_SIZE_32: u32 = 32768;
 pub const ATTR1_SIZE_64: u32 = 49152;
 pub const SPRITE_COUNT: u32 = 128;
 pub const MATRIX_COUNT: u32 = 32;
+pub const __BIT_TYPES_DEFINED__: u32 = 1;
+pub const _LITTLE_ENDIAN: u32 = 1234;
+pub const _BIG_ENDIAN: u32 = 4321;
+pub const _PDP_ENDIAN: u32 = 3412;
+pub const _BYTE_ORDER: u32 = 1234;
+pub const _QUAD_HIGHWORD: u32 = 1;
+pub const _QUAD_LOWWORD: u32 = 0;
+pub const LITTLE_ENDIAN: u32 = 1234;
+pub const BIG_ENDIAN: u32 = 4321;
+pub const PDP_ENDIAN: u32 = 3412;
+pub const BYTE_ORDER: u32 = 1234;
+pub const FD_SETSIZE: u32 = 64;
+pub const SCHED_OTHER: u32 = 0;
+pub const SCHED_FIFO: u32 = 1;
+pub const SCHED_RR: u32 = 2;
+pub const PTHREAD_SCOPE_PROCESS: u32 = 0;
+pub const PTHREAD_SCOPE_SYSTEM: u32 = 1;
+pub const PTHREAD_INHERIT_SCHED: u32 = 1;
+pub const PTHREAD_EXPLICIT_SCHED: u32 = 2;
+pub const PTHREAD_CREATE_DETACHED: u32 = 0;
+pub const PTHREAD_CREATE_JOINABLE: u32 = 1;
 pub const F_ULOCK: u32 = 0;
 pub const F_LOCK: u32 = 1;
 pub const F_TLOCK: u32 = 2;
@@ -500,6 +441,9 @@ pub const F_OK: u32 = 0;
 pub const R_OK: u32 = 4;
 pub const W_OK: u32 = 2;
 pub const X_OK: u32 = 1;
+pub const SEEK_SET: u32 = 0;
+pub const SEEK_CUR: u32 = 1;
+pub const SEEK_END: u32 = 2;
 pub const STDIN_FILENO: u32 = 0;
 pub const STDOUT_FILENO: u32 = 1;
 pub const STDERR_FILENO: u32 = 2;
@@ -675,6 +619,62 @@ pub const _PC_REC_MAX_XFER_SIZE: u32 = 17;
 pub const _PC_REC_MIN_XFER_SIZE: u32 = 18;
 pub const _PC_REC_XFER_ALIGN: u32 = 19;
 pub const _PC_TIMESTAMP_RESOLUTION: u32 = 20;
+pub const __GNUC_VA_LIST: u32 = 1;
+pub const __SLBF: u32 = 1;
+pub const __SNBF: u32 = 2;
+pub const __SRD: u32 = 4;
+pub const __SWR: u32 = 8;
+pub const __SRW: u32 = 16;
+pub const __SEOF: u32 = 32;
+pub const __SERR: u32 = 64;
+pub const __SMBF: u32 = 128;
+pub const __SAPP: u32 = 256;
+pub const __SSTR: u32 = 512;
+pub const __SOPT: u32 = 1024;
+pub const __SNPT: u32 = 2048;
+pub const __SOFF: u32 = 4096;
+pub const __SORD: u32 = 8192;
+pub const __SL64: u32 = 32768;
+pub const __SNLK: u32 = 1;
+pub const __SWID: u32 = 8192;
+pub const _IOFBF: u32 = 0;
+pub const _IOLBF: u32 = 1;
+pub const _IONBF: u32 = 2;
+pub const EOF: i32 = -1;
+pub const BUFSIZ: u32 = 1024;
+pub const FOPEN_MAX: u32 = 20;
+pub const FILENAME_MAX: u32 = 1024;
+pub const L_tmpnam: u32 = 1024;
+pub const P_tmpdir: &'static [u8; 5usize] = b"/tmp\0";
+pub const TMP_MAX: u32 = 26;
+pub const L_ctermid: u32 = 16;
+pub const _M_LN2: f64 = 0.6931471805599453;
+pub const FP_NAN: u32 = 0;
+pub const FP_INFINITE: u32 = 1;
+pub const FP_ZERO: u32 = 2;
+pub const FP_SUBNORMAL: u32 = 3;
+pub const FP_NORMAL: u32 = 4;
+pub const MATH_ERRNO: u32 = 1;
+pub const MATH_ERREXCEPT: u32 = 2;
+pub const math_errhandling: u32 = 1;
+pub const M_E: f64 = 2.718281828459045;
+pub const M_LOG2E: f64 = 1.4426950408889634;
+pub const M_LOG10E: f64 = 0.4342944819032518;
+pub const M_LN2: f64 = 0.6931471805599453;
+pub const M_LN10: f64 = 2.302585092994046;
+pub const M_PI: f64 = 3.141592653589793;
+pub const M_PI_2: f64 = 1.5707963267948966;
+pub const M_PI_4: f64 = 0.7853981633974483;
+pub const M_1_PI: f64 = 0.3183098861837907;
+pub const M_2_PI: f64 = 0.6366197723675814;
+pub const M_2_SQRTPI: f64 = 1.1283791670955126;
+pub const M_SQRT2: f64 = 1.4142135623730951;
+pub const M_SQRT1_2: f64 = 0.7071067811865476;
+pub const M_TWOPI: f64 = 6.283185307179586;
+pub const M_SQRTPI: f64 = 1.772453850905516;
+pub const M_SQRT3: f64 = 1.7320508075688772;
+pub const M_IVLN10: f64 = 0.4342944819032518;
+pub const M_LOG2_E: f64 = 0.6931471805599453;
 pub type __int8_t = libc::c_schar;
 pub type __uint8_t = libc::c_uchar;
 pub type __int16_t = libc::c_short;
@@ -695,6 +695,1684 @@ pub type __intmax_t = libc::c_longlong;
 pub type __uintmax_t = libc::c_ulonglong;
 pub type __intptr_t = libc::c_int;
 pub type __uintptr_t = libc::c_uint;
+pub type intmax_t = __intmax_t;
+pub type uintmax_t = __uintmax_t;
+pub type int_least8_t = __int_least8_t;
+pub type uint_least8_t = __uint_least8_t;
+pub type int_least16_t = __int_least16_t;
+pub type uint_least16_t = __uint_least16_t;
+pub type int_least32_t = __int_least32_t;
+pub type uint_least32_t = __uint_least32_t;
+pub type int_least64_t = __int_least64_t;
+pub type uint_least64_t = __uint_least64_t;
+pub type int_fast8_t = libc::c_schar;
+pub type uint_fast8_t = libc::c_uchar;
+pub type int_fast16_t = libc::c_short;
+pub type uint_fast16_t = libc::c_ushort;
+pub type int_fast32_t = libc::c_int;
+pub type uint_fast32_t = libc::c_uint;
+pub type int_fast64_t = libc::c_longlong;
+pub type uint_fast64_t = libc::c_ulonglong;
+#[doc = "! 8 bit unsigned integer."]
+pub type uint8 = u8;
+#[doc = "! 16 bit unsigned integer."]
+pub type uint16 = u16;
+#[doc = "! 32 bit unsigned integer."]
+pub type uint32 = u32;
+#[doc = "! 64 bit unsigned integer."]
+pub type uint64 = u64;
+#[doc = "! 8 bit signed integer."]
+pub type int8 = i8;
+#[doc = "! 16 bit signed integer."]
+pub type int16 = i16;
+#[doc = "! 32 bit signed integer."]
+pub type int32 = i32;
+#[doc = "! 64 bit signed integer."]
+pub type int64 = i64;
+#[doc = "! 32 bit signed floating point number."]
+pub type float32 = f32;
+#[doc = "! 64 bit signed floating point number."]
+pub type float64 = f64;
+#[doc = "! 8 bit volatile unsigned integer."]
+pub type vuint8 = u8;
+#[doc = "! 16 bit volatile unsigned integer."]
+pub type vuint16 = u16;
+#[doc = "! 32 bit volatile unsigned integer."]
+pub type vuint32 = u32;
+#[doc = "! 64 bit volatile unsigned integer."]
+pub type vuint64 = u64;
+#[doc = "! 8 bit volatile signed integer."]
+pub type vint8 = i8;
+#[doc = "! 16 bit volatile signed integer."]
+pub type vint16 = i16;
+#[doc = "! 32 bit volatile signed integer."]
+pub type vint32 = i32;
+#[doc = "! 64 bit volatile signed integer."]
+pub type vint64 = i64;
+#[doc = "! 32 bit volatile signed floating point number."]
+pub type vfloat32 = float32;
+#[doc = "! 64 bit volatile signed floating point number."]
+pub type vfloat64 = float64;
+#[doc = "! 8 bit unsigned integer."]
+pub type byte = u8;
+#[doc = "! 8 bit signed integer."]
+pub type s8 = i8;
+#[doc = "! 16 bit signed integer."]
+pub type s16 = i16;
+#[doc = "! 32 bit signed integer."]
+pub type s32 = i32;
+#[doc = "! 64 bit signed integer."]
+pub type s64 = i64;
+#[doc = "! 8 bit volatile unsigned integer."]
+pub type vu8 = u8;
+#[doc = "! 16 bit volatile unsigned integer."]
+pub type vu16 = u16;
+#[doc = "! 32 bit volatile unsigned integer."]
+pub type vu32 = u32;
+#[doc = "! 64 bit volatile unsigned integer."]
+pub type vu64 = u64;
+#[doc = "! 8 bit volatile signed integer."]
+pub type vs8 = s8;
+#[doc = "! 16 bit volatile signed integer."]
+pub type vs16 = s16;
+#[doc = "! 32 bit volatile signed integer."]
+pub type vs32 = s32;
+#[doc = "! 64 bit volatile signed integer."]
+pub type vs64 = s64;
+pub type sec_t = u32;
+#[doc = "! a function pointer that takes no arguments and doesn't return anything."]
+pub type VoidFn = ::core::option::Option<unsafe extern "C" fn()>;
+pub type IntFn = ::core::option::Option<unsafe extern "C" fn()>;
+pub type fp = ::core::option::Option<unsafe extern "C" fn()>;
+#[doc = "\t\\brief Should return the header of a compressed stream of bytes."]
+#[doc = ""]
+#[doc = "The result is a word, with the size of decompressed data in bits 8-31,"]
+#[doc = "and bits 0-7 are ignored.  This value is also returned by the bios function, unless getResult is non-NULL and returns a negative value."]
+#[doc = "This useally returns the 4 bytes that source points to."]
+#[doc = ""]
+#[doc = "\\param source \tA pointer to the compressed data."]
+#[doc = "\\param dest\t\tA pointer to the space where the decompressed data should be copied to."]
+#[doc = "\\param arg\t\tA callback value that gets passed to the bios function."]
+#[doc = "\\return The header of the compressed data containing the length of the data and the compression type."]
+pub type getHeaderCallback = ::core::option::Option<
+    unsafe extern "C" fn(source: *mut u8, dest: *mut u16, arg: u32) -> libc::c_int,
+>;
+#[doc = "\t\\brief Should verify the result after data got decompressed."]
+#[doc = ""]
+#[doc = "getResult is used to provide a result for the bios function, given the source pointer after all data has been read"]
+#[doc = "(or if getSize < 0). Its value is only returned if negative, otherwise the typical result is used, so it is likely"]
+#[doc = "some sort of error-checking procedure."]
+#[doc = ""]
+#[doc = "\\param source The current source address."]
+#[doc = "\\return 0 if it went right, or a negative number if something went wrong. value will be returned from bios function if value is negative."]
+pub type getResultCallback =
+    ::core::option::Option<unsafe extern "C" fn(source: *mut u8) -> libc::c_int>;
+#[doc = "\t\\brief Should returns a raw byte of the stream."]
+#[doc = "\\param source A pointer to the byte."]
+#[doc = "\\return A byte."]
+pub type getByteCallback = ::core::option::Option<unsafe extern "C" fn(source: *mut u8) -> u8>;
+#[doc = "! A struct that contains callback function pointers used by the decompression functions."]
+#[repr(C, packed)]
+#[derive(Debug, Copy, Clone)]
+pub struct DecompressionStream {
+    #[doc = "!< gets called to get the header of the stream."]
+    pub getSize: getHeaderCallback,
+    #[doc = "!< gets called to verify the result afterwards, can be NULL (no callback)."]
+    pub getResult: getResultCallback,
+    #[doc = "!< gets called to get a byte of the compressed data."]
+    pub readByte: getByteCallback,
+}
+#[doc = "! A struct that contains callback function pointers used by the decompression functions."]
+pub type TDecompressionStream = DecompressionStream;
+#[doc = "! A struct and struct pointer with information about unpacking data."]
+#[repr(C, packed)]
+#[derive(Debug, Copy, Clone)]
+pub struct UnpackStruct {
+    #[doc = "!< in bytes"]
+    pub sourceSize: uint16,
+    #[doc = "!< 1,2,4 or 8 bits."]
+    pub sourceWidth: uint8,
+    #[doc = "!< 1,2,4,8,16 or 32 bits."]
+    pub destWidth: uint8,
+    #[doc = "!< bits 0-30 are added to all non-zero destination writes, unless bit 31 is set, which does it for zeros too."]
+    pub dataOffset: uint32,
+}
+#[doc = "! A struct and struct pointer with information about unpacking data."]
+pub type TUnpackStruct = UnpackStruct;
+#[doc = "! A struct and struct pointer with information about unpacking data."]
+pub type PUnpackStruct = *mut UnpackStruct;
+extern "C" {
+    #[doc = "\\brief resets the DS."]
+    pub fn swiSoftReset();
+}
+extern "C" {
+    #[doc = "\\brief delays the code."]
+    #[doc = ""]
+    #[doc = "Delays for for a period X + Y*duration where X is the swi overhead and Y is a cycle of"]
+    #[doc = "<CODE><PRE>"]
+    #[doc = "loop:"]
+    #[doc = "sub r0, #1"]
+    #[doc = "bgt loop"]
+    #[doc = "</PRE></CODE>"]
+    #[doc = "of thumb fetches in BIOS memory"]
+    #[doc = "\\param duration length of delay"]
+    #[doc = "\\note Duration should be 1 or more, a duration of 0 is a huge delay."]
+    pub fn swiDelay(duration: uint32);
+}
+extern "C" {
+    #[doc = "\\brief divides 2 numbers."]
+    #[doc = "\\param numerator\tsigned integer to divide"]
+    #[doc = "\\param divisor\t\tsigned integer to divide by"]
+    #[doc = "\\return numerator / divisor"]
+    pub fn swiDivide(numerator: libc::c_int, divisor: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\\brief calculate the remainder of an division."]
+    #[doc = "\\param numerator\tsigned integer to divide"]
+    #[doc = "\\param divisor\t\tsigned integer to divide by"]
+    #[doc = "\\return numerator % divisor"]
+    pub fn swiRemainder(numerator: libc::c_int, divisor: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\\brief divides 2 numbers and stores both the result and the remainder."]
+    #[doc = ""]
+    #[doc = "\\param numerator\tsigned integer to divide"]
+    #[doc = "\\param divisor\t\tsigned integer to divide by"]
+    #[doc = "\\param result\t\tpointer to integer set to numerator / divisor"]
+    #[doc = "\\param remainder \tpointer to integer set to numerator % divisor"]
+    pub fn swiDivMod(
+        numerator: libc::c_int,
+        divisor: libc::c_int,
+        result: *mut libc::c_int,
+        remainder: *mut libc::c_int,
+    );
+}
+extern "C" {
+    #[doc = "\t\\brief copies or fills some memory."]
+    #[doc = "\\param source \tpointer to transfer source or pointer to value to fill the memory with."]
+    #[doc = "\\param dest\t\tpointer to transfer destination."]
+    #[doc = "\\param flags\tbits(0-20): size of data to copy/fill in words,"]
+    #[doc = "or'd with the copy mode size (word or halfword) and type (copy or fill)."]
+    pub fn swiCopy(source: *const libc::c_void, dest: *mut libc::c_void, flags: libc::c_int);
+}
+extern "C" {
+    #[doc = "\t\\brief copies or fills some memory."]
+    #[doc = "can only copy in word chunks."]
+    #[doc = "\\param source\tpointer to transfer source or pointer to value to fill the memory with."]
+    #[doc = "\\param dest\t\tpointer to transfer destination."]
+    #[doc = "\\param flags\tbits(0-20): size of data to copy/fill in words,"]
+    #[doc = "or'd with the type (copy or fill)."]
+    #[doc = ""]
+    #[doc = "\\note Transfers more quickly than swiCopy, but has higher interrupt latency."]
+    pub fn swiFastCopy(source: *const libc::c_void, dest: *mut libc::c_void, flags: libc::c_int);
+}
+extern "C" {
+    #[doc = "\t\\brief calculates the square root."]
+    #[doc = "\\param value the value to calculate."]
+    #[doc = "\\return the square root of the value as an integer."]
+    #[doc = "\\note use fixed point math if you want more accuracy."]
+    pub fn swiSqrt(value: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief calculates a CRC-16 checksum."]
+    #[doc = "\\param crc \t\tstarting CRC-16 value."]
+    #[doc = "\\param data \tpointer to data (processed nibble by nibble)"]
+    #[doc = "\\param size \tsize in bytes."]
+    #[doc = ""]
+    #[doc = "\\return the CRC-16 after the data has been processed."]
+    pub fn swiCRC16(crc: uint16, data: *mut libc::c_void, size: uint32) -> uint16;
+}
+extern "C" {
+    #[doc = "\t\\brief returns 0 if running on a nintendo hardware debugger."]
+    #[doc = "\\return 0 if running on a debugger (8 MB of ram instead of 4 MB), else some other number."]
+    pub fn swiIsDebugger() -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Unpack data stored in multiple elements in a byte to a larger space."]
+    #[doc = ""]
+    #[doc = "i.e. 8 elements per byte (i.e. b/w font), into 1 element per byte."]
+    #[doc = ""]
+    #[doc = "\\param source\t\t\tSource address."]
+    #[doc = "\\param destination\t\tdestination address (word aligned)."]
+    #[doc = "\\param params\t\t\tpointer to an UnpackStruct."]
+    pub fn swiUnpackBits(source: *mut uint8, destination: *mut uint32, params: PUnpackStruct);
+}
+extern "C" {
+    #[doc = "\t\\brief Decompresses LZSS compressed data."]
+    #[doc = "\\param source\t\tpointer to a header word, followed by compressed data."]
+    #[doc = "bit 0-7 of header is ignored."]
+    #[doc = "bit 8-31 of header is size of uncompressed data in bytes."]
+    #[doc = "\\param destination\tdestination address."]
+    #[doc = "\\note Writes data a byte at a time."]
+    #[doc = "\\see decompress.h"]
+    pub fn swiDecompressLZSSWram(source: *mut libc::c_void, destination: *mut libc::c_void);
+}
+extern "C" {
+    #[doc = "\t\\brief Decompresses LZSS compressed data vram safe."]
+    #[doc = ""]
+    #[doc = "\\param source\t\t\tPointer to source data (always goes through the function pointers, so could just be an offset)."]
+    #[doc = "\\param destination\t\tPointer to destination."]
+    #[doc = "\\param toGetSize\t\tCallback value that is passed to getHeaderCallback function pointer."]
+    #[doc = "\\param stream\t\t\tPointer to struct with callback function pointers."]
+    #[doc = ""]
+    #[doc = "\\return The length of the decompressed data, or a signed errorcode from the Open/Close functions."]
+    #[doc = "\\note Writes data a halfword at a time."]
+    #[doc = "\\see decompress.h"]
+    pub fn swiDecompressLZSSVram(
+        source: *mut libc::c_void,
+        destination: *mut libc::c_void,
+        toGetSize: uint32,
+        stream: *mut TDecompressionStream,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn swiDecompressLZSSVramNTR(
+        source: *mut libc::c_void,
+        destination: *mut libc::c_void,
+        toGetSize: uint32,
+        stream: *mut TDecompressionStream,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn swiDecompressLZSSVramTWL(
+        source: *mut libc::c_void,
+        destination: *mut libc::c_void,
+        toGetSize: uint32,
+        stream: *mut TDecompressionStream,
+    ) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Decompresses Huffman compressed data."]
+    #[doc = ""]
+    #[doc = "\\param source\t\t\tPointer to source data (always goes through the function pointers, so could just be an offset)."]
+    #[doc = "\\param destination\t\tPointer to destination."]
+    #[doc = "\\param toGetSize\t\tCallback value that is passed to getHeaderCallback function pointer."]
+    #[doc = "\\param stream\t\t\tPointer to struct with callback function pointers."]
+    #[doc = ""]
+    #[doc = "\\return The length of the decompressed data, or a signed errorcode from the Open/Close functions."]
+    #[doc = "\\see decompress.h"]
+    pub fn swiDecompressHuffman(
+        source: *mut libc::c_void,
+        destination: *mut libc::c_void,
+        toGetSize: uint32,
+        stream: *mut TDecompressionStream,
+    ) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Decompresses RLE compressed data."]
+    #[doc = ""]
+    #[doc = "compressed data format:"]
+    #[doc = "bit(7): 0= uncompressed, 1= compressed."]
+    #[doc = "bit(0-6) when uncompressed: run length - 1, followed by run_length bytes of true data."]
+    #[doc = "bit(0-6) when compressed: run length - 3, followed by one byte of true data, to be repeated."]
+    #[doc = ""]
+    #[doc = "\\param source\t\tpointer to a header word, followed by compressed data."]
+    #[doc = "bit 0-7 of header is ignored."]
+    #[doc = "bit 8-31 of header is size of uncompressed data in bytes."]
+    #[doc = "\\param destination\tdestination address."]
+    #[doc = "\\note Writes data a byte at a time."]
+    #[doc = "\\see decompress.h"]
+    pub fn swiDecompressRLEWram(source: *mut libc::c_void, destination: *mut libc::c_void);
+}
+extern "C" {
+    #[doc = "\t\\brief Decompresses RLE compressed data vram safe."]
+    #[doc = ""]
+    #[doc = "compressed data format:"]
+    #[doc = "bit(7): 0= uncompressed, 1= compressed."]
+    #[doc = "bit(0-6) when uncompressed: run length - 1, followed by run_length bytes of true data."]
+    #[doc = "bit(0-6) when compressed: run length - 3, followed by one byte of true data, to be repeated."]
+    #[doc = ""]
+    #[doc = "\\param source\t\t\tPointer to source data (always goes through the function pointers, so could just be an offset)."]
+    #[doc = "\\param destination\t\tPointer to destination."]
+    #[doc = "\\param toGetSize\t\tCallback value that is passed to getHeaderCallback function pointer."]
+    #[doc = "\\param stream\t\t\tPointer to struct with callback function pointers."]
+    #[doc = ""]
+    #[doc = "\\return The length of the decompressed data, or a signed errorcode from the Open/Close functions."]
+    #[doc = "\\note Writes data a halfword at a time."]
+    #[doc = "\\see decompress.h"]
+    pub fn swiDecompressRLEVram(
+        source: *mut libc::c_void,
+        destination: *mut libc::c_void,
+        toGetSize: uint32,
+        stream: *mut TDecompressionStream,
+    ) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief wait for any interrupt."]
+    #[doc = ""]
+    #[doc = "\\note ARM9 exclusive."]
+    pub fn swiWaitForIRQ();
+}
+extern "C" {
+    #[doc = "\t\\brief Writes a word of the data to 0x04000300:32"]
+    #[doc = ""]
+    #[doc = "\\param data the word to write."]
+    #[doc = "\\note This is on the ARM9, but works differently then the ARM7 function!"]
+    pub fn swiSetHaltCR(data: uint32);
+}
+extern "C" {
+    #[doc = "\t\\brief Decodes a stream of bytes based on the difference of the bytes."]
+    #[doc = "\\param source \t\tPointer to a header word, followed by encoded data."]
+    #[doc = "word(31..8) = size of data (in bytes)."]
+    #[doc = "word(7..0) = ignored."]
+    #[doc = "\\param destination\tDestination address."]
+    #[doc = ""]
+    #[doc = "\\note Writes data a byte at a time."]
+    #[doc = "\\note ARM9 exclusive."]
+    pub fn swiDecodeDelta8(source: *mut libc::c_void, destination: *mut libc::c_void);
+}
+extern "C" {
+    #[doc = "\t\\brief Decodes a stream of bytes based on the difference of the bytes."]
+    #[doc = "\\param source\t\tPointer to a header word, followed by encoded data."]
+    #[doc = "word(31..8) = size of data (in bytes)."]
+    #[doc = "word(7..0) = ignored."]
+    #[doc = "\\param destination\tDestination address."]
+    #[doc = ""]
+    #[doc = "\\note Writes data a halfword at a time."]
+    #[doc = "\\note ARM9 exclusive."]
+    pub fn swiDecodeDelta16(source: *mut libc::c_void, destination: *mut libc::c_void);
+}
+extern "C" {
+    pub fn enableSlot1();
+}
+extern "C" {
+    pub fn disableSlot1();
+}
+extern "C" {
+    pub fn cardWriteCommand(command: *const u8);
+}
+extern "C" {
+    pub fn cardPolledTransfer(flags: u32, destination: *mut u32, length: u32, command: *const u8);
+}
+extern "C" {
+    pub fn cardStartTransfer(
+        command: *const u8,
+        destination: *mut u32,
+        channel: libc::c_int,
+        flags: u32,
+    );
+}
+extern "C" {
+    pub fn cardWriteAndRead(command: *const u8, flags: u32) -> uint32;
+}
+extern "C" {
+    pub fn cardParamCommand(
+        command: u8,
+        parameter: u32,
+        flags: u32,
+        destination: *mut u32,
+        length: u32,
+    );
+}
+extern "C" {
+    pub fn cardReadHeader(header: *mut u8);
+}
+extern "C" {
+    pub fn cardReadID(flags: u32) -> u32;
+}
+extern "C" {
+    pub fn cardReset();
+}
+extern "C" {
+    pub fn cardReadEeprom(address: u32, data: *mut u8, length: u32, addrtype: u32);
+}
+extern "C" {
+    pub fn cardWriteEeprom(address: u32, data: *mut u8, length: u32, addrtype: u32);
+}
+extern "C" {
+    pub fn cardEepromReadID() -> u32;
+}
+extern "C" {
+    pub fn cardEepromCommand(command: u8) -> u8;
+}
+extern "C" {
+    pub fn cardEepromGetType() -> libc::c_int;
+}
+extern "C" {
+    pub fn cardEepromGetSize() -> u32;
+}
+extern "C" {
+    pub fn cardEepromChipErase();
+}
+extern "C" {
+    pub fn cardEepromSectorErase(address: u32);
+}
+extern "C" {
+    pub fn nocashWrite(message: *const libc::c_char, len: libc::c_int);
+}
+extern "C" {
+    #[doc = " \\brief Send a message to the no$gba debug window"]
+    #[doc = "\\param message The message to send"]
+    pub fn nocashMessage(message: *const libc::c_char);
+}
+#[doc = "< vertical blank interrupt mask"]
+pub const IRQ_VBLANK: IRQ_MASKS = 1;
+#[doc = "< horizontal blank interrupt mask"]
+pub const IRQ_HBLANK: IRQ_MASKS = 2;
+#[doc = "< vcount match interrupt mask"]
+pub const IRQ_VCOUNT: IRQ_MASKS = 4;
+#[doc = "< timer 0 interrupt mask"]
+pub const IRQ_TIMER0: IRQ_MASKS = 8;
+#[doc = "< timer 1 interrupt mask"]
+pub const IRQ_TIMER1: IRQ_MASKS = 16;
+#[doc = "< timer 2 interrupt mask"]
+pub const IRQ_TIMER2: IRQ_MASKS = 32;
+#[doc = "< timer 3 interrupt mask"]
+pub const IRQ_TIMER3: IRQ_MASKS = 64;
+#[doc = "< serial interrupt mask"]
+pub const IRQ_NETWORK: IRQ_MASKS = 128;
+#[doc = "< DMA 0 interrupt mask"]
+pub const IRQ_DMA0: IRQ_MASKS = 256;
+#[doc = "< DMA 1 interrupt mask"]
+pub const IRQ_DMA1: IRQ_MASKS = 512;
+#[doc = "< DMA 2 interrupt mask"]
+pub const IRQ_DMA2: IRQ_MASKS = 1024;
+#[doc = "< DMA 3 interrupt mask"]
+pub const IRQ_DMA3: IRQ_MASKS = 2048;
+#[doc = "< Keypad interrupt mask"]
+pub const IRQ_KEYS: IRQ_MASKS = 4096;
+#[doc = "< GBA cartridge interrupt mask"]
+pub const IRQ_CART: IRQ_MASKS = 8192;
+#[doc = "< IPC sync interrupt mask"]
+pub const IRQ_IPC_SYNC: IRQ_MASKS = 65536;
+#[doc = "< Send FIFO empty interrupt mask"]
+pub const IRQ_FIFO_EMPTY: IRQ_MASKS = 131072;
+#[doc = "< Receive FIFO not empty interrupt mask"]
+pub const IRQ_FIFO_NOT_EMPTY: IRQ_MASKS = 262144;
+#[doc = "< interrupt mask DS Card Slot"]
+pub const IRQ_CARD: IRQ_MASKS = 524288;
+#[doc = "< interrupt mask"]
+pub const IRQ_CARD_LINE: IRQ_MASKS = 1048576;
+#[doc = "< geometry FIFO interrupt mask"]
+pub const IRQ_GEOMETRY_FIFO: IRQ_MASKS = 2097152;
+#[doc = "< interrupt mask DS hinge"]
+pub const IRQ_LID: IRQ_MASKS = 4194304;
+#[doc = "< SPI interrupt mask"]
+pub const IRQ_SPI: IRQ_MASKS = 8388608;
+#[doc = "< WIFI interrupt mask (ARM7)"]
+pub const IRQ_WIFI: IRQ_MASKS = 16777216;
+#[doc = "< 'mask' for all interrupt"]
+pub const IRQ_ALL: IRQ_MASKS = -1;
+#[doc = "! values allowed for REG_IE and REG_IF"]
+pub type IRQ_MASKS = i32;
+pub use self::IRQ_MASKS as IRQ_MASK;
+#[doc = "< I2C interrupt mask (DSi ARM7)"]
+pub const IRQ_I2C: IRQ_MASKSAUX = 64;
+#[doc = "< Sdmmc interrupt mask (DSi ARM7)"]
+pub const IRQ_SDMMC: IRQ_MASKSAUX = 256;
+#[doc = "! values allowed for REG_AUXIE and REG_AUXIF"]
+pub type IRQ_MASKSAUX = u32;
+#[doc = "< Disable all interrupts."]
+pub const IME_DISABLE: IME_VALUE = 0;
+#[doc = "< Enable all interrupts not masked out in REG_IE"]
+pub const IME_ENABLE: IME_VALUE = 1;
+#[doc = "! values allowed for REG_IME"]
+pub type IME_VALUE = u32;
+extern "C" {
+    pub static mut __irq_vector: [VoidFn; 0usize];
+}
+extern "C" {
+    pub static mut __irq_flags: [vuint32; 0usize];
+}
+extern "C" {
+    pub static mut __irq_flagsaux: [vuint32; 0usize];
+}
+#[repr(C)]
+pub struct IntTable {
+    pub handler: IntFn,
+    pub mask: u32,
+}
+extern "C" {
+    #[doc = " \\fn irqInit()"]
+    #[doc = "\\brief Initialise the libnds interrupt system."]
+    #[doc = ""]
+    #[doc = "This function is called internally (prior to main()) to set up irqs"]
+    #[doc = "on the ARM9.  It must be called on the ARM7 prior to installing irq"]
+    #[doc = "handlers."]
+    pub fn irqInit();
+}
+extern "C" {
+    #[doc = " \\fn irqSet(u32 irq, VoidFn handler)"]
+    #[doc = "\\brief Add a handler for the given interrupt mask."]
+    #[doc = ""]
+    #[doc = "Specify the handler to use for the given interrupt. This only works with"]
+    #[doc = "the default interrupt handler, do not mix the use of this routine with a"]
+    #[doc = "user-installed IRQ handler."]
+    #[doc = "\\param irq Mask associated with the interrupt."]
+    #[doc = "\\param handler Address of the function to use as an interrupt service routine"]
+    #[doc = "\\note"]
+    #[doc = "When any handler specifies using IRQ_VBLANK or IRQ_HBLANK, DISP_SR"]
+    #[doc = "is automatically updated to include the corresponding DISP_VBLANK_IRQ or DISP_HBLANK_IRQ."]
+    #[doc = ""]
+    #[doc = "\\warning Only one IRQ_MASK can be specified with this function."]
+    pub fn irqSet(irq: u32, handler: VoidFn);
+}
+extern "C" {
+    pub fn irqSetAUX(irq: u32, handler: VoidFn);
+}
+extern "C" {
+    #[doc = " \\fn irqClear(u32 irq)"]
+    #[doc = "\\brief remove the handler associated with the interrupt mask irq."]
+    #[doc = "\\param irq Mask associated with the interrupt."]
+    pub fn irqClear(irq: u32);
+}
+extern "C" {
+    pub fn irqClearAUX(irq: u32);
+}
+extern "C" {
+    #[doc = " \\fn irqInitHandler(VoidFn handler)"]
+    #[doc = "\\brief Install a user interrupt dispatcher."]
+    #[doc = ""]
+    #[doc = "This function installs the main interrupt function, all interrupts are serviced through this routine. For most"]
+    #[doc = "purposes the libnds interrupt dispacther should be used in preference to user code unless you know *exactly* what you're doing."]
+    #[doc = ""]
+    #[doc = "\\param handler Address of the function to use as an interrupt dispatcher"]
+    #[doc = "\\note the function *must* be ARM code"]
+    pub fn irqInitHandler(handler: VoidFn);
+}
+extern "C" {
+    #[doc = " \\fn irqEnable(u32 irq)"]
+    #[doc = "\\brief Allow the given interrupt to occur."]
+    #[doc = "\\param irq The set of interrupt masks to enable."]
+    #[doc = "\\note Specify multiple interrupts to enable by ORing several IRQ_MASKS."]
+    pub fn irqEnable(irq: u32);
+}
+extern "C" {
+    pub fn irqEnableAUX(irq: u32);
+}
+extern "C" {
+    #[doc = " \\fn irqDisable(u32 irq)"]
+    #[doc = "\\brief Prevent the given interrupt from occuring."]
+    #[doc = "\\param irq The set of interrupt masks to disable."]
+    #[doc = "\\note Specify multiple interrupts to disable by ORing several IRQ_MASKS."]
+    pub fn irqDisable(irq: u32);
+}
+extern "C" {
+    pub fn irqDisableAUX(irq: u32);
+}
+extern "C" {
+    #[doc = " \\fn swiIntrWait(u32 waitForSet, uint32 flags)"]
+    #[doc = ""]
+    #[doc = "\\brief wait for interrupt(s) to occur"]
+    #[doc = ""]
+    #[doc = "\\param waitForSet"]
+    #[doc = "0: Return if the interrupt has already occured"]
+    #[doc = "1: Wait until the interrupt has been set since the call"]
+    #[doc = "\\param flags"]
+    #[doc = "interrupt mask to wait for"]
+    pub fn swiIntrWait(waitForSet: u32, flags: uint32);
+}
+extern "C" {
+    #[doc = " \\fn  swiWaitForVBlank()"]
+    #[doc = "\\brief Wait for vblank interrupt"]
+    #[doc = ""]
+    #[doc = "Waits for a vertical blank interrupt"]
+    #[doc = ""]
+    #[doc = "\\note Identical to calling swiIntrWait(1, 1)"]
+    pub fn swiWaitForVBlank();
+}
+extern "C" {
+    #[doc = " \\fn  VoidFn setPowerButtonCB(VoidFn CB);"]
+    #[doc = "\\brief set callback for DSi Powerbutton press"]
+    #[doc = ""]
+    #[doc = "\\param CB"]
+    #[doc = "function to call when power button pressed"]
+    #[doc = "\\return"]
+    #[doc = "the previously set callback"]
+    pub fn setPowerButtonCB(CB: VoidFn) -> VoidFn;
+}
+pub const IPC_SYNC_IRQ_ENABLE: IPC_SYNC_BITS = 16384;
+pub const IPC_SYNC_IRQ_REQUEST: IPC_SYNC_BITS = 8192;
+pub type IPC_SYNC_BITS = u32;
+pub const IPC_FIFO_SEND_EMPTY: IPC_CONTROL_BITS = 1;
+pub const IPC_FIFO_SEND_FULL: IPC_CONTROL_BITS = 2;
+pub const IPC_FIFO_SEND_IRQ: IPC_CONTROL_BITS = 4;
+pub const IPC_FIFO_SEND_CLEAR: IPC_CONTROL_BITS = 8;
+pub const IPC_FIFO_RECV_EMPTY: IPC_CONTROL_BITS = 256;
+pub const IPC_FIFO_RECV_FULL: IPC_CONTROL_BITS = 512;
+pub const IPC_FIFO_RECV_IRQ: IPC_CONTROL_BITS = 1024;
+pub const IPC_FIFO_ERROR: IPC_CONTROL_BITS = 16384;
+pub const IPC_FIFO_ENABLE: IPC_CONTROL_BITS = 32768;
+pub type IPC_CONTROL_BITS = u32;
+extern "C" {
+    pub fn __assert(arg1: *const libc::c_char, arg2: libc::c_int, arg3: *const libc::c_char);
+}
+extern "C" {
+    pub fn __assert_func(
+        arg1: *const libc::c_char,
+        arg2: libc::c_int,
+        arg3: *const libc::c_char,
+        arg4: *const libc::c_char,
+    );
+}
+#[doc = "\\brief the GBA file header format."]
+#[doc = "See gbatek for more info."]
+#[repr(C)]
+pub struct sGBAHeader {
+    #[doc = "!< 32 bits arm opcode to jump to executable code."]
+    pub entryPoint: u32,
+    #[doc = "!< nintendo logo needed for booting the game."]
+    pub logo: [u8; 156usize],
+    #[doc = "!< 12 characters for the game title."]
+    pub title: [libc::c_char; 12usize],
+    #[doc = "!< 4 characters for the game code. first character is usally A or B, next 2 characters is a short title"]
+    #[doc = "!< and last character is for destination/language."]
+    pub gamecode: [libc::c_char; 4usize],
+    #[doc = "!< identifies the (commercial) developer."]
+    pub makercode: u16,
+    #[doc = "!< fixed value that is always 96h."]
+    pub is96h: u8,
+    #[doc = "!< identifies the required hardware."]
+    pub unitcode: u8,
+    #[doc = "!< used by nintedo's hardware debuggers. normally 0."]
+    pub devicecode: u8,
+    pub unused: [u8; 7usize],
+    #[doc = "!< the version of the game."]
+    pub version: u8,
+    #[doc = "!< complement checksum of the gba header."]
+    pub complement: u8,
+    #[doc = "!< a 16 bit checksum? (gbatek says its unused/reserved)."]
+    pub checksum: u16,
+}
+#[doc = "\\brief the GBA file header format."]
+#[doc = "See gbatek for more info."]
+pub type tGBAHeader = sGBAHeader;
+#[doc = "\\brief the NDS file header format"]
+#[doc = "See gbatek for more info."]
+#[repr(C)]
+pub struct sNDSHeader {
+    #[doc = "!< 12 characters for the game title."]
+    pub gameTitle: [libc::c_char; 12usize],
+    #[doc = "!< 4 characters for the game code."]
+    pub gameCode: [libc::c_char; 4usize],
+    #[doc = "!< identifies the (commercial) developer."]
+    pub makercode: [libc::c_char; 2usize],
+    #[doc = "!< identifies the required hardware."]
+    pub unitCode: u8,
+    #[doc = "!< type of device in the game card"]
+    pub deviceType: u8,
+    #[doc = "!< capacity of the device (1 << n Mbit)"]
+    pub deviceSize: u8,
+    pub reserved1: [u8; 9usize],
+    #[doc = "!< version of the ROM."]
+    pub romversion: u8,
+    #[doc = "!< bit 2: auto-boot flag."]
+    pub flags: u8,
+    #[doc = "!< offset of the arm9 binary in the nds file."]
+    pub arm9romOffset: u32,
+    #[doc = "!< adress that should be executed after the binary has been copied."]
+    pub arm9executeAddress: *mut libc::c_void,
+    #[doc = "!< destination address to where the arm9 binary should be copied."]
+    pub arm9destination: *mut libc::c_void,
+    #[doc = "!< size of the arm9 binary."]
+    pub arm9binarySize: u32,
+    #[doc = "!< offset of the arm7 binary in the nds file."]
+    pub arm7romOffset: u32,
+    #[doc = "!< adress that should be executed after the binary has been copied."]
+    pub arm7executeAddress: *mut libc::c_void,
+    #[doc = "!< destination address to where the arm7 binary should be copied."]
+    pub arm7destination: *mut libc::c_void,
+    #[doc = "!< size of the arm7 binary."]
+    pub arm7binarySize: u32,
+    #[doc = "!< File Name Table (FNT) offset."]
+    pub filenameOffset: u32,
+    #[doc = "!< File Name Table (FNT) size."]
+    pub filenameSize: u32,
+    #[doc = "!< File Allocation Table (FAT) offset."]
+    pub fatOffset: u32,
+    #[doc = "!< File Allocation Table (FAT) size."]
+    pub fatSize: u32,
+    #[doc = "!< File arm9 overlay offset."]
+    pub arm9overlaySource: u32,
+    #[doc = "!< File arm9 overlay size."]
+    pub arm9overlaySize: u32,
+    #[doc = "!< File arm7 overlay offset."]
+    pub arm7overlaySource: u32,
+    #[doc = "!< File arm7 overlay size."]
+    pub arm7overlaySize: u32,
+    #[doc = "!< Port 40001A4h setting for normal commands (used in modes 1 and 3)"]
+    pub cardControl13: u32,
+    #[doc = "!< Port 40001A4h setting for KEY1 commands (used in mode 2)"]
+    pub cardControlBF: u32,
+    #[doc = "!< offset to the banner with icon and titles etc."]
+    pub bannerOffset: u32,
+    #[doc = "!< Secure Area Checksum, CRC-16."]
+    pub secureCRC16: u16,
+    #[doc = "!< Secure Area Loading Timeout."]
+    pub readTimeout: u16,
+    #[doc = "!< ARM9 Auto Load List RAM Address (?)"]
+    pub unknownRAM1: u32,
+    #[doc = "!< ARM7 Auto Load List RAM Address (?)"]
+    pub unknownRAM2: u32,
+    #[doc = "!< Secure Area Disable part 1."]
+    pub bfPrime1: u32,
+    #[doc = "!< Secure Area Disable part 2."]
+    pub bfPrime2: u32,
+    #[doc = "!< total size of the ROM."]
+    pub romSize: u32,
+    #[doc = "!< ROM header size."]
+    pub headerSize: u32,
+    pub zeros88: [u32; 14usize],
+    #[doc = "!< Nintendo logo needed for booting the game."]
+    pub gbaLogo: [u8; 156usize],
+    #[doc = "!< Nintendo Logo Checksum, CRC-16."]
+    pub logoCRC16: u16,
+    #[doc = "!< header checksum, CRC-16."]
+    pub headerCRC16: u16,
+}
+#[doc = "\\brief the NDS file header format"]
+#[doc = "See gbatek for more info."]
+pub type tNDSHeader = sNDSHeader;
+#[repr(C)]
+pub struct __DSiHeader {
+    pub ndshdr: tNDSHeader,
+    #[doc = "!< debug ROM offset."]
+    pub debugRomSource: u32,
+    #[doc = "!< debug size."]
+    pub debugRomSize: u32,
+    #[doc = "!< debug RAM destination."]
+    pub debugRomDestination: u32,
+    pub offset_0x16C: u32,
+    pub zero: [u8; 16usize],
+    pub global_mbk_setting: [[u8; 4usize]; 5usize],
+    pub arm9_mbk_setting: [u32; 3usize],
+    pub arm7_mbk_setting: [u32; 3usize],
+    pub mbk9_wramcnt_setting: u32,
+    pub region_flags: u32,
+    pub access_control: u32,
+    pub scfg_ext_mask: u32,
+    pub offset_0x1BC: [u8; 3usize],
+    pub appflags: u8,
+    pub arm9iromOffset: *mut libc::c_void,
+    pub offset_0x1C4: u32,
+    pub arm9idestination: *mut libc::c_void,
+    pub arm9ibinarySize: u32,
+    pub arm7iromOffset: *mut libc::c_void,
+    pub offset_0x1D4: u32,
+    pub arm7idestination: *mut libc::c_void,
+    pub arm7ibinarySize: u32,
+    pub digest_ntr_start: u32,
+    pub digest_ntr_size: u32,
+    pub digest_twl_start: u32,
+    pub digest_twl_size: u32,
+    pub sector_hashtable_start: u32,
+    pub sector_hashtable_size: u32,
+    pub block_hashtable_start: u32,
+    pub block_hashtable_size: u32,
+    pub digest_sector_size: u32,
+    pub digest_block_sectorcount: u32,
+    pub banner_size: u32,
+    pub offset_0x20C: u32,
+    pub total_rom_size: u32,
+    pub offset_0x214: u32,
+    pub offset_0x218: u32,
+    pub offset_0x21C: u32,
+    pub modcrypt1_start: u32,
+    pub modcrypt1_size: u32,
+    pub modcrypt2_start: u32,
+    pub modcrypt2_size: u32,
+    pub tid_low: u32,
+    pub tid_high: u32,
+    pub public_sav_size: u32,
+    pub private_sav_size: u32,
+    pub reserved3: [u8; 176usize],
+    pub age_ratings: [u8; 16usize],
+    pub hmac_arm9: [u8; 20usize],
+    pub hmac_arm7: [u8; 20usize],
+    pub hmac_digest_master: [u8; 20usize],
+    pub hmac_icon_title: [u8; 20usize],
+    pub hmac_arm9i: [u8; 20usize],
+    pub hmac_arm7i: [u8; 20usize],
+    pub reserved4: [u8; 40usize],
+    pub hmac_arm9_no_secure: [u8; 20usize],
+    pub reserved5: [u8; 2636usize],
+    pub debug_args: [u8; 384usize],
+    pub rsa_signature: [u8; 128usize],
+}
+pub type tDSiHeader = __DSiHeader;
+#[doc = "\\brief the NDS banner format."]
+#[doc = "See gbatek for more information."]
+#[repr(C)]
+pub struct sNDSBanner {
+    #[doc = "!< version of the banner."]
+    pub version: u16,
+    #[doc = "!< 16 bit crc/checksum of the banner."]
+    pub crc: u16,
+    pub reserved: [u8; 28usize],
+    #[doc = "!< 32*32 icon of the game with 4 bit per pixel."]
+    pub icon: [u8; 512usize],
+    #[doc = "!< the pallete of the icon."]
+    pub palette: [u16; 16usize],
+    #[doc = "!< title of the game in 6 different languages."]
+    pub titles: [[u16; 128usize]; 6usize],
+}
+#[doc = "\\brief the NDS banner format."]
+#[doc = "See gbatek for more information."]
+pub type tNDSBanner = sNDSBanner;
+#[doc = "!<\tThe display currently in a vertical blank."]
+pub const DISP_IN_VBLANK: DISP_BITS = 1;
+#[doc = "!<\tThe display currently in a horizontal blank."]
+pub const DISP_IN_HBLANK: DISP_BITS = 2;
+#[doc = "!<\tCurrent scanline and %DISP_Y match."]
+pub const DISP_YTRIGGERED: DISP_BITS = 4;
+#[doc = "!<\tInterrupt on vertical blank."]
+pub const DISP_VBLANK_IRQ: DISP_BITS = 8;
+#[doc = "!<\tInterrupt on horizontal blank."]
+pub const DISP_HBLANK_IRQ: DISP_BITS = 16;
+#[doc = "!<\tInterrupt when current scanline and %DISP_Y match."]
+pub const DISP_YTRIGGER_IRQ: DISP_BITS = 32;
+#[doc = "! LCD Status register bitdefines"]
+pub type DISP_BITS = u32;
+#[doc = "!< Power the sound hardware (needed to hear stuff in GBA mode too)."]
+pub const PM_SOUND_AMP: PM_Bits = 1;
+#[doc = "!< Mute the main speakers, headphone output will still work."]
+pub const PM_SOUND_MUTE: PM_Bits = 2;
+#[doc = "!< Enable the bottom backlight if set."]
+pub const PM_BACKLIGHT_BOTTOM: PM_Bits = 4;
+#[doc = "!< Enable the top backlight if set."]
+pub const PM_BACKLIGHT_TOP: PM_Bits = 8;
+#[doc = "!< Turn the power *off* if set."]
+pub const PM_SYSTEM_PWR: PM_Bits = 64;
+#[doc = "!<\tControls the power for both LCD screens."]
+pub const POWER_LCD: PM_Bits = 65537;
+#[doc = "!<\tControls the power for the main 2D core."]
+pub const POWER_2D_A: PM_Bits = 65538;
+#[doc = "!<\tControls the power for the 3D matrix."]
+pub const POWER_MATRIX: PM_Bits = 65540;
+#[doc = "!<\tControls the power for the main 3D core."]
+pub const POWER_3D_CORE: PM_Bits = 65544;
+#[doc = "!<\tControls the power for the sub 2D core."]
+pub const POWER_2D_B: PM_Bits = 66048;
+#[doc = "!<\tControls which screen should use the main core."]
+pub const POWER_SWAP_LCDS: PM_Bits = 98304;
+#[doc = "!< power just 2D hardware."]
+pub const POWER_ALL_2D: PM_Bits = 66051;
+#[doc = "!< power everything."]
+pub const POWER_ALL: PM_Bits = 66063;
+#[doc = "! Power Management control bits"]
+pub type PM_Bits = u32;
+extern "C" {
+    #[doc = "\t\\brief Causes the nds to go to sleep."]
+    #[doc = "The nds will be reawakened when the lid is opened."]
+    #[doc = ""]
+    #[doc = "\\note By default, this is automatically called when closing the lid."]
+    pub fn systemSleep();
+}
+extern "C" {
+    #[doc = "\tSet the LED blink mode"]
+    #[doc = "\\param bm What to power on."]
+    pub fn ledBlink(bm: libc::c_int);
+}
+extern "C" {
+    #[doc = "!\tTurns on specified hardware."]
+    #[doc = "*!\tMay be called from arm7 or arm9 (arm9 power bits will be ignored by arm7, arm7 power bits"]
+    #[doc = "will be passed to the arm7 from the arm9)."]
+    #[doc = ""]
+    #[doc = "\\param bits What to power on."]
+    #[doc = "*/"]
+    pub fn powerOn(bits: libc::c_int);
+}
+extern "C" {
+    #[doc = "!\tTurns off specified hardware."]
+    #[doc = "*!\tMay be called from arm7 or arm9 (arm9 power bits will be ignored by arm7, arm7 power bits"]
+    #[doc = "will be passed to the arm7 from the arm9)."]
+    #[doc = ""]
+    #[doc = "\\param bits What to power on."]
+    #[doc = "*/"]
+    pub fn powerOff(bits: libc::c_int);
+}
+extern "C" {
+    pub fn systemMsgHandler(bytes: libc::c_int, user_data: *mut libc::c_void);
+}
+extern "C" {
+    pub fn systemValueHandler(value: u32, data: *mut libc::c_void);
+}
+extern "C" {
+    pub fn readFirmware(address: u32, buffer: *mut libc::c_void, length: u32);
+}
+extern "C" {
+    pub fn writeFirmware(address: u32, buffer: *mut libc::c_void, length: u32) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "! gets the DS Battery level"]
+    pub fn getBatteryLevel() -> u32;
+}
+extern "C" {
+    #[doc = "!\tSet the arm9 vector base"]
+    #[doc = "*!\tArm9 only"]
+    #[doc = "\\param highVector high vector"]
+    #[doc = "*/"]
+    pub fn setVectorBase(highVector: libc::c_int);
+}
+#[doc = " \\brief A struct with all the CPU exeption vectors."]
+#[doc = "each member contains an ARM instuction that will be executed when an exeption occured."]
+#[doc = ""]
+#[doc = "See gbatek for more information."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct sysVectors_t {
+    #[doc = "!< CPU reset."]
+    pub reset: VoidFn,
+    #[doc = "!< undefined instruction."]
+    pub undefined: VoidFn,
+    #[doc = "!< software interrupt."]
+    pub swi: VoidFn,
+    #[doc = "!< prefetch abort."]
+    pub prefetch_abort: VoidFn,
+    #[doc = "!< data abort."]
+    pub data_abort: VoidFn,
+    #[doc = "!< fast interrupt."]
+    pub fiq: VoidFn,
+}
+#[doc = " \\brief A struct with all the CPU exeption vectors."]
+#[doc = "each member contains an ARM instuction that will be executed when an exeption occured."]
+#[doc = ""]
+#[doc = "See gbatek for more information."]
+pub type sysVectors = sysVectors_t;
+extern "C" {
+    pub static mut SystemVectors: sysVectors;
+}
+extern "C" {
+    pub fn setSDcallback(callback: ::core::option::Option<unsafe extern "C" fn(arg1: libc::c_int)>);
+}
+extern "C" {
+    #[doc = "\\brief Sets the ARM9 clock speed, only possible in DSi mode"]
+    #[doc = "\\param speed CPU speed (false = 67.03MHz, true = 134.06MHz)"]
+    #[doc = "\\return The old CPU speed value"]
+    pub fn setCpuClock(speed: bool) -> bool;
+}
+extern "C" {
+    #[doc = "! returns current start of heap space"]
+    pub fn getHeapStart() -> *mut u8;
+}
+extern "C" {
+    #[doc = "! returns current end of heap space"]
+    pub fn getHeapEnd() -> *mut u8;
+}
+extern "C" {
+    #[doc = "! returns current heap limit"]
+    pub fn getHeapLimit() -> *mut u8;
+}
+#[doc = "!< low backlight setting."]
+pub const BACKLIGHT_LOW: BACKLIGHT_LEVELS = 0;
+#[doc = "!< medium backlight setting."]
+pub const BACKLIGHT_MED: BACKLIGHT_LEVELS = 1;
+#[doc = "!< high backlight setting."]
+pub const BACKLIGHT_HIGH: BACKLIGHT_LEVELS = 2;
+#[doc = "!< max backlight setting."]
+pub const BACKLIGHT_MAX: BACKLIGHT_LEVELS = 3;
+#[doc = "\t\\brief Backlight level settings."]
+#[doc = "Note, these are only available on DS Lite."]
+pub type BACKLIGHT_LEVELS = u32;
+#[doc = "\\brief User's DS settings."]
+#[doc = "Defines the structure the DS firmware uses for transfer"]
+#[doc = "of the user's settings to the booted program."]
+#[doc = ""]
+#[doc = "Theme/Color values:"]
+#[doc = "- 0 = Gray"]
+#[doc = "- 1 = Brown"]
+#[doc = "- 2 = Red"]
+#[doc = "- 3 = Pink"]
+#[doc = "- 4 = Orange"]
+#[doc = "- 5 = Yellow"]
+#[doc = "- 6 = Yellow/Green-ish"]
+#[doc = "- 7 = Green"]
+#[doc = "- 8 = Dark Green"]
+#[doc = "- 9 = Green/Blue-ish"]
+#[doc = "- 10 = Light Blue"]
+#[doc = "- 11 = Blue"]
+#[doc = "- 12 = Dark Blue"]
+#[doc = "- 13 = Dark Purple"]
+#[doc = "- 14 = Purple"]
+#[doc = "- 15 = Purple/Red-ish"]
+#[doc = ""]
+#[doc = "Language values:"]
+#[doc = "- 0 = Japanese"]
+#[doc = "- 1 = English"]
+#[doc = "- 2 = French"]
+#[doc = "- 3 = German"]
+#[doc = "- 4 = Italian"]
+#[doc = "- 5 = Spanish"]
+#[doc = "- 6 = Chinese(?)"]
+#[doc = "- 7 = Unknown/Reserved"]
+#[repr(C, packed)]
+pub struct tPERSONAL_DATA {
+    pub RESERVED0: [u8; 2usize],
+    #[doc = "!<\tThe user's theme color (0-15)."]
+    pub theme: u8,
+    #[doc = "!<\tThe user's birth month (1-12)."]
+    pub birthMonth: u8,
+    #[doc = "!<\tThe user's birth day (1-31)."]
+    pub birthDay: u8,
+    pub RESERVED1: [u8; 1usize],
+    #[doc = "!<\tThe user's name in UTF-16 format."]
+    pub name: [s16; 10usize],
+    #[doc = "!<\tThe length of the user's name in characters."]
+    pub nameLen: u16,
+    #[doc = "!<\tThe user's message."]
+    pub message: [s16; 26usize],
+    #[doc = "!<\tThe length of the user's message in characters."]
+    pub messageLen: u16,
+    #[doc = "!<\tWhat hour the alarm clock is set to (0-23)."]
+    pub alarmHour: u8,
+    #[doc = "!<\tWhat minute the alarm clock is set to (0-59)."]
+    pub alarmMinute: u8,
+    pub RESERVED2: [u8; 4usize],
+    #[doc = "!<\tTouchscreen calibration: first X touch"]
+    pub calX1: u16,
+    #[doc = "!<\tTouchscreen calibration: first Y touch"]
+    pub calY1: u16,
+    #[doc = "!<\tTouchscreen calibration: first X touch pixel"]
+    pub calX1px: u8,
+    #[doc = "!<\tTouchscreen calibration: first X touch pixel"]
+    pub calY1px: u8,
+    #[doc = "!<\tTouchscreen calibration: second X touch"]
+    pub calX2: u16,
+    #[doc = "!<\tTouchscreen calibration: second Y touch"]
+    pub calY2: u16,
+    #[doc = "!<\tTouchscreen calibration: second X touch pixel"]
+    pub calX2px: u8,
+    #[doc = "!<\tTouchscreen calibration: second Y touch pixel"]
+    pub calY2px: u8,
+    pub __bindgen_anon_1: tPERSONAL_DATA__bindgen_ty_1,
+    pub RESERVED3: u16,
+    #[doc = "!<\tReal Time Clock offset."]
+    pub rtcOffset: u32,
+    pub RESERVED4: u32,
+}
+#[repr(C, packed)]
+#[derive(Debug, Copy, Clone)]
+pub struct tPERSONAL_DATA__bindgen_ty_1 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u8>,
+}
+impl tPERSONAL_DATA__bindgen_ty_1 {
+    #[inline]
+    pub fn language(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 3u8) as u32) }
+    }
+    #[inline]
+    pub fn set_language(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(0usize, 3u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn gbaScreen(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(3usize, 1u8) as u32) }
+    }
+    #[inline]
+    pub fn set_gbaScreen(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(3usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn defaultBrightness(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(4usize, 2u8) as u32) }
+    }
+    #[inline]
+    pub fn set_defaultBrightness(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(4usize, 2u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn autoMode(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(6usize, 1u8) as u32) }
+    }
+    #[inline]
+    pub fn set_autoMode(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(6usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn RESERVED5(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(7usize, 2u8) as u32) }
+    }
+    #[inline]
+    pub fn set_RESERVED5(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(7usize, 2u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn settingsLost(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(9usize, 1u8) as u32) }
+    }
+    #[inline]
+    pub fn set_settingsLost(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(9usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn RESERVED6(&self) -> libc::c_uint {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(10usize, 6u8) as u32) }
+    }
+    #[inline]
+    pub fn set_RESERVED6(&mut self, val: libc::c_uint) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(10usize, 6u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(
+        language: libc::c_uint,
+        gbaScreen: libc::c_uint,
+        defaultBrightness: libc::c_uint,
+        autoMode: libc::c_uint,
+        RESERVED5: libc::c_uint,
+        settingsLost: libc::c_uint,
+        RESERVED6: libc::c_uint,
+    ) -> __BindgenBitfieldUnit<[u8; 2usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit.set(0usize, 3u8, {
+            let language: u32 = unsafe { ::core::mem::transmute(language) };
+            language as u64
+        });
+        __bindgen_bitfield_unit.set(3usize, 1u8, {
+            let gbaScreen: u32 = unsafe { ::core::mem::transmute(gbaScreen) };
+            gbaScreen as u64
+        });
+        __bindgen_bitfield_unit.set(4usize, 2u8, {
+            let defaultBrightness: u32 = unsafe { ::core::mem::transmute(defaultBrightness) };
+            defaultBrightness as u64
+        });
+        __bindgen_bitfield_unit.set(6usize, 1u8, {
+            let autoMode: u32 = unsafe { ::core::mem::transmute(autoMode) };
+            autoMode as u64
+        });
+        __bindgen_bitfield_unit.set(7usize, 2u8, {
+            let RESERVED5: u32 = unsafe { ::core::mem::transmute(RESERVED5) };
+            RESERVED5 as u64
+        });
+        __bindgen_bitfield_unit.set(9usize, 1u8, {
+            let settingsLost: u32 = unsafe { ::core::mem::transmute(settingsLost) };
+            settingsLost as u64
+        });
+        __bindgen_bitfield_unit.set(10usize, 6u8, {
+            let RESERVED6: u32 = unsafe { ::core::mem::transmute(RESERVED6) };
+            RESERVED6 as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[doc = "\\brief User's DS settings."]
+#[doc = "Defines the structure the DS firmware uses for transfer"]
+#[doc = "of the user's settings to the booted program."]
+#[doc = ""]
+#[doc = "Theme/Color values:"]
+#[doc = "- 0 = Gray"]
+#[doc = "- 1 = Brown"]
+#[doc = "- 2 = Red"]
+#[doc = "- 3 = Pink"]
+#[doc = "- 4 = Orange"]
+#[doc = "- 5 = Yellow"]
+#[doc = "- 6 = Yellow/Green-ish"]
+#[doc = "- 7 = Green"]
+#[doc = "- 8 = Dark Green"]
+#[doc = "- 9 = Green/Blue-ish"]
+#[doc = "- 10 = Light Blue"]
+#[doc = "- 11 = Blue"]
+#[doc = "- 12 = Dark Blue"]
+#[doc = "- 13 = Dark Purple"]
+#[doc = "- 14 = Purple"]
+#[doc = "- 15 = Purple/Red-ish"]
+#[doc = ""]
+#[doc = "Language values:"]
+#[doc = "- 0 = Japanese"]
+#[doc = "- 1 = English"]
+#[doc = "- 2 = French"]
+#[doc = "- 3 = German"]
+#[doc = "- 4 = Italian"]
+#[doc = "- 5 = Spanish"]
+#[doc = "- 6 = Chinese(?)"]
+#[doc = "- 7 = Unknown/Reserved"]
+pub type PERSONAL_DATA = tPERSONAL_DATA;
+#[doc = "! struct containing time and day of the real time clock."]
+#[repr(C)]
+pub struct RTCtime {
+    #[doc = "!< add 2000 to get 4 digit year"]
+    pub year: u8,
+    #[doc = "!< 1 to 12"]
+    pub month: u8,
+    #[doc = "!< 1 to (days in month)"]
+    pub day: u8,
+    #[doc = "!< day of week"]
+    pub weekday: u8,
+    #[doc = "!< 0 to 11 for AM, 52 to 63 for PM"]
+    pub hours: u8,
+    #[doc = "!< 0 to 59"]
+    pub minutes: u8,
+    #[doc = "!< 0 to 59"]
+    pub seconds: u8,
+}
+#[repr(C)]
+pub struct __argv {
+    pub argvMagic: libc::c_int,
+    pub commandLine: *mut libc::c_char,
+    pub length: libc::c_int,
+    pub argc: libc::c_int,
+    pub argv: *mut *mut libc::c_char,
+    pub dummy: libc::c_int,
+    pub host: u32,
+}
+#[repr(C)]
+pub struct __bootstub {
+    pub bootsig: u64,
+    pub arm9reboot: VoidFn,
+    pub arm7reboot: VoidFn,
+    pub bootsize: u32,
+    pub __bindgen_padding_0: u32,
+}
+extern "C" {
+    #[doc = "\\brief returns a cached mirror of an address."]
+    #[doc = "\\param address an address."]
+    #[doc = "\\return a pointer to the cached mirror of that address."]
+    pub fn memCached(address: *mut libc::c_void) -> *mut libc::c_void;
+}
+extern "C" {
+    #[doc = "\\brief returns an uncached mirror of an address."]
+    #[doc = "\\param address an address."]
+    #[doc = "\\return a pointer to the uncached mirror of that address."]
+    pub fn memUncached(address: *mut libc::c_void) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn resetARM7(address: u32);
+}
+#[doc = "!< divides the timer clock by 1 (~33513.982 kHz)"]
+pub const ClockDivider_1: ClockDivider = 0;
+#[doc = "!< divides the timer clock by 64 (~523.657 kHz)"]
+pub const ClockDivider_64: ClockDivider = 1;
+#[doc = "!< divides the timer clock by 256 (~130.914 kHz)"]
+pub const ClockDivider_256: ClockDivider = 2;
+#[doc = "!< divides the timer clock by 1024 (~32.7284 kHz)"]
+pub const ClockDivider_1024: ClockDivider = 3;
+#[doc = "! allowable timer clock dividers."]
+pub type ClockDivider = u32;
+extern "C" {
+    #[doc = "\t\\brief start a hardware timer."]
+    #[doc = "Callback is tied directly to interrupt table and called directly, resulting in less latency than the attached timer."]
+    #[doc = "\\param timer \tThe hardware timer to use (0 - 3)."]
+    #[doc = "\\param divider \tThe timer channel clock divider (clock will tick at 33.513982 MHz / divider)"]
+    #[doc = "\\param ticks\tThe number of ticks which must elapse before the timer overflows"]
+    #[doc = "\\param callback The callback to be called when the timer expires (if null, no IRQ will be generated by the timer)"]
+    pub fn timerStart(timer: libc::c_int, divider: ClockDivider, ticks: u16, callback: VoidFn);
+}
+extern "C" {
+    #[doc = "\t\\brief returns the ticks elapsed since the last call to timerElapsed()."]
+    #[doc = "\\param timer The hardware timer to use (0 - 3)."]
+    #[doc = "\\return The number of ticks which have elapsed since the last call to timerElapsed()."]
+    pub fn timerElapsed(timer: libc::c_int) -> u16;
+}
+extern "C" {
+    #[doc = "\t\\brief pauses the specified timer."]
+    #[doc = "\\param timer The hardware timer to use (0 - 3)."]
+    #[doc = "\\return The number of ticks which have elapsed since the last call to timerElapsed()."]
+    pub fn timerPause(timer: libc::c_int) -> u16;
+}
+extern "C" {
+    #[doc = "\t\\brief Stops the specified timer."]
+    #[doc = "\\param timer The hardware timer to use (0 - 3)."]
+    #[doc = "\\return The number of ticks which have elapsed since the last call to timerElapsed()."]
+    pub fn timerStop(timer: libc::c_int) -> u16;
+}
+extern "C" {
+    #[doc = "\t\\brief begins cpu Timing using two timers for 32bit resolution."]
+    #[doc = "\\param timer The base hardware timer to use (0 - 2)."]
+    pub fn cpuStartTiming(timer: libc::c_int);
+}
+extern "C" {
+    #[doc = "\t\\brief returns the number of ticks which have elapsed since cpuStartTiming."]
+    #[doc = "\\return The number of ticks which have elapsed since cpuStartTiming."]
+    pub fn cpuGetTiming() -> u32;
+}
+extern "C" {
+    #[doc = "\t\\brief ends cpu Timing."]
+    #[doc = "\\return The number of ticks which have elapsed since cpuStartTiming."]
+    pub fn cpuEndTiming() -> u32;
+}
+#[doc = "< \\brief fifo channel reserved for power management."]
+pub const FIFO_PM: FifoChannels = 0;
+#[doc = "< \\brief fifo channel reserved for sound access."]
+pub const FIFO_SOUND: FifoChannels = 1;
+#[doc = "< \\brief fifo channel reserved for system functions."]
+pub const FIFO_SYSTEM: FifoChannels = 2;
+#[doc = "< \\brief fifo channel reserved for the maxmod library."]
+pub const FIFO_MAXMOD: FifoChannels = 3;
+#[doc = "< \\brief fifo channel reserved for the dswifi library."]
+pub const FIFO_DSWIFI: FifoChannels = 4;
+#[doc = "< \\brief fifo channel reserved for dsi sdmmc control."]
+pub const FIFO_SDMMC: FifoChannels = 5;
+#[doc = "< \\brief fifo channel reserved for firmware access."]
+pub const FIFO_FIRMWARE: FifoChannels = 6;
+#[doc = "< \\brief fifo channel reserved for future use."]
+pub const FIFO_RSVD_01: FifoChannels = 7;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_01: FifoChannels = 8;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_02: FifoChannels = 9;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_03: FifoChannels = 10;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_04: FifoChannels = 11;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_05: FifoChannels = 12;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_06: FifoChannels = 13;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_07: FifoChannels = 14;
+#[doc = "< \\brief fifo channel available for users."]
+pub const FIFO_USER_08: FifoChannels = 15;
+#[doc = "! Enum values for the different fifo channels."]
+pub type FifoChannels = u32;
+pub const SOUND_SET_PAN: FifoSoundCommand = 0;
+pub const SOUND_SET_VOLUME: FifoSoundCommand = 1048576;
+pub const SOUND_SET_FREQ: FifoSoundCommand = 2097152;
+pub const SOUND_SET_WAVEDUTY: FifoSoundCommand = 3145728;
+pub const SOUND_MASTER_ENABLE: FifoSoundCommand = 4194304;
+pub const SOUND_MASTER_DISABLE: FifoSoundCommand = 5242880;
+pub const SOUND_PAUSE: FifoSoundCommand = 6291456;
+pub const SOUND_RESUME: FifoSoundCommand = 7340032;
+pub const SOUND_KILL: FifoSoundCommand = 8388608;
+pub const SOUND_SET_MASTER_VOL: FifoSoundCommand = 9437184;
+pub const MIC_STOP: FifoSoundCommand = 10485760;
+#[doc = "! Enum values for the fifo sound commands."]
+pub type FifoSoundCommand = u32;
+pub const SYS_REQ_TOUCH: FifoSystemCommands = 0;
+pub const SYS_REQ_KEYS: FifoSystemCommands = 1;
+pub const SYS_REQ_TIME: FifoSystemCommands = 2;
+pub const SYS_SET_TIME: FifoSystemCommands = 3;
+pub const SDMMC_INSERT: FifoSystemCommands = 4;
+pub const SDMMC_REMOVE: FifoSystemCommands = 5;
+#[doc = "! Enum values for the fifo system commands."]
+pub type FifoSystemCommands = u32;
+pub const SDMMC_HAVE_SD: FifoSdmmcCommands = 0;
+pub const SDMMC_SD_START: FifoSdmmcCommands = 1;
+pub const SDMMC_SD_IS_INSERTED: FifoSdmmcCommands = 2;
+pub const SDMMC_SD_STOP: FifoSdmmcCommands = 3;
+pub const SDMMC_NAND_START: FifoSdmmcCommands = 4;
+pub const SDMMC_NAND_STOP: FifoSdmmcCommands = 5;
+pub const SDMMC_NAND_SIZE: FifoSdmmcCommands = 6;
+pub type FifoSdmmcCommands = u32;
+pub const FW_READ: FifoFirmwareCommands = 0;
+pub const FW_WRITE: FifoFirmwareCommands = 1;
+pub type FifoFirmwareCommands = u32;
+pub const PM_REQ_ON: FifoPMCommands = 65536;
+pub const PM_REQ_OFF: FifoPMCommands = 131072;
+pub const PM_REQ_LED: FifoPMCommands = 196608;
+pub const PM_REQ_SLEEP: FifoPMCommands = 262144;
+pub const PM_REQ_SLEEP_DISABLE: FifoPMCommands = 327680;
+pub const PM_REQ_SLEEP_ENABLE: FifoPMCommands = 393216;
+pub const PM_REQ_BATTERY: FifoPMCommands = 458752;
+pub const PM_REQ_SLOT1_DISABLE: FifoPMCommands = 524288;
+pub const PM_REQ_SLOT1_ENABLE: FifoPMCommands = 589824;
+#[doc = "! Enum values for the fifo power management commands."]
+pub type FifoPMCommands = u32;
+pub const WIFI_ENABLE: FifoWifiCommands = 0;
+pub const WIFI_DISABLE: FifoWifiCommands = 1;
+pub const WIFI_SYNC: FifoWifiCommands = 2;
+pub const WIFI_STARTUP: FifoWifiCommands = 3;
+#[doc = "! Enum values for the fifo wifi commands."]
+pub type FifoWifiCommands = u32;
+#[doc = "< \\brief  Steady on"]
+pub const PM_LED_ON: PM_LedBlinkMode = 0;
+#[doc = "< \\brief Blinking, mostly off"]
+pub const PM_LED_SLEEP: PM_LedBlinkMode = 1;
+#[doc = "< \\brief Blinking, mostly on"]
+pub const PM_LED_BLINK: PM_LedBlinkMode = 3;
+#[doc = "! Power Management LED blink mode control bits."]
+pub type PM_LedBlinkMode = u32;
+#[doc = "\\brief fifo callback function pointer with the sent address and the callback's user data."]
+#[doc = ""]
+#[doc = "The handler is called when new data arrives."]
+#[doc = ""]
+#[doc = "\\note callback functions are called from interrupt level, but are well secured. not too much caution is necessary,"]
+#[doc = "but don't call alloc, free or printf from within them, just to be safe."]
+pub type FifoAddressHandlerFunc = ::core::option::Option<
+    unsafe extern "C" fn(address: *mut libc::c_void, userdata: *mut libc::c_void),
+>;
+#[doc = "\\brief fifo callback function pointer with the sent value and the callback's user data."]
+#[doc = ""]
+#[doc = "The handler is called when new data arrives."]
+#[doc = ""]
+#[doc = "\\note callback functions are called from interrupt level, but are well secured. not too much caution is necessary,"]
+#[doc = "but don't call alloc, free or printf from within them, just to be safe."]
+pub type FifoValue32HandlerFunc =
+    ::core::option::Option<unsafe extern "C" fn(value32: u32, userdata: *mut libc::c_void)>;
+#[doc = "\\brief fifo callback function pointer with the number of bytes sent and the callback's user data"]
+#[doc = ""]
+#[doc = "The handler is called when new data arrives."]
+#[doc = "This callback must call fifoGetData to actually retrieve the data. If it doesn't, the data will be destroyed on return."]
+#[doc = ""]
+#[doc = "\\note callback functions are called from interrupt level, but are well secured. not too much caution is necessary,"]
+#[doc = "but don't call alloc, free or printf from within them, just to be safe."]
+pub type FifoDatamsgHandlerFunc = ::core::option::Option<
+    unsafe extern "C" fn(num_bytes: libc::c_int, userdata: *mut libc::c_void),
+>;
+extern "C" {
+    #[doc = "\\brief Initializes the fifo system."]
+    #[doc = ""]
+    #[doc = "Attempts to sync with the other CPU, if it fails, fifo services won't be provided."]
+    #[doc = ""]
+    #[doc = "\\note call irqInit() before calling this function."]
+    #[doc = ""]
+    #[doc = "\\return true if syncing worked, false if something went wrong."]
+    pub fn fifoInit() -> bool;
+}
+extern "C" {
+    #[doc = "\\brief Send an address to an channel."]
+    #[doc = ""]
+    #[doc = "Transmits an address in the range 0x02000000-0x023FFFFF to the other CPU."]
+    #[doc = ""]
+    #[doc = "\\param channel channel number to send to."]
+    #[doc = "\\param address address to send."]
+    #[doc = ""]
+    #[doc = "\\return true if the address has been send, false if something went wrong."]
+    pub fn fifoSendAddress(channel: libc::c_int, address: *mut libc::c_void) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief Send a 32bit value."]
+    #[doc = ""]
+    #[doc = "Transmits a 32bit value to the other CPU."]
+    #[doc = ""]
+    #[doc = "\\param channel channel number to send to"]
+    #[doc = "\\param value32 32bit value to send"]
+    #[doc = ""]
+    #[doc = "\\return true if the value has been send, false if something went wrong."]
+    #[doc = ""]
+    #[doc = "\\note Transfer is more efficient if the top 8 bits are zero. So sending smaller values or bitmasks that don't include the top bits is preferred."]
+    pub fn fifoSendValue32(channel: libc::c_int, value32: u32) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief Send a sequence of bytes to the other CPU."]
+    #[doc = ""]
+    #[doc = "num_bytes can be between 0 and FIFO_MAX_DATA_BYTES - sending 0 bytes can be useful sometimes..."]
+    #[doc = ""]
+    #[doc = "\\param channel channel number to send to"]
+    #[doc = "\\param num_bytes number of bytes to send"]
+    #[doc = "\\param data_array pointer to data array"]
+    #[doc = ""]
+    #[doc = "\\return true if the data message has been send, false if something went wrong."]
+    pub fn fifoSendDatamsg(
+        channel: libc::c_int,
+        num_bytes: libc::c_int,
+        data_array: *mut u8,
+    ) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief Set user address message callback."]
+    #[doc = ""]
+    #[doc = "Set a callback to receive incoming address messages on a specific channel."]
+    #[doc = ""]
+    #[doc = "\\param channel channel number to send to."]
+    #[doc = "\\param newhandler a function pointer to the new handler function."]
+    #[doc = "\\param userdata a pointer that will be passed on to the handler when it will be called."]
+    #[doc = ""]
+    #[doc = "\\return true if the handler has been set, false if something went wrong."]
+    #[doc = ""]
+    #[doc = "\\note Setting the handler for a channel feeds the queue of buffered messages to the new handler, if there are any unread messages."]
+    pub fn fifoSetAddressHandler(
+        channel: libc::c_int,
+        newhandler: FifoAddressHandlerFunc,
+        userdata: *mut libc::c_void,
+    ) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief Set user value32 message callback."]
+    #[doc = ""]
+    #[doc = "Set a callback to receive incoming value32 messages on a specific channel."]
+    #[doc = ""]
+    #[doc = "\\param channel channel number to send to."]
+    #[doc = "\\param newhandler a function pointer to the new handler function."]
+    #[doc = "\\param userdata a pointer that will be passed on to the handler when it will be called."]
+    #[doc = ""]
+    #[doc = "\\return true if the handler has been set, false if something went wrong."]
+    #[doc = ""]
+    #[doc = "\\note Setting the handler for a channel feeds the queue of buffered messages to the new handler, if there are any unread messages."]
+    pub fn fifoSetValue32Handler(
+        channel: libc::c_int,
+        newhandler: FifoValue32HandlerFunc,
+        userdata: *mut libc::c_void,
+    ) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief Set user data message callback."]
+    #[doc = ""]
+    #[doc = "Set a callback to receive incoming data messages on a specific channel."]
+    #[doc = ""]
+    #[doc = "\\param channel channel number to send to."]
+    #[doc = "\\param newhandler a function pointer to the new handler function."]
+    #[doc = "\\param userdata a pointer that will be passed on to the handler when it will be called."]
+    #[doc = ""]
+    #[doc = "\\return true if the handler has been set, false if something went wrong."]
+    #[doc = ""]
+    #[doc = "\\note Setting the handler for a channel feeds the queue of buffered messages to the new handler, if there are any unread messages."]
+    pub fn fifoSetDatamsgHandler(
+        channel: libc::c_int,
+        newhandler: FifoDatamsgHandlerFunc,
+        userdata: *mut libc::c_void,
+    ) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief checks if there is any addresses in the fifo queue."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = ""]
+    #[doc = "\\return true if there is any addresses in the queue and if there isn't an address handler in place for the channel."]
+    pub fn fifoCheckAddress(channel: libc::c_int) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief checks if there is any values in the fifo queue."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = ""]
+    #[doc = "\\return true if there is any values in the queue and if there isn't a value handler in place for the channel."]
+    pub fn fifoCheckValue32(channel: libc::c_int) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief checks if there is any data messages in the fifo queue."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = ""]
+    #[doc = "\\return true if there is any data messages in the queue and if there isn't a data message handler in place for the channel."]
+    pub fn fifoCheckDatamsg(channel: libc::c_int) -> bool;
+}
+extern "C" {
+    #[doc = "\\brief gets the number of bytes in the queue for the first data entry."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = ""]
+    #[doc = "\\return the number of bytes in the queue for the first data entry, or -1 if there are no entries."]
+    pub fn fifoCheckDatamsgLength(channel: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\\brief Get the first address in queue for a specific channel."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = ""]
+    #[doc = "\\return the first address in queue, or NULL if there is none."]
+    pub fn fifoGetAddress(channel: libc::c_int) -> *mut libc::c_void;
+}
+extern "C" {
+    #[doc = "\\brief Get the first value32 in queue for a specific channel."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = ""]
+    #[doc = "\\return the first value32 in queue, or 0 if there is no message."]
+    pub fn fifoGetValue32(channel: libc::c_int) -> u32;
+}
+extern "C" {
+    #[doc = "\\brief Reads a data message in a given buffer and returns the number of bytes written."]
+    #[doc = ""]
+    #[doc = "\\param channel the channel to check."]
+    #[doc = "\\param buffersize the size of the buffer where the message will be copied to."]
+    #[doc = "\\param destbuffer a pointer to the buffer where the message will be copied to."]
+    #[doc = ""]
+    #[doc = "\\return the number of bytes written, or -1 if there is no message."]
+    #[doc = ""]
+    #[doc = "\\warning If your buffer is not big enough, you may lose data! Check the data length first if you're not sure what the size is."]
+    pub fn fifoGetDatamsg(
+        channel: libc::c_int,
+        buffersize: libc::c_int,
+        destbuffer: *mut u8,
+    ) -> libc::c_int;
+}
+#[doc = "! holds data related to the touch screen."]
+#[repr(C)]
+pub struct touchPosition {
+    #[doc = "!< Raw x value from the A2D"]
+    pub rawx: u16,
+    #[doc = "!< Raw y value from the A2D"]
+    pub rawy: u16,
+    #[doc = "!< Processes pixel X value"]
+    pub px: u16,
+    #[doc = "!< Processes pixel Y value"]
+    pub py: u16,
+    #[doc = "!< Raw cross panel resistance"]
+    pub z1: u16,
+    #[doc = "!< Raw cross panel resistance"]
+    pub z2: u16,
+}
+#[doc = "!< Keypad A button."]
+pub const KEY_A: KEYPAD_BITS = 1;
+#[doc = "!< Keypad B button."]
+pub const KEY_B: KEYPAD_BITS = 2;
+#[doc = "!< Keypad SELECT button."]
+pub const KEY_SELECT: KEYPAD_BITS = 4;
+#[doc = "!< Keypad START button."]
+pub const KEY_START: KEYPAD_BITS = 8;
+#[doc = "!< Keypad RIGHT button."]
+pub const KEY_RIGHT: KEYPAD_BITS = 16;
+#[doc = "!< Keypad LEFT button."]
+pub const KEY_LEFT: KEYPAD_BITS = 32;
+#[doc = "!< Keypad UP button."]
+pub const KEY_UP: KEYPAD_BITS = 64;
+#[doc = "!< Keypad DOWN button."]
+pub const KEY_DOWN: KEYPAD_BITS = 128;
+#[doc = "!< Right shoulder button."]
+pub const KEY_R: KEYPAD_BITS = 256;
+#[doc = "!< Left shoulder button."]
+pub const KEY_L: KEYPAD_BITS = 512;
+#[doc = "!< Keypad X button."]
+pub const KEY_X: KEYPAD_BITS = 1024;
+#[doc = "!< Keypad Y button."]
+pub const KEY_Y: KEYPAD_BITS = 2048;
+#[doc = "!< Touchscreen pendown."]
+pub const KEY_TOUCH: KEYPAD_BITS = 4096;
+#[doc = "!< Lid state."]
+pub const KEY_LID: KEYPAD_BITS = 8192;
+#[doc = "! enum values for the keypad buttons."]
+pub type KEYPAD_BITS = u32;
 pub type wchar_t = libc::c_uint;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -702,8 +2380,57 @@ pub struct max_align_t {
     pub __clang_max_align_nonce1: libc::c_longlong,
     pub __clang_max_align_nonce2: f64,
 }
-pub type va_list = __builtin_va_list;
-pub type __gnuc_va_list = __builtin_va_list;
+#[repr(C)]
+pub struct swiSHA1context {
+    #[doc = "< intermediate digest state"]
+    pub state: [u32; 5usize],
+    #[doc = "< number of bytes processed"]
+    pub total: [u32; 2usize],
+    #[doc = "< data block being processed"]
+    pub buffer: [u8; 64usize],
+    pub fragment_size: u32,
+    #[doc = "< data block being processed"]
+    pub sha_block: ::core::option::Option<
+        unsafe extern "C" fn(ctx: *mut swiSHA1context, src: *const libc::c_void, len: usize),
+    >,
+}
+pub type swiSHA1context_t = swiSHA1context;
+extern "C" {
+    #[doc = " \\brief          SHA-1 context setup"]
+    #[doc = ""]
+    #[doc = " \\param ctx      context to be initialized"]
+    pub fn swiSHA1Init(ctx: *mut swiSHA1context_t);
+}
+extern "C" {
+    #[doc = " \\brief          SHA-1 process buffer"]
+    #[doc = ""]
+    #[doc = " \\param ctx      SHA-1 context"]
+    #[doc = " \\param data     buffer to process"]
+    #[doc = " \\param len      length of data"]
+    pub fn swiSHA1Update(ctx: *mut swiSHA1context_t, data: *const libc::c_void, len: usize);
+}
+extern "C" {
+    #[doc = " \\brief          SHA-1 final digest"]
+    #[doc = ""]
+    #[doc = " \\param digest   buffer to hold SHA-1 checksum result"]
+    #[doc = " \\param ctx      SHA-1 context"]
+    pub fn swiSHA1Final(digest: *mut libc::c_void, ctx: *mut swiSHA1context_t);
+}
+extern "C" {
+    #[doc = " \\brief          SHA-1 checksum"]
+    #[doc = ""]
+    #[doc = " \\param digest   buffer to hold SHA-1 checksum result"]
+    #[doc = " \\param data     buffer to process"]
+    #[doc = " \\param len      length of data"]
+    pub fn swiSHA1Calc(digest: *mut libc::c_void, data: *const libc::c_void, len: usize);
+}
+extern "C" {
+    #[doc = " \\brief          SHA-1 verify"]
+    #[doc = ""]
+    #[doc = " \\param digest1  buffer containing hash to verify"]
+    #[doc = " \\param digest2  buffer containing hash to verify"]
+    pub fn swiSHA1Verify(digest1: *const libc::c_void, digest2: *const libc::c_void);
+}
 pub type wint_t = libc::c_int;
 pub type _off_t = __int64_t;
 pub type _fpos_t = __int64_t;
@@ -750,24 +2477,6 @@ pub type __nlink_t = libc::c_ushort;
 pub type __suseconds_t = libc::c_long;
 pub type __useconds_t = libc::c_ulong;
 pub type __ULong = libc::c_ulong;
-pub type intmax_t = __intmax_t;
-pub type uintmax_t = __uintmax_t;
-pub type int_least8_t = __int_least8_t;
-pub type uint_least8_t = __uint_least8_t;
-pub type int_least16_t = __int_least16_t;
-pub type uint_least16_t = __uint_least16_t;
-pub type int_least32_t = __int_least32_t;
-pub type uint_least32_t = __uint_least32_t;
-pub type int_least64_t = __int_least64_t;
-pub type uint_least64_t = __uint_least64_t;
-pub type int_fast8_t = libc::c_schar;
-pub type uint_fast8_t = libc::c_uchar;
-pub type int_fast16_t = libc::c_short;
-pub type uint_fast16_t = libc::c_ushort;
-pub type int_fast32_t = libc::c_int;
-pub type uint_fast32_t = libc::c_uint;
-pub type int_fast64_t = libc::c_longlong;
-pub type uint_fast64_t = libc::c_ulonglong;
 pub type _LOCK_T = i32;
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -1003,6 +2712,3384 @@ extern "C" {
 extern "C" {
     pub fn __getreent() -> *mut _reent;
 }
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct div_t {
+    pub quot: libc::c_int,
+    pub rem: libc::c_int,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct ldiv_t {
+    pub quot: libc::c_long,
+    pub rem: libc::c_long,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct lldiv_t {
+    pub quot: libc::c_longlong,
+    pub rem: libc::c_longlong,
+}
+pub type __compar_fn_t = ::core::option::Option<
+    unsafe extern "C" fn(arg1: *const libc::c_void, arg2: *const libc::c_void) -> libc::c_int,
+>;
+extern "C" {
+    pub fn __locale_mb_cur_max() -> libc::c_int;
+}
+extern "C" {
+    pub fn abort();
+}
+extern "C" {
+    pub fn abs(arg1: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn arc4random() -> __uint32_t;
+}
+extern "C" {
+    pub fn arc4random_uniform(arg1: __uint32_t) -> __uint32_t;
+}
+extern "C" {
+    pub fn arc4random_buf(arg1: *mut libc::c_void, arg2: usize);
+}
+extern "C" {
+    pub fn atexit(__func: ::core::option::Option<unsafe extern "C" fn()>) -> libc::c_int;
+}
+extern "C" {
+    pub fn atof(__nptr: *const libc::c_char) -> f64;
+}
+extern "C" {
+    pub fn atoff(__nptr: *const libc::c_char) -> f32;
+}
+extern "C" {
+    pub fn atoi(__nptr: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn _atoi_r(arg1: *mut _reent, __nptr: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn atol(__nptr: *const libc::c_char) -> libc::c_long;
+}
+extern "C" {
+    pub fn _atol_r(arg1: *mut _reent, __nptr: *const libc::c_char) -> libc::c_long;
+}
+extern "C" {
+    pub fn bsearch(
+        __key: *const libc::c_void,
+        __base: *const libc::c_void,
+        __nmemb: usize,
+        __size: usize,
+        _compar: __compar_fn_t,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn calloc(arg1: libc::c_uint, arg2: libc::c_uint) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn div(__numer: libc::c_int, __denom: libc::c_int) -> div_t;
+}
+extern "C" {
+    pub fn exit(__status: libc::c_int);
+}
+extern "C" {
+    pub fn free(arg1: *mut libc::c_void);
+}
+extern "C" {
+    pub fn getenv(__string: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _getenv_r(arg1: *mut _reent, __string: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _findenv(arg1: *const libc::c_char, arg2: *mut libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _findenv_r(
+        arg1: *mut _reent,
+        arg2: *const libc::c_char,
+        arg3: *mut libc::c_int,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub static mut suboptarg: *mut libc::c_char;
+}
+extern "C" {
+    pub fn getsubopt(
+        arg1: *mut *mut libc::c_char,
+        arg2: *const *mut libc::c_char,
+        arg3: *mut *mut libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn labs(arg1: libc::c_long) -> libc::c_long;
+}
+extern "C" {
+    pub fn ldiv(__numer: libc::c_long, __denom: libc::c_long) -> ldiv_t;
+}
+extern "C" {
+    pub fn malloc(arg1: libc::c_uint) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn mblen(arg1: *const libc::c_char, arg2: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mblen_r(
+        arg1: *mut _reent,
+        arg2: *const libc::c_char,
+        arg3: usize,
+        arg4: *mut _mbstate_t,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn mbtowc(arg1: *mut wchar_t, arg2: *const libc::c_char, arg3: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mbtowc_r(
+        arg1: *mut _reent,
+        arg2: *mut wchar_t,
+        arg3: *const libc::c_char,
+        arg4: usize,
+        arg5: *mut _mbstate_t,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn wctomb(arg1: *mut libc::c_char, arg2: wchar_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn _wctomb_r(
+        arg1: *mut _reent,
+        arg2: *mut libc::c_char,
+        arg3: wchar_t,
+        arg4: *mut _mbstate_t,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn mbstowcs(arg1: *mut wchar_t, arg2: *const libc::c_char, arg3: usize) -> usize;
+}
+extern "C" {
+    pub fn _mbstowcs_r(
+        arg1: *mut _reent,
+        arg2: *mut wchar_t,
+        arg3: *const libc::c_char,
+        arg4: usize,
+        arg5: *mut _mbstate_t,
+    ) -> usize;
+}
+extern "C" {
+    pub fn wcstombs(arg1: *mut libc::c_char, arg2: *const wchar_t, arg3: usize) -> usize;
+}
+extern "C" {
+    pub fn _wcstombs_r(
+        arg1: *mut _reent,
+        arg2: *mut libc::c_char,
+        arg3: *const wchar_t,
+        arg4: usize,
+        arg5: *mut _mbstate_t,
+    ) -> usize;
+}
+extern "C" {
+    pub fn mkdtemp(arg1: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn mkstemp(arg1: *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn mkstemps(arg1: *mut libc::c_char, arg2: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn mktemp(arg1: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _mkdtemp_r(arg1: *mut _reent, arg2: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _mkostemp_r(
+        arg1: *mut _reent,
+        arg2: *mut libc::c_char,
+        arg3: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mkostemps_r(
+        arg1: *mut _reent,
+        arg2: *mut libc::c_char,
+        arg3: libc::c_int,
+        arg4: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mkstemp_r(arg1: *mut _reent, arg2: *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mkstemps_r(
+        arg1: *mut _reent,
+        arg2: *mut libc::c_char,
+        arg3: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mktemp_r(arg1: *mut _reent, arg2: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn qsort(__base: *mut libc::c_void, __nmemb: usize, __size: usize, _compar: __compar_fn_t);
+}
+extern "C" {
+    pub fn rand() -> libc::c_int;
+}
+extern "C" {
+    pub fn realloc(arg1: *mut libc::c_void, arg2: libc::c_uint) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn reallocarray(arg1: *mut libc::c_void, arg2: usize, arg3: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn reallocf(arg1: *mut libc::c_void, arg2: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn realpath(
+        path: *const libc::c_char,
+        resolved_path: *mut libc::c_char,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn rpmatch(response: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn srand(__seed: libc::c_uint);
+}
+extern "C" {
+    pub fn strtod(__n: *const libc::c_char, __end_PTR: *mut *mut libc::c_char) -> f64;
+}
+extern "C" {
+    pub fn _strtod_r(
+        arg1: *mut _reent,
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+    ) -> f64;
+}
+extern "C" {
+    pub fn strtof(__n: *const libc::c_char, __end_PTR: *mut *mut libc::c_char) -> f32;
+}
+extern "C" {
+    pub fn strtol(
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_long;
+}
+extern "C" {
+    pub fn _strtol_r(
+        arg1: *mut _reent,
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_long;
+}
+extern "C" {
+    pub fn strtoul(
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_ulong;
+}
+extern "C" {
+    pub fn _strtoul_r(
+        arg1: *mut _reent,
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_ulong;
+}
+extern "C" {
+    pub fn system(__string: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn a64l(__input: *const libc::c_char) -> libc::c_long;
+}
+extern "C" {
+    pub fn l64a(__input: libc::c_long) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _l64a_r(arg1: *mut _reent, __input: libc::c_long) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn on_exit(
+        __func: ::core::option::Option<
+            unsafe extern "C" fn(arg1: libc::c_int, arg2: *mut libc::c_void),
+        >,
+        __arg: *mut libc::c_void,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn _Exit(__status: libc::c_int);
+}
+extern "C" {
+    pub fn putenv(__string: *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn _putenv_r(arg1: *mut _reent, __string: *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn _reallocf_r(
+        arg1: *mut _reent,
+        arg2: *mut libc::c_void,
+        arg3: usize,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn setenv(
+        __string: *const libc::c_char,
+        __value: *const libc::c_char,
+        __overwrite: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn _setenv_r(
+        arg1: *mut _reent,
+        __string: *const libc::c_char,
+        __value: *const libc::c_char,
+        __overwrite: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn __itoa(
+        arg1: libc::c_int,
+        arg2: *mut libc::c_char,
+        arg3: libc::c_int,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn __utoa(
+        arg1: libc::c_uint,
+        arg2: *mut libc::c_char,
+        arg3: libc::c_int,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn itoa(arg1: libc::c_int, arg2: *mut libc::c_char, arg3: libc::c_int)
+        -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn utoa(
+        arg1: libc::c_uint,
+        arg2: *mut libc::c_char,
+        arg3: libc::c_int,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn rand_r(__seed: *mut libc::c_uint) -> libc::c_int;
+}
+extern "C" {
+    pub fn drand48() -> f64;
+}
+extern "C" {
+    pub fn _drand48_r(arg1: *mut _reent) -> f64;
+}
+extern "C" {
+    pub fn erand48(arg1: *mut libc::c_ushort) -> f64;
+}
+extern "C" {
+    pub fn _erand48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> f64;
+}
+extern "C" {
+    pub fn jrand48(arg1: *mut libc::c_ushort) -> libc::c_long;
+}
+extern "C" {
+    pub fn _jrand48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> libc::c_long;
+}
+extern "C" {
+    pub fn lcong48(arg1: *mut libc::c_ushort);
+}
+extern "C" {
+    pub fn _lcong48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort);
+}
+extern "C" {
+    pub fn lrand48() -> libc::c_long;
+}
+extern "C" {
+    pub fn _lrand48_r(arg1: *mut _reent) -> libc::c_long;
+}
+extern "C" {
+    pub fn mrand48() -> libc::c_long;
+}
+extern "C" {
+    pub fn _mrand48_r(arg1: *mut _reent) -> libc::c_long;
+}
+extern "C" {
+    pub fn nrand48(arg1: *mut libc::c_ushort) -> libc::c_long;
+}
+extern "C" {
+    pub fn _nrand48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> libc::c_long;
+}
+extern "C" {
+    pub fn seed48(arg1: *mut libc::c_ushort) -> *mut libc::c_ushort;
+}
+extern "C" {
+    pub fn _seed48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> *mut libc::c_ushort;
+}
+extern "C" {
+    pub fn srand48(arg1: libc::c_long);
+}
+extern "C" {
+    pub fn _srand48_r(arg1: *mut _reent, arg2: libc::c_long);
+}
+extern "C" {
+    pub fn initstate(arg1: libc::c_uint, arg2: *mut libc::c_char, arg3: usize)
+        -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn random() -> libc::c_long;
+}
+extern "C" {
+    pub fn setstate(arg1: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn srandom(arg1: libc::c_uint);
+}
+extern "C" {
+    pub fn atoll(__nptr: *const libc::c_char) -> libc::c_longlong;
+}
+extern "C" {
+    pub fn _atoll_r(arg1: *mut _reent, __nptr: *const libc::c_char) -> libc::c_longlong;
+}
+extern "C" {
+    pub fn llabs(arg1: libc::c_longlong) -> libc::c_longlong;
+}
+extern "C" {
+    pub fn lldiv(__numer: libc::c_longlong, __denom: libc::c_longlong) -> lldiv_t;
+}
+extern "C" {
+    pub fn strtoll(
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_longlong;
+}
+extern "C" {
+    pub fn _strtoll_r(
+        arg1: *mut _reent,
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_longlong;
+}
+extern "C" {
+    pub fn strtoull(
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_ulonglong;
+}
+extern "C" {
+    pub fn _strtoull_r(
+        arg1: *mut _reent,
+        __n: *const libc::c_char,
+        __end_PTR: *mut *mut libc::c_char,
+        __base: libc::c_int,
+    ) -> libc::c_ulonglong;
+}
+extern "C" {
+    pub fn cfree(arg1: *mut libc::c_void);
+}
+extern "C" {
+    pub fn unsetenv(__string: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn _unsetenv_r(arg1: *mut _reent, __string: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn posix_memalign(arg1: *mut *mut libc::c_void, arg2: usize, arg3: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn _dtoa_r(
+        arg1: *mut _reent,
+        arg2: f64,
+        arg3: libc::c_int,
+        arg4: libc::c_int,
+        arg5: *mut libc::c_int,
+        arg6: *mut libc::c_int,
+        arg7: *mut *mut libc::c_char,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _malloc_r(arg1: *mut _reent, arg2: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn _calloc_r(arg1: *mut _reent, arg2: usize, arg3: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn _free_r(arg1: *mut _reent, arg2: *mut libc::c_void);
+}
+extern "C" {
+    pub fn _realloc_r(arg1: *mut _reent, arg2: *mut libc::c_void, arg3: usize)
+        -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn _mstats_r(arg1: *mut _reent, arg2: *mut libc::c_char);
+}
+extern "C" {
+    pub fn _system_r(arg1: *mut _reent, arg2: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn __eprintf(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+        arg4: *const libc::c_char,
+    );
+}
+extern "C" {
+    pub fn qsort_r(
+        __base: *mut libc::c_void,
+        __nmemb: usize,
+        __size: usize,
+        __thunk: *mut libc::c_void,
+        _compar: ::core::option::Option<
+            unsafe extern "C" fn(
+                arg1: *mut libc::c_void,
+                arg2: *const libc::c_void,
+                arg3: *const libc::c_void,
+            ) -> libc::c_int,
+        >,
+    );
+}
+extern "C" {
+    pub fn _strtold_r(
+        arg1: *mut _reent,
+        arg2: *const libc::c_char,
+        arg3: *mut *mut libc::c_char,
+    ) -> f64;
+}
+extern "C" {
+    pub fn strtold(arg1: *const libc::c_char, arg2: *mut *mut libc::c_char) -> f64;
+}
+extern "C" {
+    pub fn aligned_alloc(arg1: usize, arg2: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn at_quick_exit(arg1: ::core::option::Option<unsafe extern "C" fn()>) -> libc::c_int;
+}
+extern "C" {
+    pub fn quick_exit(arg1: libc::c_int);
+}
+pub type locale_t = *mut __locale_t;
+extern "C" {
+    pub fn bcmp(
+        arg1: *const libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: libc::c_uint,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn bcopy(arg1: *const libc::c_void, arg2: *mut libc::c_void, arg3: usize);
+}
+extern "C" {
+    pub fn bzero(arg1: *mut libc::c_void, arg2: libc::c_uint);
+}
+extern "C" {
+    pub fn explicit_bzero(arg1: *mut libc::c_void, arg2: usize);
+}
+extern "C" {
+    pub fn ffs(arg1: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn ffsl(arg1: libc::c_long) -> libc::c_int;
+}
+extern "C" {
+    pub fn ffsll(arg1: libc::c_longlong) -> libc::c_int;
+}
+extern "C" {
+    pub fn fls(arg1: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn flsl(arg1: libc::c_long) -> libc::c_int;
+}
+extern "C" {
+    pub fn flsll(arg1: libc::c_longlong) -> libc::c_int;
+}
+extern "C" {
+    pub fn index(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn rindex(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strcasecmp(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn strncasecmp(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn strcasecmp_l(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: locale_t,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn strncasecmp_l(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: usize,
+        arg4: locale_t,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn memchr(
+        arg1: *const libc::c_void,
+        arg2: libc::c_int,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn memcmp(
+        arg1: *const libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: libc::c_uint,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn memcpy(
+        arg1: *mut libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn memmove(
+        arg1: *mut libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn memset(
+        arg1: *mut libc::c_void,
+        arg2: libc::c_int,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn strcat(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strchr(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strcmp(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn strcoll(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn strcpy(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strcspn(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_uint;
+}
+extern "C" {
+    pub fn strerror(arg1: libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strlen(arg1: *const libc::c_char) -> libc::c_uint;
+}
+extern "C" {
+    pub fn strncat(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strncmp(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn strncpy(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strpbrk(arg1: *const libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strrchr(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strspn(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_uint;
+}
+extern "C" {
+    pub fn strstr(arg1: *const libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strtok(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strxfrm(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> libc::c_uint;
+}
+extern "C" {
+    pub fn strcoll_l(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: locale_t,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn strerror_l(arg1: libc::c_int, arg2: locale_t) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strxfrm_l(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: usize,
+        arg4: locale_t,
+    ) -> usize;
+}
+extern "C" {
+    pub fn strtok_r(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: *mut *mut libc::c_char,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn timingsafe_bcmp(
+        arg1: *const libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: usize,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn timingsafe_memcmp(
+        arg1: *const libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: usize,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn memccpy(
+        arg1: *mut libc::c_void,
+        arg2: *const libc::c_void,
+        arg3: libc::c_int,
+        arg4: libc::c_uint,
+    ) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn stpcpy(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn stpncpy(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strdup(arg1: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _strdup_r(arg1: *mut _reent, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strndup(arg1: *const libc::c_char, arg2: libc::c_uint) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn _strndup_r(
+        arg1: *mut _reent,
+        arg2: *const libc::c_char,
+        arg3: usize,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strerror_r(arg1: libc::c_int, arg2: *mut libc::c_char, arg3: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn _strerror_r(
+        arg1: *mut _reent,
+        arg2: libc::c_int,
+        arg3: libc::c_int,
+        arg4: *mut libc::c_int,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strlcat(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> libc::c_uint;
+}
+extern "C" {
+    pub fn strlcpy(
+        arg1: *mut libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: libc::c_uint,
+    ) -> libc::c_uint;
+}
+extern "C" {
+    pub fn strnlen(arg1: *const libc::c_char, arg2: usize) -> usize;
+}
+extern "C" {
+    pub fn strsep(arg1: *mut *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strnstr(
+        arg1: *const libc::c_char,
+        arg2: *const libc::c_char,
+        arg3: usize,
+    ) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strlwr(arg1: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strupr(arg1: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn strsignal(__signo: libc::c_int) -> *mut libc::c_char;
+}
+#[doc = "! A resizable array"]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct DynamicArray {
+    #[doc = "!< pointer to array of void pointers"]
+    pub data: *mut *mut libc::c_void,
+    #[doc = "!< currently allocated size of the array"]
+    pub cur_size: libc::c_uint,
+}
+extern "C" {
+    #[doc = " \\brief Initializes an array with the supplied initial size"]
+    #[doc = "\\param v the array to initialize"]
+    #[doc = "\\param initialSize the initial size to allocate"]
+    #[doc = "\\return a pointer to the data, or NULL on error."]
+    pub fn DynamicArrayInit(v: *mut DynamicArray, initialSize: libc::c_uint) -> *mut libc::c_void;
+}
+extern "C" {
+    #[doc = " \\brief Frees memory allocated by the dynamic array"]
+    #[doc = "\\param v The array to delete"]
+    pub fn DynamicArrayDelete(v: *mut DynamicArray);
+}
+extern "C" {
+    #[doc = " \\brief Gets the entry at the supplied index"]
+    #[doc = "\\param v The array to get from."]
+    #[doc = "\\param index The index of the data to get."]
+    #[doc = "\\return The data or NULL if v is NULL or the index is out of range."]
+    pub fn DynamicArrayGet(v: *mut DynamicArray, index: libc::c_uint) -> *mut libc::c_void;
+}
+extern "C" {
+    #[doc = " \\brief Sets the entry to the supplied value"]
+    #[doc = "\\param v The array to set"]
+    #[doc = "\\param index The index of the data to set (array will be resized to fit the index)."]
+    #[doc = "\\param item The data to set."]
+    #[doc = "\\return false if v is NULL or there isn't enough memory, true otherwise"]
+    pub fn DynamicArraySet(
+        v: *mut DynamicArray,
+        index: libc::c_uint,
+        item: *mut libc::c_void,
+    ) -> bool;
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct mallinfo {
+    pub arena: usize,
+    pub ordblks: usize,
+    pub smblks: usize,
+    pub hblks: usize,
+    pub hblkhd: usize,
+    pub usmblks: usize,
+    pub fsmblks: usize,
+    pub uordblks: usize,
+    pub fordblks: usize,
+    pub keepcost: usize,
+}
+extern "C" {
+    pub fn memalign(arg1: usize, arg2: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn _memalign_r(arg1: *mut _reent, arg2: usize, arg3: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn mallinfo() -> mallinfo;
+}
+extern "C" {
+    pub fn _mallinfo_r(arg1: *mut _reent) -> mallinfo;
+}
+extern "C" {
+    pub fn malloc_stats();
+}
+extern "C" {
+    pub fn _malloc_stats_r(arg1: *mut _reent);
+}
+extern "C" {
+    pub fn mallopt(arg1: libc::c_int, arg2: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn _mallopt_r(arg1: *mut _reent, arg2: libc::c_int, arg3: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn malloc_usable_size(arg1: *mut libc::c_void) -> usize;
+}
+extern "C" {
+    pub fn _malloc_usable_size_r(arg1: *mut _reent, arg2: *mut libc::c_void) -> usize;
+}
+extern "C" {
+    pub fn valloc(arg1: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn _valloc_r(arg1: *mut _reent, arg2: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn pvalloc(arg1: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn _pvalloc_r(arg1: *mut _reent, arg2: usize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn malloc_trim(arg1: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn _malloc_trim_r(arg1: *mut _reent, arg2: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn __malloc_lock(arg1: *mut _reent);
+}
+extern "C" {
+    pub fn __malloc_unlock(arg1: *mut _reent);
+}
+extern "C" {
+    pub fn mstats(arg1: *mut libc::c_char);
+}
+#[doc = "! A node for the linked list."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct LinkedList {
+    #[doc = "!< A pointer to the next node."]
+    pub next: *mut LinkedList,
+    #[doc = "!< A pointer to the previous node."]
+    pub prev: *mut LinkedList,
+    #[doc = "!< A pointer to some data."]
+    pub data: *mut libc::c_void,
+}
+extern "C" {
+    #[doc = "\\brief Adds data to a linked list."]
+    #[doc = ""]
+    #[doc = "This will only store the pointer to the data, so you have to make sure that the pointer stays valid."]
+    #[doc = ""]
+    #[doc = "\\param front A pointer to a pointer to the front of the linked list (or a pointer to NULL if you don't have a linked list yet)."]
+    #[doc = "\\param data A pointer to the data you want to store."]
+    #[doc = ""]
+    #[doc = "\\return A pointer to the new node, which is also the new front, or NULL if there is not enough memory."]
+    pub fn linkedlistAdd(front: *mut *mut LinkedList, data: *mut libc::c_void) -> *mut LinkedList;
+}
+extern "C" {
+    #[doc = "\\brief Removes a node from a linked list."]
+    #[doc = ""]
+    #[doc = "The data pointer of the node will be lost after this, so make sure you don't need it anymore."]
+    #[doc = ""]
+    #[doc = "\\param node The node you want to remove."]
+    pub fn linkedlistRemove(node: *mut LinkedList);
+}
+extern "C" {
+    pub fn __sassert(
+        fileName: *const libc::c_char,
+        lineNumber: libc::c_int,
+        conditionString: *const libc::c_char,
+        format: *const libc::c_char,
+        ...
+    );
+}
+extern "C" {
+    pub static mut mosaicShadow: u16;
+}
+extern "C" {
+    pub static mut mosaicShadowSub: u16;
+}
+pub const VRAM_A_LCD: VRAM_A_TYPE = 0;
+pub const VRAM_A_MAIN_BG: VRAM_A_TYPE = 1;
+pub const VRAM_A_MAIN_BG_0x06000000: VRAM_A_TYPE = 1;
+pub const VRAM_A_MAIN_BG_0x06020000: VRAM_A_TYPE = 9;
+pub const VRAM_A_MAIN_BG_0x06040000: VRAM_A_TYPE = 17;
+pub const VRAM_A_MAIN_BG_0x06060000: VRAM_A_TYPE = 25;
+pub const VRAM_A_MAIN_SPRITE: VRAM_A_TYPE = 2;
+pub const VRAM_A_MAIN_SPRITE_0x06400000: VRAM_A_TYPE = 2;
+pub const VRAM_A_MAIN_SPRITE_0x06420000: VRAM_A_TYPE = 10;
+pub const VRAM_A_TEXTURE: VRAM_A_TYPE = 3;
+pub const VRAM_A_TEXTURE_SLOT0: VRAM_A_TYPE = 3;
+pub const VRAM_A_TEXTURE_SLOT1: VRAM_A_TYPE = 11;
+pub const VRAM_A_TEXTURE_SLOT2: VRAM_A_TYPE = 19;
+pub const VRAM_A_TEXTURE_SLOT3: VRAM_A_TYPE = 27;
+pub type VRAM_A_TYPE = u32;
+pub const VRAM_B_LCD: VRAM_B_TYPE = 0;
+pub const VRAM_B_MAIN_BG: VRAM_B_TYPE = 9;
+pub const VRAM_B_MAIN_BG_0x06000000: VRAM_B_TYPE = 1;
+pub const VRAM_B_MAIN_BG_0x06020000: VRAM_B_TYPE = 9;
+pub const VRAM_B_MAIN_BG_0x06040000: VRAM_B_TYPE = 17;
+pub const VRAM_B_MAIN_BG_0x06060000: VRAM_B_TYPE = 25;
+pub const VRAM_B_MAIN_SPRITE: VRAM_B_TYPE = 2;
+pub const VRAM_B_MAIN_SPRITE_0x06400000: VRAM_B_TYPE = 2;
+pub const VRAM_B_MAIN_SPRITE_0x06420000: VRAM_B_TYPE = 10;
+pub const VRAM_B_TEXTURE: VRAM_B_TYPE = 11;
+pub const VRAM_B_TEXTURE_SLOT0: VRAM_B_TYPE = 3;
+pub const VRAM_B_TEXTURE_SLOT1: VRAM_B_TYPE = 11;
+pub const VRAM_B_TEXTURE_SLOT2: VRAM_B_TYPE = 19;
+pub const VRAM_B_TEXTURE_SLOT3: VRAM_B_TYPE = 27;
+pub type VRAM_B_TYPE = u32;
+pub const VRAM_C_LCD: VRAM_C_TYPE = 0;
+pub const VRAM_C_MAIN_BG: VRAM_C_TYPE = 17;
+pub const VRAM_C_MAIN_BG_0x06000000: VRAM_C_TYPE = 1;
+pub const VRAM_C_MAIN_BG_0x06020000: VRAM_C_TYPE = 9;
+pub const VRAM_C_MAIN_BG_0x06040000: VRAM_C_TYPE = 17;
+pub const VRAM_C_MAIN_BG_0x06060000: VRAM_C_TYPE = 25;
+pub const VRAM_C_ARM7: VRAM_C_TYPE = 2;
+pub const VRAM_C_ARM7_0x06000000: VRAM_C_TYPE = 2;
+pub const VRAM_C_ARM7_0x06020000: VRAM_C_TYPE = 10;
+pub const VRAM_C_SUB_BG: VRAM_C_TYPE = 4;
+pub const VRAM_C_SUB_BG_0x06200000: VRAM_C_TYPE = 4;
+pub const VRAM_C_TEXTURE: VRAM_C_TYPE = 19;
+pub const VRAM_C_TEXTURE_SLOT0: VRAM_C_TYPE = 3;
+pub const VRAM_C_TEXTURE_SLOT1: VRAM_C_TYPE = 11;
+pub const VRAM_C_TEXTURE_SLOT2: VRAM_C_TYPE = 19;
+pub const VRAM_C_TEXTURE_SLOT3: VRAM_C_TYPE = 27;
+pub type VRAM_C_TYPE = u32;
+pub const VRAM_D_LCD: VRAM_D_TYPE = 0;
+pub const VRAM_D_MAIN_BG: VRAM_D_TYPE = 25;
+pub const VRAM_D_MAIN_BG_0x06000000: VRAM_D_TYPE = 1;
+pub const VRAM_D_MAIN_BG_0x06020000: VRAM_D_TYPE = 9;
+pub const VRAM_D_MAIN_BG_0x06040000: VRAM_D_TYPE = 17;
+pub const VRAM_D_MAIN_BG_0x06060000: VRAM_D_TYPE = 25;
+pub const VRAM_D_ARM7: VRAM_D_TYPE = 10;
+pub const VRAM_D_ARM7_0x06000000: VRAM_D_TYPE = 2;
+pub const VRAM_D_ARM7_0x06020000: VRAM_D_TYPE = 10;
+pub const VRAM_D_SUB_SPRITE: VRAM_D_TYPE = 4;
+pub const VRAM_D_TEXTURE: VRAM_D_TYPE = 27;
+pub const VRAM_D_TEXTURE_SLOT0: VRAM_D_TYPE = 3;
+pub const VRAM_D_TEXTURE_SLOT1: VRAM_D_TYPE = 11;
+pub const VRAM_D_TEXTURE_SLOT2: VRAM_D_TYPE = 19;
+pub const VRAM_D_TEXTURE_SLOT3: VRAM_D_TYPE = 27;
+pub type VRAM_D_TYPE = u32;
+pub const VRAM_E_LCD: VRAM_E_TYPE = 0;
+pub const VRAM_E_MAIN_BG: VRAM_E_TYPE = 1;
+pub const VRAM_E_MAIN_SPRITE: VRAM_E_TYPE = 2;
+pub const VRAM_E_TEX_PALETTE: VRAM_E_TYPE = 3;
+pub const VRAM_E_BG_EXT_PALETTE: VRAM_E_TYPE = 4;
+pub type VRAM_E_TYPE = u32;
+pub const VRAM_F_LCD: VRAM_F_TYPE = 0;
+pub const VRAM_F_MAIN_BG: VRAM_F_TYPE = 1;
+pub const VRAM_F_MAIN_BG_0x06000000: VRAM_F_TYPE = 1;
+pub const VRAM_F_MAIN_BG_0x06004000: VRAM_F_TYPE = 9;
+pub const VRAM_F_MAIN_BG_0x06010000: VRAM_F_TYPE = 17;
+pub const VRAM_F_MAIN_BG_0x06014000: VRAM_F_TYPE = 25;
+pub const VRAM_F_MAIN_SPRITE: VRAM_F_TYPE = 2;
+pub const VRAM_F_MAIN_SPRITE_0x06400000: VRAM_F_TYPE = 2;
+pub const VRAM_F_MAIN_SPRITE_0x06404000: VRAM_F_TYPE = 10;
+pub const VRAM_F_MAIN_SPRITE_0x06410000: VRAM_F_TYPE = 18;
+pub const VRAM_F_MAIN_SPRITE_0x06414000: VRAM_F_TYPE = 26;
+pub const VRAM_F_TEX_PALETTE: VRAM_F_TYPE = 3;
+pub const VRAM_F_TEX_PALETTE_SLOT0: VRAM_F_TYPE = 3;
+pub const VRAM_F_TEX_PALETTE_SLOT1: VRAM_F_TYPE = 11;
+pub const VRAM_F_TEX_PALETTE_SLOT4: VRAM_F_TYPE = 19;
+pub const VRAM_F_TEX_PALETTE_SLOT5: VRAM_F_TYPE = 27;
+pub const VRAM_F_BG_EXT_PALETTE: VRAM_F_TYPE = 4;
+pub const VRAM_F_BG_EXT_PALETTE_SLOT01: VRAM_F_TYPE = 4;
+pub const VRAM_F_BG_EXT_PALETTE_SLOT23: VRAM_F_TYPE = 12;
+pub const VRAM_F_SPRITE_EXT_PALETTE: VRAM_F_TYPE = 5;
+pub type VRAM_F_TYPE = u32;
+pub const VRAM_G_LCD: VRAM_G_TYPE = 0;
+pub const VRAM_G_MAIN_BG: VRAM_G_TYPE = 1;
+pub const VRAM_G_MAIN_BG_0x06000000: VRAM_G_TYPE = 1;
+pub const VRAM_G_MAIN_BG_0x06004000: VRAM_G_TYPE = 9;
+pub const VRAM_G_MAIN_BG_0x06010000: VRAM_G_TYPE = 17;
+pub const VRAM_G_MAIN_BG_0x06014000: VRAM_G_TYPE = 25;
+pub const VRAM_G_MAIN_SPRITE: VRAM_G_TYPE = 2;
+pub const VRAM_G_MAIN_SPRITE_0x06400000: VRAM_G_TYPE = 2;
+pub const VRAM_G_MAIN_SPRITE_0x06404000: VRAM_G_TYPE = 10;
+pub const VRAM_G_MAIN_SPRITE_0x06410000: VRAM_G_TYPE = 18;
+pub const VRAM_G_MAIN_SPRITE_0x06414000: VRAM_G_TYPE = 26;
+pub const VRAM_G_TEX_PALETTE: VRAM_G_TYPE = 3;
+pub const VRAM_G_TEX_PALETTE_SLOT0: VRAM_G_TYPE = 3;
+pub const VRAM_G_TEX_PALETTE_SLOT1: VRAM_G_TYPE = 11;
+pub const VRAM_G_TEX_PALETTE_SLOT4: VRAM_G_TYPE = 19;
+pub const VRAM_G_TEX_PALETTE_SLOT5: VRAM_G_TYPE = 27;
+pub const VRAM_G_BG_EXT_PALETTE: VRAM_G_TYPE = 4;
+pub const VRAM_G_BG_EXT_PALETTE_SLOT01: VRAM_G_TYPE = 4;
+pub const VRAM_G_BG_EXT_PALETTE_SLOT23: VRAM_G_TYPE = 12;
+pub const VRAM_G_SPRITE_EXT_PALETTE: VRAM_G_TYPE = 5;
+pub type VRAM_G_TYPE = u32;
+pub const VRAM_H_LCD: VRAM_H_TYPE = 0;
+pub const VRAM_H_SUB_BG: VRAM_H_TYPE = 1;
+pub const VRAM_H_SUB_BG_EXT_PALETTE: VRAM_H_TYPE = 2;
+pub type VRAM_H_TYPE = u32;
+pub const VRAM_I_LCD: VRAM_I_TYPE = 0;
+pub const VRAM_I_SUB_BG_0x06208000: VRAM_I_TYPE = 1;
+pub const VRAM_I_SUB_SPRITE: VRAM_I_TYPE = 2;
+pub const VRAM_I_SUB_SPRITE_EXT_PALETTE: VRAM_I_TYPE = 3;
+pub type VRAM_I_TYPE = u32;
+pub type _palette = [u16; 256usize];
+pub type _ext_palette = [_palette; 16usize];
+extern "C" {
+    pub fn vramSetPrimaryBanks(
+        a: VRAM_A_TYPE,
+        b: VRAM_B_TYPE,
+        c: VRAM_C_TYPE,
+        d: VRAM_D_TYPE,
+    ) -> u32;
+}
+extern "C" {
+    pub fn vramSetMainBanks(a: VRAM_A_TYPE, b: VRAM_B_TYPE, c: VRAM_C_TYPE, d: VRAM_D_TYPE) -> u32;
+}
+extern "C" {
+    pub fn vramSetBanks_EFG(e: VRAM_E_TYPE, f: VRAM_F_TYPE, g: VRAM_G_TYPE) -> u32;
+}
+extern "C" {
+    pub fn vramDefault() -> u32;
+}
+extern "C" {
+    pub fn vramRestorePrimaryBanks(vramTemp: u32);
+}
+extern "C" {
+    pub fn vramRestoreMainBanks(vramTemp: u32);
+}
+extern "C" {
+    pub fn vramRestoreBanks_EFG(vramTemp: u32);
+}
+pub const MODE_0_2D: VideoMode = 65536;
+pub const MODE_1_2D: VideoMode = 65537;
+pub const MODE_2_2D: VideoMode = 65538;
+pub const MODE_3_2D: VideoMode = 65539;
+pub const MODE_4_2D: VideoMode = 65540;
+pub const MODE_5_2D: VideoMode = 65541;
+pub const MODE_6_2D: VideoMode = 65542;
+pub const MODE_0_3D: VideoMode = 65800;
+pub const MODE_1_3D: VideoMode = 65801;
+pub const MODE_2_3D: VideoMode = 65802;
+pub const MODE_3_3D: VideoMode = 65803;
+pub const MODE_4_3D: VideoMode = 65804;
+pub const MODE_5_3D: VideoMode = 65805;
+pub const MODE_6_3D: VideoMode = 65806;
+pub const MODE_FIFO: VideoMode = 196608;
+pub const MODE_FB0: VideoMode = 131072;
+pub const MODE_FB1: VideoMode = 393216;
+pub const MODE_FB2: VideoMode = 655360;
+pub const MODE_FB3: VideoMode = 917504;
+pub type VideoMode = u32;
+extern "C" {
+    pub fn setBrightness(screen: libc::c_int, level: libc::c_int);
+}
+#[doc = "\t\\brief register overlay for scroll registers"]
+#[repr(C)]
+pub struct bg_scroll {
+    #[doc = "< x scroll"]
+    pub x: u16,
+    #[doc = "< y scroll"]
+    pub y: u16,
+}
+#[doc = "\t\\brief register overlay for affine matrix registers"]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct bg_transform {
+    #[doc = "!< The change in x per horizontal pixel."]
+    pub hdx: s16,
+    #[doc = "!< The change in x per vertical pixel."]
+    pub vdx: s16,
+    #[doc = "!< The change in y per horizontal pixel."]
+    pub hdy: s16,
+    #[doc = "!< The change in x per vertical pixel."]
+    pub vdy: s16,
+    #[doc = "!< map x value which corresponds to the screen origin"]
+    pub dx: s32,
+    #[doc = "!< map y value which corresponds to the screen origin"]
+    pub dy: s32,
+}
+#[doc = "\t\\brief register overlay for background attribute registers"]
+#[repr(C)]
+pub struct bg_attribute {
+    #[doc = "< Background control registers"]
+    pub control: [u16; 4usize],
+    #[doc = "< Background scroll registers"]
+    pub scroll: [bg_scroll; 4usize],
+    #[doc = "< Background 2 affine matrix"]
+    pub bg2_rotation: bg_transform,
+    #[doc = "< Background 3 affine matrix"]
+    pub bg3_rotation: bg_transform,
+}
+#[doc = " \\brief Overlay for 8-bit tile map entries"]
+#[repr(C)]
+pub struct TileMapEntry8 {
+    pub index: u8,
+}
+#[doc = " \\brief Overlay for 16-bit tile map entries"]
+#[repr(C, packed)]
+pub struct TileMapEntry16 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u16>,
+}
+impl TileMapEntry16 {
+    #[inline]
+    pub fn index(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 10u8) as u16) }
+    }
+    #[inline]
+    pub fn set_index(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(0usize, 10u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn hflip(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(10usize, 1u8) as u16) }
+    }
+    #[inline]
+    pub fn set_hflip(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(10usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn vflip(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(11usize, 1u8) as u16) }
+    }
+    #[inline]
+    pub fn set_vflip(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(11usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn palette(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(12usize, 4u8) as u16) }
+    }
+    #[inline]
+    pub fn set_palette(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(12usize, 4u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(
+        index: u16,
+        hflip: u16,
+        vflip: u16,
+        palette: u16,
+    ) -> __BindgenBitfieldUnit<[u8; 2usize], u16> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u16> =
+            Default::default();
+        __bindgen_bitfield_unit.set(0usize, 10u8, {
+            let index: u16 = unsafe { ::core::mem::transmute(index) };
+            index as u64
+        });
+        __bindgen_bitfield_unit.set(10usize, 1u8, {
+            let hflip: u16 = unsafe { ::core::mem::transmute(hflip) };
+            hflip as u64
+        });
+        __bindgen_bitfield_unit.set(11usize, 1u8, {
+            let vflip: u16 = unsafe { ::core::mem::transmute(vflip) };
+            vflip as u64
+        });
+        __bindgen_bitfield_unit.set(12usize, 4u8, {
+            let palette: u16 = unsafe { ::core::mem::transmute(palette) };
+            palette as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[doc = "< \\brief 32 x 32 tile text background"]
+pub const BG_32x32: BackgroundControl = 0;
+#[doc = "< \\brief 64 x 32 tile text background"]
+pub const BG_64x32: BackgroundControl = 16384;
+#[doc = "< \\brief 32 x 64 tile text background"]
+pub const BG_32x64: BackgroundControl = 32768;
+#[doc = "< \\brief 64 x 64 tile text background"]
+pub const BG_64x64: BackgroundControl = 49152;
+#[doc = "< \\brief 16 x 16 tile affine (rotation & scale) background"]
+pub const BG_RS_16x16: BackgroundControl = 0;
+#[doc = "< \\brief 32 x 32 tile affine (rotation & scale) background"]
+pub const BG_RS_32x32: BackgroundControl = 16384;
+#[doc = "< \\brief 64 x 64 tile affine (rotation & scale) background"]
+pub const BG_RS_64x64: BackgroundControl = 32768;
+#[doc = "< \\brief 128 x 128 tile affine (rotation & scale) background"]
+pub const BG_RS_128x128: BackgroundControl = 49152;
+#[doc = "< \\brief 128x128 pixel 8-bit bitmapped background"]
+pub const BG_BMP8_128x128: BackgroundControl = 128;
+#[doc = "< \\brief 256x256 pixel 8-bit bitmapped background"]
+pub const BG_BMP8_256x256: BackgroundControl = 16512;
+#[doc = "< \\brief 512x256 pixel 8-bit bitmapped background"]
+pub const BG_BMP8_512x256: BackgroundControl = 32896;
+#[doc = "< \\brief 512 pixel 8-bit bitmapped background"]
+pub const BG_BMP8_512x512: BackgroundControl = 49280;
+#[doc = "< \\brief 1024x512 pixel 8-bit Large bitmapped background (Mode 6 of main engine only)"]
+pub const BG_BMP8_1024x512: BackgroundControl = 16384;
+#[doc = "< \\brief 512x1024 pixel 8-bit Large bitmapped background (Mode 6 of main engine only)"]
+pub const BG_BMP8_512x1024: BackgroundControl = 0;
+#[doc = "< \\brief 128x128 pixel 16-bit bitmapped background"]
+pub const BG_BMP16_128x128: BackgroundControl = 132;
+#[doc = "< \\brief 256x256 pixel 16-bit bitmapped background"]
+pub const BG_BMP16_256x256: BackgroundControl = 16516;
+#[doc = "< \\brief 512x256 pixel 16-bit bitmapped background"]
+pub const BG_BMP16_512x256: BackgroundControl = 32900;
+#[doc = "< \\brief 512x512 pixel 16-bit bitmapped background"]
+pub const BG_BMP16_512x512: BackgroundControl = 49284;
+#[doc = "< \\brief mosaic enable"]
+pub const BG_MOSAIC_ON: BackgroundControl = 64;
+#[doc = "< \\brief mosaic disable"]
+pub const BG_MOSAIC_OFF: BackgroundControl = 0;
+#[doc = "< \\brief Lower priority will be rendered on top"]
+pub const BG_PRIORITY_0: BackgroundControl = 0;
+#[doc = "< \\brief Lower priority will be rendered on top"]
+pub const BG_PRIORITY_1: BackgroundControl = 1;
+#[doc = "< \\brief Lower priority will be rendered on top"]
+pub const BG_PRIORITY_2: BackgroundControl = 2;
+#[doc = "< \\brief Lower priority will be rendered on top"]
+pub const BG_PRIORITY_3: BackgroundControl = 3;
+#[doc = "< \\brief Disable wrapping (no effect on text backgrounds...always wrapped)"]
+pub const BG_WRAP_OFF: BackgroundControl = 0;
+#[doc = "< \\brief Enable wrapping (no effect on text backgrounds...always wrapped)"]
+pub const BG_WRAP_ON: BackgroundControl = 8192;
+#[doc = "< \\brief Use slot 0 of extended palettes"]
+pub const BG_PALETTE_SLOT0: BackgroundControl = 0;
+#[doc = "< \\brief Use slot 1 of extended palettes"]
+pub const BG_PALETTE_SLOT1: BackgroundControl = 0;
+#[doc = "< \\brief Use slot 2 of extended palettes"]
+pub const BG_PALETTE_SLOT2: BackgroundControl = 8192;
+#[doc = "< \\brief Use slot 3 of extended palettes"]
+pub const BG_PALETTE_SLOT3: BackgroundControl = 8192;
+#[doc = "< \\brief 256 color text background"]
+pub const BG_COLOR_256: BackgroundControl = 128;
+#[doc = "< \\brief 16x16 color text background"]
+pub const BG_COLOR_16: BackgroundControl = 0;
+#[doc = "\t\\brief Bit defines for the background control registers"]
+pub type BackgroundControl = u32;
+#[doc = " \\defgroup background_api_group \"Background API Access\""]
+#[doc = "@{"]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct BgState {
+    pub angle: libc::c_int,
+    pub centerX: s32,
+    pub centerY: s32,
+    pub scaleX: s32,
+    pub scaleY: s32,
+    pub scrollX: s32,
+    pub scrollY: s32,
+    pub size: libc::c_int,
+    pub type_: libc::c_int,
+    pub dirty: bool,
+}
+extern "C" {
+    pub static mut bgControl: [*mut vuint16; 8usize];
+}
+extern "C" {
+    pub static mut bgScrollTable: [*mut bg_scroll; 8usize];
+}
+extern "C" {
+    pub static mut bgTransform: [*mut bg_transform; 8usize];
+}
+extern "C" {
+    pub static mut bgState: [BgState; 8usize];
+}
+#[doc = "!< 8bpp Tiled background with 16 bit tile indexes and no allowed rotation or scaling"]
+pub const BgType_Text8bpp: BgType = 0;
+#[doc = "!< 4bpp Tiled background with 16 bit tile indexes and no allowed rotation or scaling"]
+pub const BgType_Text4bpp: BgType = 1;
+#[doc = "!< Tiled background with 8 bit tile indexes Can be scaled and rotated"]
+pub const BgType_Rotation: BgType = 2;
+#[doc = "!< Tiled background with 16 bit tile indexes Can be scaled and rotated"]
+pub const BgType_ExRotation: BgType = 3;
+#[doc = "!< Bitmap background with 8 bit color values which index into a 256 color palette"]
+pub const BgType_Bmp8: BgType = 4;
+#[doc = "!< Bitmap background with 16 bit color values of the form aBBBBBGGGGGRRRRR (if 'a' is set the pixel will be rendered...if not the pixel will be transparent)"]
+pub const BgType_Bmp16: BgType = 5;
+#[doc = "! Allowed background types, used in bgInit and bgInitSub."]
+pub type BgType = u32;
+#[doc = "< 128 x 128 pixel rotation background"]
+pub const BgSize_R_128x128: BgSize = 0;
+#[doc = "< 256 x 256 pixel rotation background"]
+pub const BgSize_R_256x256: BgSize = 16384;
+#[doc = "< 512 x 512 pixel rotation background"]
+pub const BgSize_R_512x512: BgSize = 32768;
+#[doc = "< 1024 x 1024 pixel rotation background"]
+pub const BgSize_R_1024x1024: BgSize = 49152;
+#[doc = "< 256 x 256 pixel text background"]
+pub const BgSize_T_256x256: BgSize = 65536;
+#[doc = "< 512 x 256 pixel text background"]
+pub const BgSize_T_512x256: BgSize = 81920;
+#[doc = "< 256 x 512 pixel text background"]
+pub const BgSize_T_256x512: BgSize = 98304;
+#[doc = "< 512 x 512 pixel text background"]
+pub const BgSize_T_512x512: BgSize = 114688;
+#[doc = "< 128 x 128 pixel extended rotation background"]
+pub const BgSize_ER_128x128: BgSize = 131072;
+#[doc = "< 256 x 256 pixel extended rotation background"]
+pub const BgSize_ER_256x256: BgSize = 147456;
+#[doc = "< 512 x 512 pixel extended rotation background"]
+pub const BgSize_ER_512x512: BgSize = 163840;
+#[doc = "< 1024 x 1024 extended pixel rotation background"]
+pub const BgSize_ER_1024x1024: BgSize = 180224;
+#[doc = "< 128 x 128 pixel 8 bit bitmap background"]
+pub const BgSize_B8_128x128: BgSize = 196736;
+#[doc = "< 256 x 256 pixel 8 bit bitmap background"]
+pub const BgSize_B8_256x256: BgSize = 213120;
+#[doc = "< 512 x 256 pixel 8 bit bitmap background"]
+pub const BgSize_B8_512x256: BgSize = 229504;
+#[doc = "< 512 x 512 pixel 8 bit bitmap background"]
+pub const BgSize_B8_512x512: BgSize = 245888;
+#[doc = "< 1024 x 512 pixel 8 bit bitmap background"]
+pub const BgSize_B8_1024x512: BgSize = 212992;
+#[doc = "< 512 x 1024 pixel 8 bit bitmap background"]
+pub const BgSize_B8_512x1024: BgSize = 196608;
+#[doc = "< 128 x 128 pixel 16 bit bitmap background"]
+pub const BgSize_B16_128x128: BgSize = 262276;
+#[doc = "< 256 x 256 pixel 16 bit bitmap background"]
+pub const BgSize_B16_256x256: BgSize = 278660;
+#[doc = "< 512 x 512 pixel 16 bit bitmap background"]
+pub const BgSize_B16_512x256: BgSize = 295044;
+#[doc = "< 1024 x 1024 pixel 16 bit bitmap background"]
+pub const BgSize_B16_512x512: BgSize = 311428;
+#[doc = " \\brief Allowed background Sizes"]
+#[doc = " The lower 16 bits of these defines can be used directly to set the background control register bits"]
+#[doc = " \\ingroup api_group"]
+pub type BgSize = u32;
+extern "C" {
+    pub fn bgIsText(id: libc::c_int) -> bool;
+}
+extern "C" {
+    pub fn bgInit_call(
+        layer: libc::c_int,
+        type_: BgType,
+        size: BgSize,
+        mapBase: libc::c_int,
+        tileBase: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn bgInitSub_call(
+        layer: libc::c_int,
+        type_: BgType,
+        size: BgSize,
+        mapBase: libc::c_int,
+        tileBase: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Must be called once per frame to update scroll/scale/and rotation of backgrounds."]
+    pub fn bgUpdate();
+}
+extern "C" {
+    pub fn IC_InvalidateAll();
+}
+extern "C" {
+    pub fn IC_InvalidateRange(base: *const libc::c_void, size: u32);
+}
+extern "C" {
+    pub fn DC_FlushAll();
+}
+extern "C" {
+    pub fn DC_FlushRange(base: *const libc::c_void, size: u32);
+}
+extern "C" {
+    pub fn DC_InvalidateAll();
+}
+extern "C" {
+    pub fn DC_InvalidateRange(base: *const libc::c_void, size: u32);
+}
+extern "C" {
+    pub fn sinLerp(angle: s16) -> s16;
+}
+extern "C" {
+    pub fn cosLerp(angle: s16) -> s16;
+}
+extern "C" {
+    pub fn tanLerp(angle: s16) -> s32;
+}
+extern "C" {
+    pub fn asinLerp(par: s16) -> s16;
+}
+extern "C" {
+    pub fn acosLerp(par: s16) -> s16;
+}
+pub type fixed12d3 = uint16;
+pub type t16 = libc::c_short;
+pub type v16 = libc::c_short;
+pub type v10 = libc::c_short;
+pub type rgb = libc::c_ushort;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct m3x3 {
+    pub m: [libc::c_int; 9usize],
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct m4x4 {
+    pub m: [libc::c_int; 16usize],
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct m4x3 {
+    pub m: [libc::c_int; 12usize],
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct GLvector {
+    pub x: libc::c_int,
+    pub y: libc::c_int,
+    pub z: libc::c_int,
+}
+pub const GL_TRIANGLES: GL_GLBEGIN_ENUM = 0;
+pub const GL_QUADS: GL_GLBEGIN_ENUM = 1;
+pub const GL_TRIANGLE_STRIP: GL_GLBEGIN_ENUM = 2;
+pub const GL_QUAD_STRIP: GL_GLBEGIN_ENUM = 3;
+pub const GL_TRIANGLE: GL_GLBEGIN_ENUM = 0;
+pub const GL_QUAD: GL_GLBEGIN_ENUM = 1;
+pub type GL_GLBEGIN_ENUM = u32;
+pub const GL_PROJECTION: GL_MATRIX_MODE_ENUM = 0;
+pub const GL_POSITION: GL_MATRIX_MODE_ENUM = 1;
+pub const GL_MODELVIEW: GL_MATRIX_MODE_ENUM = 2;
+pub const GL_TEXTURE: GL_MATRIX_MODE_ENUM = 3;
+pub type GL_MATRIX_MODE_ENUM = u32;
+pub const GL_AMBIENT: GL_MATERIALS_ENUM = 1;
+pub const GL_DIFFUSE: GL_MATERIALS_ENUM = 2;
+pub const GL_AMBIENT_AND_DIFFUSE: GL_MATERIALS_ENUM = 3;
+pub const GL_SPECULAR: GL_MATERIALS_ENUM = 4;
+pub const GL_SHININESS: GL_MATERIALS_ENUM = 8;
+pub const GL_EMISSION: GL_MATERIALS_ENUM = 16;
+pub type GL_MATERIALS_ENUM = u32;
+pub const POLY_FORMAT_LIGHT0: GL_POLY_FORMAT_ENUM = 1;
+pub const POLY_FORMAT_LIGHT1: GL_POLY_FORMAT_ENUM = 2;
+pub const POLY_FORMAT_LIGHT2: GL_POLY_FORMAT_ENUM = 4;
+pub const POLY_FORMAT_LIGHT3: GL_POLY_FORMAT_ENUM = 8;
+pub const POLY_MODULATION: GL_POLY_FORMAT_ENUM = 0;
+pub const POLY_DECAL: GL_POLY_FORMAT_ENUM = 16;
+pub const POLY_TOON_HIGHLIGHT: GL_POLY_FORMAT_ENUM = 32;
+pub const POLY_SHADOW: GL_POLY_FORMAT_ENUM = 48;
+pub const POLY_CULL_FRONT: GL_POLY_FORMAT_ENUM = 64;
+pub const POLY_CULL_BACK: GL_POLY_FORMAT_ENUM = 128;
+pub const POLY_CULL_NONE: GL_POLY_FORMAT_ENUM = 192;
+pub const POLY_FOG: GL_POLY_FORMAT_ENUM = 32768;
+pub type GL_POLY_FORMAT_ENUM = u32;
+pub const TEXTURE_SIZE_8: GL_TEXTURE_SIZE_ENUM = 0;
+pub const TEXTURE_SIZE_16: GL_TEXTURE_SIZE_ENUM = 1;
+pub const TEXTURE_SIZE_32: GL_TEXTURE_SIZE_ENUM = 2;
+pub const TEXTURE_SIZE_64: GL_TEXTURE_SIZE_ENUM = 3;
+pub const TEXTURE_SIZE_128: GL_TEXTURE_SIZE_ENUM = 4;
+pub const TEXTURE_SIZE_256: GL_TEXTURE_SIZE_ENUM = 5;
+pub const TEXTURE_SIZE_512: GL_TEXTURE_SIZE_ENUM = 6;
+pub const TEXTURE_SIZE_1024: GL_TEXTURE_SIZE_ENUM = 7;
+pub type GL_TEXTURE_SIZE_ENUM = u32;
+pub const GL_TEXTURE_WRAP_S: GL_TEXTURE_PARAM_ENUM = 65536;
+pub const GL_TEXTURE_WRAP_T: GL_TEXTURE_PARAM_ENUM = 131072;
+pub const GL_TEXTURE_FLIP_S: GL_TEXTURE_PARAM_ENUM = 262144;
+pub const GL_TEXTURE_FLIP_T: GL_TEXTURE_PARAM_ENUM = 524288;
+pub const GL_TEXTURE_COLOR0_TRANSPARENT: GL_TEXTURE_PARAM_ENUM = 536870912;
+pub const TEXGEN_OFF: GL_TEXTURE_PARAM_ENUM = 0;
+pub const TEXGEN_TEXCOORD: GL_TEXTURE_PARAM_ENUM = 1073741824;
+pub const TEXGEN_NORMAL: GL_TEXTURE_PARAM_ENUM = -2147483648;
+pub const TEXGEN_POSITION: GL_TEXTURE_PARAM_ENUM = -1073741824;
+pub type GL_TEXTURE_PARAM_ENUM = i32;
+pub const GL_NOTEXTURE: GL_TEXTURE_TYPE_ENUM = 0;
+pub const GL_RGB32_A3: GL_TEXTURE_TYPE_ENUM = 1;
+pub const GL_RGB4: GL_TEXTURE_TYPE_ENUM = 2;
+pub const GL_RGB16: GL_TEXTURE_TYPE_ENUM = 3;
+pub const GL_RGB256: GL_TEXTURE_TYPE_ENUM = 4;
+pub const GL_COMPRESSED: GL_TEXTURE_TYPE_ENUM = 5;
+pub const GL_RGB8_A5: GL_TEXTURE_TYPE_ENUM = 6;
+pub const GL_RGBA: GL_TEXTURE_TYPE_ENUM = 7;
+pub const GL_RGB: GL_TEXTURE_TYPE_ENUM = 8;
+pub type GL_TEXTURE_TYPE_ENUM = u32;
+pub const GL_COLOR_TABLE_FORMAT_EXT: GL_TEXTURE_PALETTE_PARAM_ENUM = 0;
+pub const GL_COLOR_TABLE_WIDTH_EXT: GL_TEXTURE_PALETTE_PARAM_ENUM = 1;
+pub type GL_TEXTURE_PALETTE_PARAM_ENUM = u32;
+pub const GL_TEXTURE_2D: DISP3DCNT_ENUM = 1;
+pub const GL_TOON_HIGHLIGHT: DISP3DCNT_ENUM = 2;
+pub const GL_ALPHA_TEST: DISP3DCNT_ENUM = 4;
+pub const GL_BLEND: DISP3DCNT_ENUM = 8;
+pub const GL_ANTIALIAS: DISP3DCNT_ENUM = 16;
+pub const GL_OUTLINE: DISP3DCNT_ENUM = 32;
+pub const GL_FOG_ONLY_ALPHA: DISP3DCNT_ENUM = 64;
+pub const GL_FOG: DISP3DCNT_ENUM = 128;
+pub const GL_COLOR_UNDERFLOW: DISP3DCNT_ENUM = 4096;
+pub const GL_POLY_OVERFLOW: DISP3DCNT_ENUM = 8192;
+pub const GL_CLEAR_BMP: DISP3DCNT_ENUM = 16384;
+pub type DISP3DCNT_ENUM = u32;
+pub const GL_GET_VERTEX_RAM_COUNT: GL_GET_ENUM = 0;
+pub const GL_GET_POLYGON_RAM_COUNT: GL_GET_ENUM = 1;
+pub const GL_GET_MATRIX_VECTOR: GL_GET_ENUM = 2;
+pub const GL_GET_MATRIX_POSITION: GL_GET_ENUM = 3;
+pub const GL_GET_MATRIX_PROJECTION: GL_GET_ENUM = 4;
+pub const GL_GET_MATRIX_CLIP: GL_GET_ENUM = 5;
+pub const GL_GET_TEXTURE_WIDTH: GL_GET_ENUM = 6;
+pub const GL_GET_TEXTURE_HEIGHT: GL_GET_ENUM = 7;
+pub type GL_GET_ENUM = u32;
+pub const GL_TRANS_MANUALSORT: GLFLUSH_ENUM = 1;
+pub const GL_WBUFFERING: GLFLUSH_ENUM = 2;
+pub type GLFLUSH_ENUM = u32;
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct s_SingleBlock {
+    pub indexOut: uint32,
+    pub AddrSet: *mut uint8,
+    pub node: [*mut s_SingleBlock; 4usize],
+    pub blockSize: uint32,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct s_vramBlock {
+    pub startAddr: *mut uint8,
+    pub endAddr: *mut uint8,
+    pub firstBlock: *mut s_SingleBlock,
+    pub firstEmpty: *mut s_SingleBlock,
+    pub firstAlloc: *mut s_SingleBlock,
+    pub lastExamined: *mut s_SingleBlock,
+    pub lastExaminedAddr: *mut uint8,
+    pub lastExaminedSize: uint32,
+    pub blockPtrs: DynamicArray,
+    pub deallocBlocks: DynamicArray,
+    pub blockCount: uint32,
+    pub deallocCount: uint32,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct gl_texture_data {
+    pub vramAddr: *mut libc::c_void,
+    pub texIndex: uint32,
+    pub texIndexExt: uint32,
+    pub palIndex: libc::c_int,
+    pub texFormat: uint32,
+    pub texSize: uint32,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct gl_palette_data {
+    pub vramAddr: *mut libc::c_void,
+    pub palIndex: uint32,
+    pub addr: uint16,
+    pub palSize: uint16,
+    pub connectCount: uint32,
+}
+#[repr(C)]
+pub struct gl_hidden_globals {
+    pub matrixMode: GL_MATRIX_MODE_ENUM,
+    pub vramBlocks: [*mut s_vramBlock; 2usize],
+    pub vramLock: [libc::c_int; 2usize],
+    pub texturePtrs: DynamicArray,
+    pub palettePtrs: DynamicArray,
+    pub deallocTex: DynamicArray,
+    pub deallocPal: DynamicArray,
+    pub deallocTexSize: uint32,
+    pub deallocPalSize: uint32,
+    pub activeTexture: libc::c_int,
+    pub activePalette: libc::c_int,
+    pub texCount: libc::c_int,
+    pub palCount: libc::c_int,
+    pub clearColor: u32,
+    pub isActive: uint8,
+}
+extern "C" {
+    pub static mut glGlobalData: gl_hidden_globals;
+}
+extern "C" {
+    pub static mut glGlob: *mut gl_hidden_globals;
+}
+extern "C" {
+    pub fn glRotatef32i(angle: libc::c_int, x: int32, y: int32, z: int32);
+}
+extern "C" {
+    pub fn glTexImage2D(
+        target: libc::c_int,
+        empty1: libc::c_int,
+        type_: GL_TEXTURE_TYPE_ENUM,
+        sizeX: libc::c_int,
+        sizeY: libc::c_int,
+        empty2: libc::c_int,
+        param: libc::c_int,
+        texture: *const libc::c_void,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn glColorTableEXT(
+        target: libc::c_int,
+        empty1: libc::c_int,
+        width: uint16,
+        empty2: libc::c_int,
+        empty3: libc::c_int,
+        table: *const uint16,
+    );
+}
+extern "C" {
+    pub fn glColorSubTableEXT(
+        target: libc::c_int,
+        start: libc::c_int,
+        count: libc::c_int,
+        empty1: libc::c_int,
+        empty2: libc::c_int,
+        data: *const uint16,
+    );
+}
+extern "C" {
+    pub fn glGetColorTableEXT(
+        target: libc::c_int,
+        empty1: libc::c_int,
+        empty2: libc::c_int,
+        table: *mut uint16,
+    );
+}
+extern "C" {
+    pub fn glAssignColorTable(target: libc::c_int, name: libc::c_int);
+}
+extern "C" {
+    pub fn glTexParameter(target: libc::c_int, param: libc::c_int);
+}
+extern "C" {
+    pub fn glGetTexParameter() -> u32;
+}
+extern "C" {
+    pub fn glGetColorTableParameterEXT(
+        target: libc::c_int,
+        pname: libc::c_int,
+        params: *mut libc::c_int,
+    );
+}
+extern "C" {
+    pub fn glGetTexturePointer(name: libc::c_int) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn glBindTexture(target: libc::c_int, name: libc::c_int);
+}
+extern "C" {
+    pub fn glGenTextures(n: libc::c_int, names: *mut libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn glDeleteTextures(n: libc::c_int, names: *mut libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn glResetTextures();
+}
+extern "C" {
+    pub fn glLockVRAMBank(addr: *mut uint16) -> libc::c_int;
+}
+extern "C" {
+    pub fn glUnlockVRAMBank(addr: *mut uint16) -> libc::c_int;
+}
+extern "C" {
+    pub fn glTexCoord2f32(u: int32, v: int32);
+}
+extern "C" {
+    pub fn glMaterialf(mode: GL_MATERIALS_ENUM, color: rgb);
+}
+extern "C" {
+    pub fn glInit_C();
+}
+extern "C" {
+    pub fn glGetGlobals() -> *mut gl_hidden_globals;
+}
+extern "C" {
+    #[doc = "\t\\brief Performs a test to determine if the provided box is in the view frustrum."]
+    #[doc = "\\param x (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param y (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param z (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param height (height, width, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param width (height, width, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param depth (height, width, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = ""]
+    #[doc = "\\return non zero if any or all of the box is in the view frustum."]
+    pub fn BoxTest(x: v16, y: v16, z: v16, width: v16, height: v16, depth: v16) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Performs a test to determine if the provided box is in the view frustum."]
+    #[doc = "\\param x (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param y (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param z (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param width (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param height (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param depth (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = ""]
+    #[doc = "\\return non zero if any or all of the box is in the view frustum."]
+    pub fn BoxTestf(x: f32, y: f32, z: f32, width: f32, height: f32, depth: f32) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Performs a test to determine if the provided box is in the view frustum."]
+    #[doc = "Performs a test to determine if the provided box is in the view frustum."]
+    #[doc = "BoxTestResult must be called to get the result of this operation."]
+    #[doc = ""]
+    #[doc = "\\param x (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param y (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param z (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param width (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param height (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param depth (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    pub fn BoxTest_Asynch(x: v16, y: v16, z: v16, height: v16, width: v16, depth: v16);
+}
+extern "C" {
+    #[doc = "\t\\brief Performs a test to determine if the provided box is in the view frustum."]
+    #[doc = "Performs a test to determine if the provided box is in the view frustum."]
+    #[doc = "BoxTestResult must be called to get the result of this operation."]
+    #[doc = ""]
+    #[doc = "\\param x (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param y (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param z (x, y, z) point of a vertex on the box"]
+    #[doc = "\\param width (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param height (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    #[doc = "\\param depth (width, height, depth) describe the size of the box referenced from (x, y, z)"]
+    pub fn BoxTestf_Asynch(x: f32, y: f32, z: f32, width: f32, height: f32, depth: f32);
+}
+extern "C" {
+    #[doc = "\t\\brief Gets the result of the last box test. Needed for asynch box test calls."]
+    #[doc = "\\return non zero if any or all of the box is in the view frustum."]
+    pub fn BoxTestResult() -> libc::c_int;
+}
+pub type ConsolePrint =
+    ::core::option::Option<unsafe extern "C" fn(con: *mut libc::c_void, c: libc::c_char) -> bool>;
+#[doc = "! a font struct for the console."]
+#[repr(C)]
+pub struct ConsoleFont {
+    #[doc = "!< A pointer to the font graphics (will be loaded by consoleInit() if loadGraphics is true"]
+    pub gfx: *mut u16,
+    #[doc = "!< A pointer to the font palette (will be loaded by consoleInit() if loadGraphics is true"]
+    pub pal: *mut u16,
+    #[doc = "!< Number of colors in the font palette"]
+    pub numColors: u16,
+    #[doc = "!< Bits per pixel in the font graphics"]
+    pub bpp: u8,
+    #[doc = "!<  Offset to the first valid character in the font table"]
+    pub asciiOffset: u16,
+    #[doc = "!< Number of characters in the font graphics"]
+    pub numChars: u16,
+    #[doc = "< If true font is treated as a single color font where all non zero pixels are set to"]
+    #[doc = "a value of 15 or 255 (4bpp / 8bpp respectivly)."]
+    #[doc = "This ensures only one palette entry is utilized for font rendering."]
+    pub convertSingleColor: bool,
+}
+#[doc = " \\brief console structure used to store the state of a console render context."]
+#[doc = ""]
+#[doc = "Default values from consoleGetDefault();"]
+#[doc = "<div class=\"fixedFont\"><pre>"]
+#[doc = "PrintConsole defaultConsole ="]
+#[doc = "{"]
+#[doc = "{"]
+#[doc = "(u16*)default_font_bin, //font gfx"]
+#[doc = "0, //font palette"]
+#[doc = "0, //font color count"]
+#[doc = "4, //bpp"]
+#[doc = "0, //first ascii character in the set"]
+#[doc = "128, //number of characters in the font set"]
+#[doc = "true, //convert to single color"]
+#[doc = "},"]
+#[doc = "0, //font background map"]
+#[doc = "0, //font background gfx"]
+#[doc = "31, //map base"]
+#[doc = "0, //char base"]
+#[doc = "0, //bg layer in use"]
+#[doc = "-1, //bg id"]
+#[doc = "0,0, //cursorX cursorY"]
+#[doc = "0,0, //prevcursorX prevcursorY"]
+#[doc = "32, //console width"]
+#[doc = "24, //console height"]
+#[doc = "0,  //window x"]
+#[doc = "0,  //window y"]
+#[doc = "32, //window width"]
+#[doc = "24, //window height"]
+#[doc = "3, //tab size"]
+#[doc = "0, //font character offset"]
+#[doc = "0, //selected palette"]
+#[doc = "0,  //print callback"]
+#[doc = "false, //console initialized"]
+#[doc = "true, //load graphics"]
+#[doc = "};"]
+#[doc = "</pre></div>"]
+#[repr(C)]
+pub struct PrintConsole {
+    #[doc = "!< font of the console."]
+    pub font: ConsoleFont,
+    #[doc = "< Pointer to the bg layer map if used.  Is set by bgInit if bgId is valid"]
+    pub fontBgMap: *mut u16,
+    #[doc = "< Pointer to the bg layer graphics if used.  Is set by bgInit if bgId is valid"]
+    pub fontBgGfx: *mut u16,
+    #[doc = "< Map base set by console init based on background setup"]
+    pub mapBase: u8,
+    #[doc = "< Tile graphics base set by console init based on background setup"]
+    pub gfxBase: u8,
+    #[doc = "< Bg layer used by the background"]
+    pub bgLayer: u8,
+    #[doc = "< bgId, should be set with a call to bgInit() or bgInitSub()"]
+    pub bgId: libc::c_int,
+    #[doc = "< Current X location of the cursor (as a tile offset by default)"]
+    pub cursorX: libc::c_int,
+    #[doc = "< Current Y location of the cursor (as a tile offset by default)"]
+    pub cursorY: libc::c_int,
+    #[doc = "< Internal state"]
+    pub prevCursorX: libc::c_int,
+    #[doc = "< Internal state"]
+    pub prevCursorY: libc::c_int,
+    #[doc = "< Width of the console hardware layer in tiles"]
+    pub consoleWidth: libc::c_int,
+    #[doc = "< Height of the console hardware layer in tiles"]
+    pub consoleHeight: libc::c_int,
+    #[doc = "< Window X location in tiles (not implemented)"]
+    pub windowX: libc::c_int,
+    #[doc = "< Window Y location in tiles (not implemented)"]
+    pub windowY: libc::c_int,
+    #[doc = "< Window width in tiles (not implemented)"]
+    pub windowWidth: libc::c_int,
+    #[doc = "< Window height in tiles (not implemented)"]
+    pub windowHeight: libc::c_int,
+    #[doc = "< Size of a tab"]
+    pub tabSize: libc::c_int,
+    #[doc = "< Offset to the first graphics tile in background memory (in case your font is not loaded at a graphics base boundary)"]
+    pub fontCharOffset: u16,
+    #[doc = "< The current palette used by the engine (only applies to 4bpp text backgrounds)"]
+    pub fontCurPal: u16,
+    #[doc = "< callback for printing a character. Should return true if it has handled rendering the graphics"]
+    #[doc = "(else the print engine will attempt to render via tiles)"]
+    pub PrintChar: ConsolePrint,
+    #[doc = "< True if the console is initialized"]
+    pub consoleInitialised: bool,
+    #[doc = "< True if consoleInit should attempt to load font graphics into background memory"]
+    pub loadGraphics: bool,
+}
+#[doc = "!< swallows prints to stderr"]
+pub const DebugDevice_NULL: DebugDevice = 0;
+#[doc = "!< Directs stderr debug statements to no$gba debug window"]
+pub const DebugDevice_NOCASH: DebugDevice = 1;
+#[doc = "!< Directs stderr debug statements to DS console window"]
+pub const DebugDevice_CONSOLE: DebugDevice = 2;
+#[doc = "! Console debug devices supported by libnds."]
+pub type DebugDevice = u32;
+extern "C" {
+    #[doc = "\t\\brief Loads the font into the console"]
+    #[doc = "\\param console pointer to the console to update, if NULL it will update the current console"]
+    #[doc = "\\param font the font to load"]
+    pub fn consoleSetFont(console: *mut PrintConsole, font: *mut ConsoleFont);
+}
+extern "C" {
+    #[doc = "\t\\brief Sets the print window"]
+    #[doc = "\\param console console to set, if NULL it will set the current console window"]
+    #[doc = "\\param x x location of the window"]
+    #[doc = "\\param y y location of the window"]
+    #[doc = "\\param width width of the window"]
+    #[doc = "\\param height height of the window"]
+    pub fn consoleSetWindow(
+        console: *mut PrintConsole,
+        x: libc::c_int,
+        y: libc::c_int,
+        width: libc::c_int,
+        height: libc::c_int,
+    );
+}
+extern "C" {
+    #[doc = "\t\\brief Gets a pointer to the console with the default values"]
+    #[doc = "this should only be used when using a single console or without changing the console that is returned, other wise use consoleInit()"]
+    #[doc = "\\return A pointer to the console with the default values"]
+    pub fn consoleGetDefault() -> *mut PrintConsole;
+}
+extern "C" {
+    #[doc = "\t\\brief Make the specified console the render target"]
+    #[doc = "\\param console A pointer to the console struct (must have been initialized with consoleInit(PrintConsole* console)"]
+    #[doc = "\\return a pointer to the previous console"]
+    pub fn consoleSelect(console: *mut PrintConsole) -> *mut PrintConsole;
+}
+extern "C" {
+    #[doc = "\t\\brief Initialise the console."]
+    #[doc = "\\param console A pointer to the console data to initialze (if it's NULL, the default console will be used)"]
+    #[doc = "\\param layer background layer to use"]
+    #[doc = "\\param type the type of the background"]
+    #[doc = "\\param size the size of the background"]
+    #[doc = "\\param mapBase the map base"]
+    #[doc = "\\param tileBase the tile graphics base"]
+    #[doc = "\\param mainDisplay if true main engine is used, otherwise false"]
+    #[doc = "\\param loadGraphics if true the default font graphics will be loaded into the layer"]
+    #[doc = "\\return A pointer to the current console."]
+    pub fn consoleInit(
+        console: *mut PrintConsole,
+        layer: libc::c_int,
+        type_: BgType,
+        size: BgSize,
+        mapBase: libc::c_int,
+        tileBase: libc::c_int,
+        mainDisplay: bool,
+        loadGraphics: bool,
+    ) -> *mut PrintConsole;
+}
+extern "C" {
+    #[doc = "\t\\brief Initialize the console to a default state for prototyping."]
+    #[doc = "This function sets the console to use sub display, VRAM_C, and BG0 and enables MODE_0_2D on the"]
+    #[doc = "sub display.  It is intended for use in prototyping applications which need print ability and not actual"]
+    #[doc = "game use.  Print functionality can be utilized with just this call."]
+    #[doc = "\\return A pointer to the current PrintConsole."]
+    pub fn consoleDemoInit() -> *mut PrintConsole;
+}
+extern "C" {
+    #[doc = "! Clears the screan by using iprintf(\"\\x1b[2J\");"]
+    pub fn consoleClear();
+}
+extern "C" {
+    #[doc = "\t\\brief Initializes debug console output on stderr to the specified device"]
+    #[doc = "\\param device The debug device (or devices) to output debug print statements to"]
+    pub fn consoleDebugInit(device: DebugDevice);
+}
+#[doc = "!< LZ77 decompression."]
+pub const LZ77: DecompressType = 0;
+#[doc = "!< vram safe LZ77 decompression."]
+pub const LZ77Vram: DecompressType = 1;
+#[doc = "!< vram safe huff decompression."]
+pub const HUFF: DecompressType = 2;
+#[doc = "!< run length encoded decompression."]
+pub const RLE: DecompressType = 3;
+#[doc = "!< vram safe run length encoded decompression."]
+pub const RLEVram: DecompressType = 4;
+#[doc = "! the types of decompression available."]
+pub type DecompressType = u32;
+extern "C" {
+    #[doc = "\\brief decompresses data using the suported type"]
+    #[doc = "\\param dst the destination to decompress to"]
+    #[doc = "\\param data the data to decompress"]
+    #[doc = "\\param type the type of data to decompress"]
+    pub fn decompress(data: *const libc::c_void, dst: *mut libc::c_void, type_: DecompressType);
+}
+extern "C" {
+    #[doc = "\\brief decompresses data using the suported type (only LZ77Vram, HUFF, and RLEVram support streaming)"]
+    #[doc = "\\param dst the destination to decompress to."]
+    #[doc = "\\param data the data to decompress."]
+    #[doc = "\\param type the type of data to decompress."]
+    #[doc = "\\param readCB a callback to read the next byte of data."]
+    #[doc = "\\param getHeaderCB a callback to read the 32 byte header."]
+    pub fn decompressStream(
+        data: *const libc::c_void,
+        dst: *mut libc::c_void,
+        type_: DecompressType,
+        readCB: getByteCallback,
+        getHeaderCB: getHeaderCallback,
+    );
+}
+extern "C" {
+    pub static mut exceptionC: [VoidFn; 0usize];
+}
+extern "C" {
+    pub static mut exceptionStack: u32;
+}
+extern "C" {
+    pub static mut exceptionRegisters: [s32; 0usize];
+}
+extern "C" {
+    pub fn enterException();
+}
+extern "C" {
+    #[doc = "! sets a custom hardware exception handler."]
+    pub fn setExceptionHandler(handler: VoidFn);
+}
+extern "C" {
+    #[doc = "! sets the default hardware exception handler."]
+    pub fn defaultExceptionHandler();
+}
+extern "C" {
+    #[doc = "! returns the cpu status register."]
+    pub fn getCPSR() -> u32;
+}
+extern "C" {
+    #[doc = " \\fn bool guitarGripIsInserted()"]
+    #[doc = "\\brief Check for the guitar grip"]
+    #[doc = "\\return true if that's what is in the slot-2"]
+    pub fn guitarGripIsInserted() -> bool;
+}
+extern "C" {
+    #[doc = " \\fn void guitarGripScanKeys()"]
+    #[doc = "\\brief Obtain the current guitar grip state."]
+    #[doc = "Call this function once per main loop to use the guitarGrip functions."]
+    pub fn guitarGripScanKeys();
+}
+extern "C" {
+    #[doc = "! Obtains the current guitar grip keys held state"]
+    pub fn guitarGripKeysHeld() -> u8;
+}
+extern "C" {
+    #[doc = "! Obtains the current guitar grip keys pressed state"]
+    pub fn guitarGripKeysDown() -> u16;
+}
+extern "C" {
+    #[doc = "! Obtains the current guitar grip keys released state"]
+    pub fn guitarGripKeysUp() -> u16;
+}
+#[doc = "!\t\\brief holds a red green blue triplet"]
+#[repr(C, packed)]
+#[derive(Debug, Copy, Clone)]
+pub struct RGB_24 {
+    #[doc = "!< 8 bits for the red value."]
+    pub r: libc::c_uchar,
+    #[doc = "!< 8 bits for the green value."]
+    pub g: libc::c_uchar,
+    #[doc = "!< 8 bits for the blue value."]
+    pub b: libc::c_uchar,
+}
+#[doc = "!\tA generic image structure."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct sImage {
+    #[doc = "< \\brief The height of the image in pixels"]
+    pub height: libc::c_short,
+    #[doc = "< \\brief The width of the image in pixels"]
+    pub width: libc::c_short,
+    #[doc = "< \\brief Bits per pixel (should be 4 8 16 or 24)"]
+    pub bpp: libc::c_int,
+    #[doc = "< \\brief A pointer to the palette data"]
+    pub palette: *mut libc::c_ushort,
+    pub image: sImage__bindgen_ty_1,
+}
+#[doc = "! A union of data pointers to the pixel data."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct sImage__bindgen_ty_1 {
+    #[doc = "!< pointer to 8 bit data."]
+    pub data8: __BindgenUnionField<*mut u8>,
+    #[doc = "!< pointer to 16 bit data."]
+    pub data16: __BindgenUnionField<*mut u16>,
+    #[doc = "!< pointer to 32 bit data."]
+    pub data32: __BindgenUnionField<*mut u32>,
+    pub bindgen_union_field: u32,
+}
+#[doc = "!\tA generic image structure."]
+pub type psImage = *mut sImage;
+extern "C" {
+    #[doc = " \\brief Destructively converts a 24-bit image to 16-bit"]
+    #[doc = "\\param img a pointer to image to manipulate"]
+    pub fn image24to16(img: *mut sImage);
+}
+extern "C" {
+    #[doc = " \\brief Destructively converts an 8-bit image to 16 bit setting the alpha bit"]
+    #[doc = "\\param img a pointer to image to manipulate"]
+    pub fn image8to16(img: *mut sImage);
+}
+extern "C" {
+    #[doc = " \\brief Destructively converts an 8-bit image to 16-bit with alpha bit cleared for the supplied palette index"]
+    #[doc = "\\param img a pointer to image to manipulate"]
+    #[doc = "\\param transparentColor Color indexes equal to this value will have the alpha bit clear"]
+    pub fn image8to16trans(img: *mut sImage, transparentColor: u8);
+}
+extern "C" {
+    #[doc = " \\brief frees the image data. Only call if the image data was returned from an image loader"]
+    #[doc = "\\param img a pointer to image to manipulate (the image data will be free() )"]
+    pub fn imageDestroy(img: *mut sImage);
+}
+extern "C" {
+    #[doc = " \\brief Tiles 8-bit image data into a sequence of 8x8 tiles"]
+    #[doc = "\\param img a pointer to image to manipulate"]
+    pub fn imageTileData(img: *mut sImage);
+}
+#[repr(C, packed)]
+#[derive(Copy, Clone)]
+pub struct PCXHeader {
+    pub manufacturer: libc::c_char,
+    pub version: libc::c_char,
+    pub encoding: libc::c_char,
+    pub bitsPerPixel: libc::c_char,
+    pub xmin: libc::c_short,
+    pub ymin: libc::c_short,
+    pub xmax: libc::c_short,
+    pub ymax: libc::c_short,
+    pub hres: libc::c_short,
+    pub vres: libc::c_short,
+    pub palette16: [libc::c_char; 48usize],
+    pub reserved: libc::c_char,
+    pub colorPlanes: libc::c_char,
+    pub bytesPerLine: libc::c_short,
+    pub paletteYype: libc::c_short,
+    pub filler: [libc::c_char; 58usize],
+}
+pub type pPCXHeader = *mut PCXHeader;
+extern "C" {
+    pub fn loadPCX(pcx: *const libc::c_uchar, image: *mut sImage) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Obtains the current keypad state."]
+    #[doc = "Call this function once per main loop in order to use the keypad functions."]
+    pub fn scanKeys();
+}
+extern "C" {
+    #[doc = "\t\\brief Obtains the current keypad state."]
+    #[doc = "Call this function to get keypad state without affecting state of other key functions (keysUp keysHeld etc...)"]
+    pub fn keysCurrent() -> uint32;
+}
+extern "C" {
+    #[doc = "!\tObtains the current keypad held state."]
+    pub fn keysHeld() -> uint32;
+}
+extern "C" {
+    #[doc = "!\tObtains the current keypad pressed state."]
+    pub fn keysDown() -> uint32;
+}
+extern "C" {
+    #[doc = "!\tObtains the current keypad pressed or repeating state."]
+    pub fn keysDownRepeat() -> uint32;
+}
+extern "C" {
+    #[doc = "\t\\brief Sets the key repeat parameters."]
+    #[doc = "\\param setDelay Number of %scanKeys calls before keys start to repeat."]
+    #[doc = "\\param setRepeat Number of %scanKeys calls before keys repeat."]
+    pub fn keysSetRepeat(setDelay: u8, setRepeat: u8);
+}
+extern "C" {
+    #[doc = "! Obtains the current keypad released state."]
+    pub fn keysUp() -> uint32;
+}
+extern "C" {
+    pub fn touchReadXY() -> touchPosition;
+}
+extern "C" {
+    #[doc = "\\brief Obtains the current touchpad state."]
+    #[doc = "\\param data a touchPosition ptr which will be filled by the function."]
+    pub fn touchRead(data: *mut touchPosition);
+}
+#[doc = "!callback function pointer for a key changed."]
+pub type KeyChangeCallback = ::core::option::Option<unsafe extern "C" fn(key: libc::c_int)>;
+#[doc = "< Normal keyboard display (lowercase letters)"]
+pub const Lower: KeyboardState = 0;
+#[doc = "< Caps lock Held"]
+pub const Upper: KeyboardState = 1;
+#[doc = "< Numeric only keypad (not provided by the default keyboard)"]
+pub const Numeric: KeyboardState = 2;
+#[doc = "< Reduced footprint keyboard (not provided by the default keyboard)"]
+pub const Reduced: KeyboardState = 3;
+#[doc = "! States the keyboard can be in, currently only Lower and Upper supported."]
+pub type KeyboardState = u32;
+#[doc = "! defines a key mapping."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct KeyMap {
+    #[doc = "< the map for keys pressed"]
+    pub mapDataPressed: *const u16,
+    #[doc = "< the map for keys released"]
+    pub mapDataReleased: *const u16,
+    #[doc = "< the lookup table for x y grid location to corresponding key"]
+    pub keymap: *const libc::c_int,
+    #[doc = "< width of the keyboard in grid spaces"]
+    pub width: libc::c_int,
+    #[doc = "< height of the keyboard in grid spaces"]
+    pub height: libc::c_int,
+}
+#[doc = "! describes a keyboard."]
+#[repr(C)]
+pub struct Keyboard {
+    #[doc = "< Background number to use, after init() this contains the background ID"]
+    pub background: libc::c_int,
+    #[doc = "< boolean to determine if keyboard is on sub screen or main"]
+    pub keyboardOnSub: libc::c_int,
+    #[doc = "< x offset of the map, can be used to center a custom keyboard"]
+    pub offset_x: libc::c_int,
+    #[doc = "< y offset of the map, can be used to center a custom keyboard"]
+    pub offset_y: libc::c_int,
+    #[doc = "< the grid width, this size will be used to translate x coordinate of touch to x coordinate in keymap"]
+    pub grid_width: libc::c_int,
+    #[doc = "< the grid height, this size will be used to translate y coordinate of touch to y coordinate in keymap"]
+    pub grid_height: libc::c_int,
+    #[doc = "< the state of the keyboard"]
+    pub state: KeyboardState,
+    #[doc = "< true if shifted"]
+    pub shifted: libc::c_int,
+    #[doc = "< true if visible"]
+    pub visible: libc::c_int,
+    #[doc = "!< array of 4 keymap pointers, one for every keyboard state."]
+    pub mappings: [*mut KeyMap; 4usize],
+    #[doc = "< pointer to graphics tiles, cannot exceed 44KB with default base"]
+    pub tiles: *const u16,
+    #[doc = "< length in bytes of graphics data"]
+    pub tileLen: u32,
+    #[doc = "< pointer to the palette"]
+    pub palette: *const u16,
+    #[doc = "< length in bytes of the palette data"]
+    pub paletteLen: u32,
+    #[doc = "< map base to be used by the keyboard"]
+    pub mapBase: libc::c_int,
+    #[doc = "< tile base to be used by keyboard graphics"]
+    pub tileBase: libc::c_int,
+    #[doc = "< tile offset (in bytes) to load graphics (map must be preadjusted)"]
+    pub tileOffset: libc::c_int,
+    #[doc = "<keyboard scroll speed on hide and show in pixels per frame (must be positive and 0 == instant on)"]
+    pub scrollSpeed: u32,
+    #[doc = "< will be called on key press"]
+    pub OnKeyPressed: KeyChangeCallback,
+    #[doc = "< will be called on key release"]
+    pub OnKeyReleased: KeyChangeCallback,
+}
+#[doc = "!< will be returned if no key was pressed."]
+pub const NOKEY: Keys = -1;
+#[doc = "!< will be returned if the fold key was pressed (topleft on the default keyboard)."]
+pub const DVK_FOLD: Keys = -23;
+#[doc = "!< will be returned if the tab key was pressed."]
+pub const DVK_TAB: Keys = 9;
+#[doc = "!< will be returned if the backspace key was pressed."]
+pub const DVK_BACKSPACE: Keys = 8;
+#[doc = "!< will be returned if the caps key was pressed."]
+pub const DVK_CAPS: Keys = -15;
+#[doc = "!< will be returned if the shift key was pressed."]
+pub const DVK_SHIFT: Keys = -14;
+#[doc = "!< will be returned if the space key was pressed."]
+pub const DVK_SPACE: Keys = 32;
+#[doc = "!< will be returned if the menu key was pressed."]
+pub const DVK_MENU: Keys = -5;
+#[doc = "!< will be returned if the enter key was pressed."]
+pub const DVK_ENTER: Keys = 10;
+#[doc = "!< will be returned if the ctrl key was pressed."]
+pub const DVK_CTRL: Keys = -16;
+#[doc = "!< will be returned if the up key was pressed."]
+pub const DVK_UP: Keys = -17;
+#[doc = "!< will be returned if the right key was pressed."]
+pub const DVK_RIGHT: Keys = -18;
+#[doc = "!< will be returned if the down key was pressed."]
+pub const DVK_DOWN: Keys = -19;
+#[doc = "!< will be returned if the left key was pressed."]
+pub const DVK_LEFT: Keys = -20;
+#[doc = "!< will be returned if the alt key was pressed."]
+pub const DVK_ALT: Keys = -26;
+#[doc = "\t\\brief enum values for the keyboard control keys."]
+#[doc = "negative values are keys with no sensible ascii representation."]
+#[doc = "numbers are chosen to mimic ascii control sequences."]
+pub type Keys = i32;
+extern "C" {
+    #[doc = "! Gets the default keyboard."]
+    pub fn keyboardGetDefault() -> *mut Keyboard;
+}
+extern "C" {
+    #[doc = "\t\\brief initializes the keyboard system with the supplied keyboard"]
+    #[doc = "\\param keyboard the keyboard struct to initialize (can be NULL)"]
+    #[doc = "\\param layer the background layer to use"]
+    #[doc = "\\param type the background type to initialize"]
+    #[doc = "\\param size the background size to initialize"]
+    #[doc = "\\param mapBase the map base to use for the background"]
+    #[doc = "\\param tileBase the graphics tile base to use for the background"]
+    #[doc = "\\param mainDisplay if true the keyboard will render on the main display"]
+    #[doc = "\\param loadGraphics if true the keyboard graphics will be loaded"]
+    #[doc = "\\return returns the initialized keyboard struct"]
+    pub fn keyboardInit(
+        keyboard: *mut Keyboard,
+        layer: libc::c_int,
+        type_: BgType,
+        size: BgSize,
+        mapBase: libc::c_int,
+        tileBase: libc::c_int,
+        mainDisplay: bool,
+        loadGraphics: bool,
+    ) -> *mut Keyboard;
+}
+extern "C" {
+    #[doc = "\t\\brief initializes the keyboard with default options."]
+    #[doc = "Same as calling keyboardInit(NULL, 3, BgType_Text4bpp, BgSize_T_256x512, 20, 0, false, true)"]
+    #[doc = "\\return a pointer to the current keyboard."]
+    pub fn keyboardDemoInit() -> *mut Keyboard;
+}
+extern "C" {
+    #[doc = "\t\\brief Displays the keyboard."]
+    pub fn keyboardShow();
+}
+extern "C" {
+    #[doc = "\t\\brief Hides the keyboard"]
+    pub fn keyboardHide();
+}
+extern "C" {
+    #[doc = "\t\\brief returns the ascii code for the key located at the supplied x and y."]
+    #[doc = "Will not effect keyboard shift state."]
+    #[doc = "\\param x the pixel x location"]
+    #[doc = "\\param y the pixel y location"]
+    #[doc = "\\return the key pressed or NOKEY if user pressed outside the keypad"]
+    pub fn keyboardGetKey(x: libc::c_int, y: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief reads the input until a the return key is pressed or the maxLen is exceeded."]
+    #[doc = "\\param buffer a buffer to hold the input string"]
+    #[doc = "\\param maxLen the maximum length to read"]
+    pub fn keyboardGetString(buffer: *mut libc::c_char, maxLen: libc::c_int);
+}
+extern "C" {
+    #[doc = "\t\\brief Waits for user to press a key and returns the key pressed."]
+    #[doc = "Use keyboardUpdate instead for async operation."]
+    pub fn keyboardGetChar() -> libc::c_int;
+}
+extern "C" {
+    #[doc = "\t\\brief Processes the keyboard."]
+    #[doc = "Should be called once per frame when using the keyboard in an async manner."]
+    #[doc = "\\return the ascii code of the key pressed or -1 if no key was pressed."]
+    pub fn keyboardUpdate() -> libc::c_int;
+}
+extern "C" {
+    #[doc = " \\fn bool paddleIsInserted()"]
+    #[doc = "\\brief Check for the paddle"]
+    #[doc = "\\return true if that's what is in the slot-2"]
+    pub fn paddleIsInserted() -> bool;
+}
+extern "C" {
+    #[doc = " \\fn void paddleRead()"]
+    #[doc = "\\brief Obtain the current paddle state"]
+    #[doc = "\\return a u16 containing a 12bit number (fixed point fraction), incrementing for clockwise rotations and decrementing for counterclockwise"]
+    pub fn paddleRead() -> u16;
+}
+extern "C" {
+    #[doc = "! Resets the paddle device. May change the current value to 0xFFF, 0x000, or 0x001. May perform other unknown internal reset operations. Normally not needed."]
+    pub fn paddleReset();
+}
+extern "C" {
+    #[doc = " \\fn bool pianoIsInserted()"]
+    #[doc = "\\brief Check for piano option pack."]
+    #[doc = "\\return true if the cart in the GBA slot is the piano option pack."]
+    pub fn pianoIsInserted() -> bool;
+}
+extern "C" {
+    #[doc = " \\fn void pianoScanKeys()"]
+    #[doc = "\\brief Obtain the current piano state."]
+    #[doc = "Call this function once per main loop to use the piano functions."]
+    pub fn pianoScanKeys();
+}
+extern "C" {
+    #[doc = "! Obtains the current piano keys held state"]
+    pub fn pianoKeysHeld() -> u16;
+}
+extern "C" {
+    #[doc = "! Obtains the current piano keys pressed state"]
+    pub fn pianoKeysDown() -> u16;
+}
+extern "C" {
+    #[doc = "! Obtains the current piano keys released state"]
+    pub fn pianoKeysUp() -> u16;
+}
+pub const RUMBLE: RUMBLE_TYPE = 0;
+pub const WARIOWARE: RUMBLE_TYPE = 1;
+pub type RUMBLE_TYPE = u32;
+extern "C" {
+    #[doc = " \\fn bool isRumbleInserted(void);"]
+    #[doc = "\\brief Check for rumble option pak."]
+    #[doc = "\\return true if the cart in the GBA slot is a Rumble option pak."]
+    pub fn isRumbleInserted() -> bool;
+}
+extern "C" {
+    #[doc = " \\fn void setRumble(bool position);"]
+    #[doc = "\\param position Alternates position of the actuator in the pak"]
+    #[doc = "\\brief Fires the rumble actuator."]
+    pub fn setRumble(position: bool);
+}
+pub type MicCallback = ::core::option::Option<
+    unsafe extern "C" fn(completedBuffer: *mut libc::c_void, length: libc::c_int),
+>;
+#[doc = "<  16-bit PCM"]
+pub const SoundFormat_16Bit: SoundFormat = 1;
+#[doc = "<  8-bit PCM"]
+pub const SoundFormat_8Bit: SoundFormat = 0;
+#[doc = "<  PSG (programmable sound generator?)"]
+pub const SoundFormat_PSG: SoundFormat = 3;
+#[doc = "<  IMA ADPCM compressed audio"]
+pub const SoundFormat_ADPCM: SoundFormat = 2;
+#[doc = " \\brief Sound formats used by the DS"]
+pub type SoundFormat = u32;
+#[doc = "<  8-bit PCM"]
+pub const MicFormat_8Bit: MicFormat = 1;
+#[doc = "<  12-bit PCM"]
+pub const MicFormat_12Bit: MicFormat = 0;
+#[doc = " \\brief Microphone recording formats DS"]
+pub type MicFormat = u32;
+#[doc = "<  0.0% duty cycle"]
+pub const DutyCycle_0: DutyCycle = 7;
+#[doc = "<  12.5% duty cycle"]
+pub const DutyCycle_12: DutyCycle = 0;
+#[doc = "<  25.0% duty cycle"]
+pub const DutyCycle_25: DutyCycle = 1;
+#[doc = "<  37.5% duty cycle"]
+pub const DutyCycle_37: DutyCycle = 2;
+#[doc = "<  50.0% duty cycle"]
+pub const DutyCycle_50: DutyCycle = 3;
+#[doc = "<  62.5% duty cycle"]
+pub const DutyCycle_62: DutyCycle = 4;
+#[doc = "<  75.0% duty cycle"]
+pub const DutyCycle_75: DutyCycle = 5;
+#[doc = "<  87.5% duty cycle"]
+pub const DutyCycle_87: DutyCycle = 6;
+#[doc = " \\brief PSG Duty cycles used by the PSG hardware"]
+pub type DutyCycle = u32;
+extern "C" {
+    #[doc = " \\fn void soundEnable(void)"]
+    #[doc = "\\brief Enables Sound on the DS.  Should be called prior to"]
+    #[doc = "attempting sound playback"]
+    pub fn soundEnable();
+}
+extern "C" {
+    #[doc = " \\fn void soundDisable(void)"]
+    #[doc = "\\brief Disables Sound on the DS."]
+    pub fn soundDisable();
+}
+extern "C" {
+    #[doc = " \\fn int soundPlaySample(const void* data, SoundFormat format, u32 dataSize, u16 freq, u8 volume, u8 pan, bool loop, u16 loopPoint);"]
+    #[doc = "\\brief Plays a sound in the specified format at the specified frequency."]
+    #[doc = ""]
+    #[doc = "\\param data A pointer to the sound data"]
+    #[doc = "\\param format The format of the data (only 16-bit and 8-bit pcm and ADPCM formats are supported by this function)"]
+    #[doc = "\\param dataSize The size in bytes of the sound data"]
+    #[doc = "\\param freq The frequency in Hz of the sample"]
+    #[doc = "\\param volume The channel volume.  0 to 127 (min to max)"]
+    #[doc = "\\param pan The channel pan 0 to 127 (left to right with 64 being centered)"]
+    #[doc = "\\param loop If true, the sample will loop playing once then repeating starting at the offset stored in loopPoint"]
+    #[doc = "\\param loopPoint The offset for the sample loop to restart when repeating"]
+    #[doc = "\\return An integer id coresponding to the channel of playback.  This value can be used to pause, resume, or kill the sound"]
+    #[doc = "as well as adjust volume, pan, and frequency"]
+    pub fn soundPlaySample(
+        data: *const libc::c_void,
+        format: SoundFormat,
+        dataSize: u32,
+        freq: u16,
+        volume: u8,
+        pan: u8,
+        loop_: bool,
+        loopPoint: u16,
+    ) -> libc::c_int;
+}
+extern "C" {
+    #[doc = " \\fn int soundPlayPSG(DutyCycle cycle, u16 freq, u8 volume, u8 pan);"]
+    #[doc = "\\brief Pause a tone with the specified properties"]
+    #[doc = "\\param cycle The DutyCycle of the sound wave"]
+    #[doc = "\\param freq The frequency in Hz of the sample"]
+    #[doc = "\\param volume The channel volume.  0 to 127 (min to max)"]
+    #[doc = "\\param pan The channel pan 0 to 127 (left to right with 64 being centered)"]
+    #[doc = "\\return An integer id coresponding to the channel of playback.  This value can be used to pause, resume, or kill the sound"]
+    #[doc = "as well as adjust volume, pan, and frequency"]
+    pub fn soundPlayPSG(cycle: DutyCycle, freq: u16, volume: u8, pan: u8) -> libc::c_int;
+}
+extern "C" {
+    #[doc = " \\fn int soundPlayNoise(u16 freq, u8 volume, u8 pan);"]
+    #[doc = "\\brief Plays white noise with the specified parameters"]
+    #[doc = "\\param freq The frequency in Hz of the sample"]
+    #[doc = "\\param volume The channel volume.  0 to 127 (min to max)"]
+    #[doc = "\\param pan The channel pan 0 to 127 (left to right with 64 being centered)"]
+    #[doc = "\\return An integer id coresponding to the channel of playback.  This value can be used to pause, resume, or kill the sound"]
+    #[doc = "as well as adjust volume, pan, and frequency"]
+    pub fn soundPlayNoise(freq: u16, volume: u8, pan: u8) -> libc::c_int;
+}
+extern "C" {
+    #[doc = " \\fn void soundPause(int soundId)"]
+    #[doc = "\\brief Pause the sound specified by soundId"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    pub fn soundPause(soundId: libc::c_int);
+}
+extern "C" {
+    #[doc = " \\fn void soundSetWaveDuty(int soundId, DutyCycle cycle)"]
+    #[doc = "\\brief Sets the Wave Duty of a PSG sound"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    #[doc = "\\param cycle The DutyCycle of the sound wave"]
+    pub fn soundSetWaveDuty(soundId: libc::c_int, cycle: DutyCycle);
+}
+extern "C" {
+    #[doc = " \\fn void soundKill(int soundId)"]
+    #[doc = "\\brief Stops the sound specified by soundId and frees any resources allocated"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    pub fn soundKill(soundId: libc::c_int);
+}
+extern "C" {
+    #[doc = " \\fn void soundResume(int soundId)"]
+    #[doc = "\\brief Resumes a paused sound"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    pub fn soundResume(soundId: libc::c_int);
+}
+extern "C" {
+    #[doc = " \\fn void soundSetVolume(int soundId, u8 volume)"]
+    #[doc = "\\brief Sets the sound volume"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    #[doc = "\\param volume The new volume (0 to 127 min to max)"]
+    pub fn soundSetVolume(soundId: libc::c_int, volume: u8);
+}
+extern "C" {
+    #[doc = " \\fn void soundSetPan(int soundId, u8 pan)"]
+    #[doc = "\\brief Sets the sound pan"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    #[doc = "\\param pan The new pan value (0 to 127 left to right (64 = center))"]
+    pub fn soundSetPan(soundId: libc::c_int, pan: u8);
+}
+extern "C" {
+    #[doc = " \\fn void soundSetFreq(int soundId, u16 freq)"]
+    #[doc = "\\brief Sets the sound frequency"]
+    #[doc = "\\param soundId The sound ID returned by play sound"]
+    #[doc = "\\param freq The frequency in Hz"]
+    pub fn soundSetFreq(soundId: libc::c_int, freq: u16);
+}
+extern "C" {
+    #[doc = " \\fn int soundMicRecord(void *buffer, u32 bufferLength, MicFormat format, int freq, MicCallback callback);"]
+    #[doc = ""]
+    #[doc = "\\brief Starts a microphone recording to a double buffer specified by buffer"]
+    #[doc = "\\param buffer A pointer to the start of the double buffer"]
+    #[doc = "\\param bufferLength The length of the buffer in bytes (both halfs of the double buffer)"]
+    #[doc = "\\param format Microphone can record in 8 or 12 bit format.  12 bit is shifted up to 16 bit pcm"]
+    #[doc = "\\param freq The sample frequency"]
+    #[doc = "\\param callback This will be called every time the buffer is full or half full"]
+    #[doc = ""]
+    #[doc = "\\return Returns non zero for success."]
+    pub fn soundMicRecord(
+        buffer: *mut libc::c_void,
+        bufferLength: u32,
+        format: MicFormat,
+        freq: libc::c_int,
+        callback: MicCallback,
+    ) -> libc::c_int;
+}
+extern "C" {
+    #[doc = " \\fn void soundMicOff(void)"]
+    #[doc = "\\brief Stops the microphone from recording"]
+    pub fn soundMicOff();
+}
+#[doc = "< No special mode is on - Normal sprite state."]
+pub const OBJMODE_NORMAL: ObjBlendMode = 0;
+#[doc = "< Color blending is on - Sprite can use HW blending features."]
+pub const OBJMODE_BLENDED: ObjBlendMode = 1;
+#[doc = "< Sprite can be seen only inside the sprite window."]
+pub const OBJMODE_WINDOWED: ObjBlendMode = 2;
+#[doc = "< Sprite is not using tiles - per pixel image data."]
+pub const OBJMODE_BITMAP: ObjBlendMode = 3;
+#[doc = " \\brief The blending mode of the sprite"]
+pub type ObjBlendMode = u32;
+#[doc = "< Sprite shape is NxN (Height == Width)."]
+pub const OBJSHAPE_SQUARE: ObjShape = 0;
+#[doc = "< Sprite shape is NxM with N > M (Height < Width)."]
+pub const OBJSHAPE_WIDE: ObjShape = 1;
+#[doc = "< Sprite shape is NxM with N < M (Height > Width)."]
+pub const OBJSHAPE_TALL: ObjShape = 2;
+#[doc = "< Sprite shape is undefined."]
+pub const OBJSHAPE_FORBIDDEN: ObjShape = 3;
+#[doc = " \\brief The shape of the sprite"]
+pub type ObjShape = u32;
+#[doc = "< Major sprite size is 8px."]
+pub const OBJSIZE_8: ObjSize = 0;
+#[doc = "< Major sprite size is 16px."]
+pub const OBJSIZE_16: ObjSize = 1;
+#[doc = "< Major sprite size is 32px."]
+pub const OBJSIZE_32: ObjSize = 2;
+#[doc = "< Major sprite size is 64px."]
+pub const OBJSIZE_64: ObjSize = 3;
+#[doc = " \\brief The size of the sprite"]
+pub type ObjSize = u32;
+#[doc = "< sprite has 16 colors."]
+pub const OBJCOLOR_16: ObjColMode = 0;
+#[doc = "< sprite has 256 colors."]
+pub const OBJCOLOR_256: ObjColMode = 1;
+#[doc = " \\brief The color mode of the sprite"]
+pub type ObjColMode = u32;
+#[doc = "< sprite priority level 0 - highest."]
+pub const OBJPRIORITY_0: ObjPriority = 0;
+#[doc = "< sprite priority level 1."]
+pub const OBJPRIORITY_1: ObjPriority = 1;
+#[doc = "< sprite priority level 2."]
+pub const OBJPRIORITY_2: ObjPriority = 2;
+#[doc = "< sprite priority level 3 - lowest."]
+pub const OBJPRIORITY_3: ObjPriority = 3;
+#[doc = " \\brief The priority of the sprite"]
+pub type ObjPriority = u32;
+#[doc = "! A bitfield of sprite attribute goodness...ugly to look at but not so bad to use."]
+#[repr(C)]
+#[derive(Debug)]
+pub struct SpriteEntry {
+    pub __bindgen_anon_1: __BindgenUnionField<SpriteEntry__bindgen_ty_1>,
+    pub __bindgen_anon_2: __BindgenUnionField<SpriteEntry__bindgen_ty_2>,
+    pub bindgen_union_field: [u32; 6usize],
+}
+#[repr(C)]
+pub struct SpriteEntry__bindgen_ty_1 {
+    pub __bindgen_anon_1: SpriteEntry__bindgen_ty_1__bindgen_ty_1,
+    pub __bindgen_anon_2: SpriteEntry__bindgen_ty_1__bindgen_ty_2,
+    pub __bindgen_anon_3: SpriteEntry__bindgen_ty_1__bindgen_ty_3,
+    pub attribute3: u16,
+}
+#[repr(C)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
+    pub __bindgen_anon_1: SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1,
+}
+#[repr(C)]
+#[derive(Debug)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
+    pub __bindgen_anon_1:
+        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>,
+    pub __bindgen_anon_2:
+        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_2>,
+    pub bindgen_union_field: u32,
+}
+#[repr(C, packed)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
+    #[inline]
+    pub fn isHidden(&self) -> bool {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(1usize, 1u8) as u8) }
+    }
+    #[inline]
+    pub fn set_isHidden(&mut self, val: bool) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(1usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(isHidden: bool) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit.set(1usize, 1u8, {
+            let isHidden: u8 = unsafe { ::core::mem::transmute(isHidden) };
+            isHidden as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[repr(C)]
+#[repr(align(4))]
+#[derive(Debug, Copy, Clone)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_2 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
+    pub __bindgen_padding_0: [u8; 3usize],
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_2 {
+    #[inline]
+    pub fn isRotateScale(&self) -> bool {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 1u8) as u8) }
+    }
+    #[inline]
+    pub fn set_isRotateScale(&mut self, val: bool) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(0usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn isSizeDouble(&self) -> bool {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(1usize, 1u8) as u8) }
+    }
+    #[inline]
+    pub fn set_isSizeDouble(&mut self, val: bool) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(1usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn blendMode(&self) -> ObjBlendMode {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(2usize, 2u8) as u32) }
+    }
+    #[inline]
+    pub fn set_blendMode(&mut self, val: ObjBlendMode) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(2usize, 2u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn isMosaic(&self) -> bool {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(4usize, 1u8) as u8) }
+    }
+    #[inline]
+    pub fn set_isMosaic(&mut self, val: bool) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(4usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn colorMode(&self) -> ObjColMode {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(5usize, 1u8) as u32) }
+    }
+    #[inline]
+    pub fn set_colorMode(&mut self, val: ObjColMode) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(5usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn shape(&self) -> ObjShape {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(6usize, 2u8) as u32) }
+    }
+    #[inline]
+    pub fn set_shape(&mut self, val: ObjShape) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(6usize, 2u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(
+        isRotateScale: bool,
+        isSizeDouble: bool,
+        blendMode: ObjBlendMode,
+        isMosaic: bool,
+        colorMode: ObjColMode,
+        shape: ObjShape,
+    ) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit.set(0usize, 1u8, {
+            let isRotateScale: u8 = unsafe { ::core::mem::transmute(isRotateScale) };
+            isRotateScale as u64
+        });
+        __bindgen_bitfield_unit.set(1usize, 1u8, {
+            let isSizeDouble: u8 = unsafe { ::core::mem::transmute(isSizeDouble) };
+            isSizeDouble as u64
+        });
+        __bindgen_bitfield_unit.set(2usize, 2u8, {
+            let blendMode: u32 = unsafe { ::core::mem::transmute(blendMode) };
+            blendMode as u64
+        });
+        __bindgen_bitfield_unit.set(4usize, 1u8, {
+            let isMosaic: u8 = unsafe { ::core::mem::transmute(isMosaic) };
+            isMosaic as u64
+        });
+        __bindgen_bitfield_unit.set(5usize, 1u8, {
+            let colorMode: u32 = unsafe { ::core::mem::transmute(colorMode) };
+            colorMode as u64
+        });
+        __bindgen_bitfield_unit.set(6usize, 2u8, {
+            let shape: u32 = unsafe { ::core::mem::transmute(shape) };
+            shape as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_1 {
+    #[inline]
+    pub fn y(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 8u8) as u16) }
+    }
+    #[inline]
+    pub fn set_y(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(0usize, 8u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(y: u16) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit.set(0usize, 8u8, {
+            let y: u16 = unsafe { ::core::mem::transmute(y) };
+            y as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[repr(C)]
+#[derive(Debug)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2 {
+    pub __bindgen_anon_1:
+        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1>,
+    pub __bindgen_anon_2:
+        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2>,
+    pub bindgen_union_field: [u32; 2usize],
+}
+#[repr(C)]
+#[repr(align(2))]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u16>,
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1 {
+    #[inline]
+    pub fn x(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 9u8) as u16) }
+    }
+    #[inline]
+    pub fn set_x(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(0usize, 9u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(x: u16) -> __BindgenBitfieldUnit<[u8; 2usize], u16> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u16> =
+            Default::default();
+        __bindgen_bitfield_unit.set(0usize, 9u8, {
+            let x: u16 = unsafe { ::core::mem::transmute(x) };
+            x as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[repr(C)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
+    pub __bindgen_anon_1: SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1,
+}
+#[repr(C)]
+#[derive(Debug)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1 {
+    pub __bindgen_anon_1: __BindgenUnionField<
+        SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_1,
+    >,
+    pub __bindgen_anon_2: __BindgenUnionField<
+        SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_2,
+    >,
+    pub bindgen_union_field: u32,
+}
+#[repr(C, packed)]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_1 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_1 {
+    #[inline]
+    pub fn hFlip(&self) -> bool {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(4usize, 1u8) as u8) }
+    }
+    #[inline]
+    pub fn set_hFlip(&mut self, val: bool) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(4usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn vFlip(&self) -> bool {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(5usize, 1u8) as u8) }
+    }
+    #[inline]
+    pub fn set_vFlip(&mut self, val: bool) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(5usize, 1u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(hFlip: bool, vFlip: bool) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit.set(4usize, 1u8, {
+            let hFlip: u8 = unsafe { ::core::mem::transmute(hFlip) };
+            hFlip as u64
+        });
+        __bindgen_bitfield_unit.set(5usize, 1u8, {
+            let vFlip: u8 = unsafe { ::core::mem::transmute(vFlip) };
+            vFlip as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[repr(C)]
+#[repr(align(4))]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_2 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
+    pub __bindgen_padding_0: [u8; 3usize],
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_2 {
+    #[inline]
+    pub fn rotationIndex(&self) -> u8 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(1usize, 5u8) as u8) }
+    }
+    #[inline]
+    pub fn set_rotationIndex(&mut self, val: u8) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(1usize, 5u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn size(&self) -> ObjSize {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(6usize, 2u8) as u32) }
+    }
+    #[inline]
+    pub fn set_size(&mut self, val: ObjSize) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(6usize, 2u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(
+        rotationIndex: u8,
+        size: ObjSize,
+    ) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit.set(1usize, 5u8, {
+            let rotationIndex: u8 = unsafe { ::core::mem::transmute(rotationIndex) };
+            rotationIndex as u64
+        });
+        __bindgen_bitfield_unit.set(6usize, 2u8, {
+            let size: u32 = unsafe { ::core::mem::transmute(size) };
+            size as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2 {
+    #[inline]
+    pub fn new_bitfield_1() -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
+            Default::default();
+        __bindgen_bitfield_unit
+    }
+}
+#[repr(C)]
+#[repr(align(4))]
+pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_3 {
+    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u16>,
+    pub __bindgen_padding_0: u16,
+}
+impl SpriteEntry__bindgen_ty_1__bindgen_ty_3 {
+    #[inline]
+    pub fn gfxIndex(&self) -> u16 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 10u8) as u16) }
+    }
+    #[inline]
+    pub fn set_gfxIndex(&mut self, val: u16) {
+        unsafe {
+            let val: u16 = ::core::mem::transmute(val);
+            self._bitfield_1.set(0usize, 10u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn priority(&self) -> ObjPriority {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(10usize, 2u8) as u32) }
+    }
+    #[inline]
+    pub fn set_priority(&mut self, val: ObjPriority) {
+        unsafe {
+            let val: u32 = ::core::mem::transmute(val);
+            self._bitfield_1.set(10usize, 2u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn palette(&self) -> u8 {
+        unsafe { ::core::mem::transmute(self._bitfield_1.get(12usize, 4u8) as u8) }
+    }
+    #[inline]
+    pub fn set_palette(&mut self, val: u8) {
+        unsafe {
+            let val: u8 = ::core::mem::transmute(val);
+            self._bitfield_1.set(12usize, 4u8, val as u64)
+        }
+    }
+    #[inline]
+    pub fn new_bitfield_1(
+        gfxIndex: u16,
+        priority: ObjPriority,
+        palette: u8,
+    ) -> __BindgenBitfieldUnit<[u8; 2usize], u16> {
+        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u16> =
+            Default::default();
+        __bindgen_bitfield_unit.set(0usize, 10u8, {
+            let gfxIndex: u16 = unsafe { ::core::mem::transmute(gfxIndex) };
+            gfxIndex as u64
+        });
+        __bindgen_bitfield_unit.set(10usize, 2u8, {
+            let priority: u32 = unsafe { ::core::mem::transmute(priority) };
+            priority as u64
+        });
+        __bindgen_bitfield_unit.set(12usize, 4u8, {
+            let palette: u8 = unsafe { ::core::mem::transmute(palette) };
+            palette as u64
+        });
+        __bindgen_bitfield_unit
+    }
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct SpriteEntry__bindgen_ty_2 {
+    pub attribute: [uint16; 3usize],
+    pub filler: uint16,
+}
+#[doc = "! A bitfield of sprite attribute goodness...ugly to look at but not so bad to use."]
+pub type pSpriteEntry = *mut SpriteEntry;
+#[doc = "! A sprite rotation entry."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct SpriteRotation {
+    pub filler1: [uint16; 3usize],
+    #[doc = "< The change in x per horizontal pixel"]
+    pub hdx: int16,
+    pub filler2: [uint16; 3usize],
+    #[doc = "< The change in y per horizontal pixel"]
+    pub vdx: int16,
+    pub filler3: [uint16; 3usize],
+    #[doc = "< The change in x per vertical pixel"]
+    pub hdy: int16,
+    pub filler4: [uint16; 3usize],
+    #[doc = "< The change in y per vertical pixel"]
+    pub vdy: int16,
+}
+#[doc = "! A sprite rotation entry."]
+pub type pSpriteRotation = *mut SpriteRotation;
+#[repr(C)]
+pub struct OAMTable {
+    pub oamBuffer: __BindgenUnionField<[SpriteEntry; 128usize]>,
+    pub matrixBuffer: __BindgenUnionField<[SpriteRotation; 32usize]>,
+    pub bindgen_union_field: [u32; 768usize],
+}
+#[doc = "!< 8x8"]
+pub const SpriteSize_8x8: SpriteSize = 2;
+#[doc = "!< 16x16"]
+pub const SpriteSize_16x16: SpriteSize = 16392;
+#[doc = "!< 32x32"]
+pub const SpriteSize_32x32: SpriteSize = 32800;
+#[doc = "!< 64x64"]
+pub const SpriteSize_64x64: SpriteSize = 49280;
+#[doc = "!< 16x8"]
+pub const SpriteSize_16x8: SpriteSize = 4100;
+#[doc = "!< 32x8"]
+pub const SpriteSize_32x8: SpriteSize = 20488;
+#[doc = "!< 32x16"]
+pub const SpriteSize_32x16: SpriteSize = 36880;
+#[doc = "!< 64x32"]
+pub const SpriteSize_64x32: SpriteSize = 53312;
+#[doc = "!< 8x16"]
+pub const SpriteSize_8x16: SpriteSize = 8196;
+#[doc = "!< 8x32"]
+pub const SpriteSize_8x32: SpriteSize = 24584;
+#[doc = "!< 16x32"]
+pub const SpriteSize_16x32: SpriteSize = 40976;
+#[doc = "!< 32x64"]
+pub const SpriteSize_32x64: SpriteSize = 57408;
+#[doc = "! Enumerates all sizes supported by the 2D engine."]
+pub type SpriteSize = u32;
+#[doc = "< 1D tile mapping 32 byte boundary between offset"]
+pub const SpriteMapping_1D_32: SpriteMapping = 16;
+#[doc = "< 1D tile mapping 64 byte boundary between offset"]
+pub const SpriteMapping_1D_64: SpriteMapping = 269484049;
+#[doc = "< 1D tile mapping 128 byte boundary between offset"]
+pub const SpriteMapping_1D_128: SpriteMapping = 538968082;
+#[doc = "< 1D tile mapping 256 byte boundary between offset"]
+pub const SpriteMapping_1D_256: SpriteMapping = 808452115;
+#[doc = "< 2D tile mapping 32 byte boundary between offset"]
+pub const SpriteMapping_2D: SpriteMapping = 1073741824;
+#[doc = "< 1D bitmap mapping 128 byte boundary between offset"]
+pub const SpriteMapping_Bmp_1D_128: SpriteMapping = 1344274514;
+#[doc = "< 1D bitmap mapping 256 byte boundary between offset"]
+pub const SpriteMapping_Bmp_1D_256: SpriteMapping = 1617952851;
+#[doc = "< 2D bitmap mapping 128 pixels wide bitmap"]
+pub const SpriteMapping_Bmp_2D_128: SpriteMapping = 1879048194;
+#[doc = "< 2D bitmap mapping 256 pixels wide bitmap"]
+pub const SpriteMapping_Bmp_2D_256: SpriteMapping = -2147483613;
+#[doc = "! Graphics memory layout options."]
+pub type SpriteMapping = i32;
+#[doc = "< 16 colors per sprite"]
+pub const SpriteColorFormat_16Color: SpriteColorFormat = 0;
+#[doc = "< 256 colors per sprite"]
+pub const SpriteColorFormat_256Color: SpriteColorFormat = 1;
+#[doc = "< 16-bit sprites"]
+pub const SpriteColorFormat_Bmp: SpriteColorFormat = 3;
+#[doc = "! Color formats for sprite graphics."]
+pub type SpriteColorFormat = u32;
+#[repr(C)]
+pub struct AllocHeader {
+    pub nextFree: u16,
+    pub size: u16,
+}
+#[doc = "\t\\brief Holds the state for a 2D sprite engine."]
+#[doc = "There are two of these objects, oamMain and oamSub and these must be passed in to all oam functions."]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct OamState {
+    #[doc = "< The distance between tiles as 2^gfxOffsetStep"]
+    pub gfxOffsetStep: libc::c_int,
+    #[doc = "< pointer to the first free block of tiles"]
+    pub firstFree: s16,
+    #[doc = "< array, allocation buffer for graphics allocation"]
+    pub allocBuffer: *mut AllocHeader,
+    #[doc = "< current size of the allocation buffer"]
+    pub allocBufferSize: s16,
+    pub __bindgen_anon_1: OamState__bindgen_ty_1,
+    #[doc = "!< the mapping of the oam."]
+    pub spriteMapping: SpriteMapping,
+}
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct OamState__bindgen_ty_1 {
+    #[doc = "< pointer to shadow oam memory"]
+    pub oamMemory: __BindgenUnionField<*mut SpriteEntry>,
+    #[doc = "< pointer to shadow oam memory for rotation"]
+    pub oamRotationMemory: __BindgenUnionField<*mut SpriteRotation>,
+    pub bindgen_union_field: u32,
+}
+extern "C" {
+    pub static mut oamMain: OamState;
+}
+extern "C" {
+    pub static mut oamSub: OamState;
+}
+extern "C" {
+    #[doc = "    \\brief convert a VRAM address to an oam offset"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param offset the video memory address of the sprite graphics (not an offset)"]
+    pub fn oamGfxPtrToOffset(oam: *mut OamState, offset: *const libc::c_void) -> libc::c_uint;
+}
+extern "C" {
+    #[doc = "    \\brief Initializes the 2D sprite engine  In order to mix tiled and bitmap sprites"]
+    #[doc = "use SpriteMapping_Bmp_1D_128 or SpriteMapping_Bmp_1D_256.  This will set mapping for both"]
+    #[doc = "to 1D and give same sized boundaries so the sprite gfx allocation will function.  VBlank IRQ must"]
+    #[doc = "be enabled for this function to work."]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param mapping the mapping mode"]
+    #[doc = "    \\param extPalette if true the engine sets up extended palettes for 8bpp sprites"]
+    pub fn oamInit(oam: *mut OamState, mapping: SpriteMapping, extPalette: bool);
+}
+extern "C" {
+    #[doc = "    \\brief Disables sprite rendering"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    pub fn oamDisable(oam: *mut OamState);
+}
+extern "C" {
+    #[doc = "    \\brief Enables sprite rendering"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    pub fn oamEnable(oam: *mut OamState);
+}
+extern "C" {
+    #[doc = "    \\brief translates an oam offset into a video ram address"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param gfxOffsetIndex the index to compute"]
+    #[doc = "    \\return the address in vram corresponding to the supplied offset"]
+    pub fn oamGetGfxPtr(oam: *mut OamState, gfxOffsetIndex: libc::c_int) -> *mut u16;
+}
+extern "C" {
+    #[doc = "    \\brief Allocates graphics memory for the supplied sprite attributes"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param size the size of the sprite to allocate"]
+    #[doc = "    \\param colorFormat the color format of the sprite"]
+    #[doc = "    \\return the address in vram of the allocated sprite"]
+    pub fn oamAllocateGfx(
+        oam: *mut OamState,
+        size: SpriteSize,
+        colorFormat: SpriteColorFormat,
+    ) -> *mut u16;
+}
+extern "C" {
+    #[doc = "    \\brief free vram memory obtained with oamAllocateGfx."]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param gfxOffset a vram offset obtained from oamAllocateGfx"]
+    pub fn oamFreeGfx(oam: *mut OamState, gfxOffset: *const libc::c_void);
+}
+extern "C" {
+    #[doc = "    \\brief sets an oam entry to the supplied values"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param id the oam number to be set [0 - 127]"]
+    #[doc = "    \\param x the x location of the sprite in pixels"]
+    #[doc = "    \\param y the y location of the sprite in pixels"]
+    #[doc = "\t \\param priority The sprite priority (0 to 3)"]
+    #[doc = "    \\param palette_alpha the palette number for 4bpp and 8bpp (extended palette mode), or the alpha value for bitmap sprites (bitmap sprites must specify a value > 0 to display) [0-15]"]
+    #[doc = "    \\param size the size of the sprite"]
+    #[doc = "    \\param format the color format of the sprite"]
+    #[doc = "    \\param gfxOffset the video memory address of the sprite graphics (not an offset)"]
+    #[doc = "    \\param affineIndex affine index to use (if < 0 or > 31 the sprite will be unrotated)"]
+    #[doc = "    \\param sizeDouble if affineIndex >= 0 this will be used to double the sprite size for rotation"]
+    #[doc = "    \\param hide if non zero (true) the sprite will be hidden"]
+    #[doc = "    \\param vflip flip the sprite vertically"]
+    #[doc = "    \\param hflip flip the sprite horizontally"]
+    #[doc = "\t \\param mosaic if true mosaic will be applied to the sprite"]
+    pub fn oamSet(
+        oam: *mut OamState,
+        id: libc::c_int,
+        x: libc::c_int,
+        y: libc::c_int,
+        priority: libc::c_int,
+        palette_alpha: libc::c_int,
+        size: SpriteSize,
+        format: SpriteColorFormat,
+        gfxOffset: *const libc::c_void,
+        affineIndex: libc::c_int,
+        sizeDouble: bool,
+        hide: bool,
+        hflip: bool,
+        vflip: bool,
+        mosaic: bool,
+    );
+}
+extern "C" {
+    #[doc = "    \\brief Hides the sprites in the supplied range: if count is zero all 128 sprites will be hidden"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param start The first index to clear"]
+    #[doc = "    \\param count The number of sprites to clear"]
+    pub fn oamClear(oam: *mut OamState, start: libc::c_int, count: libc::c_int);
+}
+extern "C" {
+    #[doc = "    \\brief causes oam memory to be updated...must be called during vblank if using oam api"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    pub fn oamUpdate(oam: *mut OamState);
+}
+extern "C" {
+    #[doc = "    \\brief sets the specified rotation scale entry"]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param rotId the rotation entry to set"]
+    #[doc = "    \\param angle the ccw angle to rotate [-32768 - 32767]"]
+    #[doc = "    \\param sx the inverse scale factor in the x direction"]
+    #[doc = "    \\param sy the inverse scale factor in the y direction"]
+    pub fn oamRotateScale(
+        oam: *mut OamState,
+        rotId: libc::c_int,
+        angle: libc::c_int,
+        sx: libc::c_int,
+        sy: libc::c_int,
+    );
+}
+extern "C" {
+    #[doc = "\\brief determines the number of fragments in the allocation engine"]
+    #[doc = "\\param oam must be: &oamMain or &oamSub"]
+    #[doc = "\\return the number of fragments."]
+    pub fn oamCountFragments(oam: *mut OamState) -> libc::c_int;
+}
+extern "C" {
+    pub fn oamAllocReset(oam: *mut OamState);
+}
+#[doc = "!< Window 0."]
+pub const WINDOW_0: WINDOW = 8192;
+#[doc = "!< Window 1"]
+pub const WINDOW_1: WINDOW = 16384;
+#[doc = "!< Object window"]
+pub const WINDOW_OBJ: WINDOW = 32768;
+#[doc = "!< Area outside all windows"]
+pub const WINDOW_OUT: WINDOW = 65536;
+#[doc = "\t\\brief the supported windows"]
+pub type WINDOW = u32;
+extern "C" {
+    #[doc = "    \\brief Set the windows bounds"]
+    #[doc = "    \\param window The window to set bounds on"]
+    #[doc = "    \\param left The X coordinate of the left hand side of the rectangle"]
+    #[doc = "    \\param top The Y coordinate of the top of the rectangle"]
+    #[doc = "    \\param right The X coordinate of the right hand side of the rectangle"]
+    #[doc = "    \\param bottom The Y coordinate of the bottom of the rectangle"]
+    pub fn windowSetBounds(window: WINDOW, left: u8, top: u8, right: u8, bottom: u8);
+}
+extern "C" {
+    #[doc = "    \\brief Set the windows bounds (Sub engine)"]
+    #[doc = "    \\param window The window to set bounds on"]
+    #[doc = "    \\param left The X coordinate of the left hand side of the rectangle"]
+    #[doc = "    \\param top The Y coordinate of the top of the rectangle"]
+    #[doc = "    \\param right The X coordinate of the right hand side of the rectangle"]
+    #[doc = "    \\param bottom The Y coordinate of the bottom of the rectangle"]
+    pub fn windowSetBoundsSub(window: WINDOW, left: u8, top: u8, right: u8, bottom: u8);
+}
+extern "C" {
+    #[doc = "\t\\brief Enables the window on the supplied background."]
+    #[doc = "\\param id"]
+    #[doc = "background id returned from bgInit or bgInitSub"]
+    #[doc = "\\param window"]
+    #[doc = "the the window to enable"]
+    pub fn bgWindowEnable(id: libc::c_int, window: WINDOW);
+}
+extern "C" {
+    #[doc = "\t\\brief Disables the window on the supplied background."]
+    #[doc = "\\param id"]
+    #[doc = "background id returned from bgInit or bgInitSub"]
+    #[doc = "\\param window"]
+    #[doc = "the the window to disable"]
+    pub fn bgWindowDisable(id: libc::c_int, window: WINDOW);
+}
+extern "C" {
+    #[doc = "    \\brief Enables the specified window."]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param the window to enable"]
+    pub fn oamWindowEnable(oam: *mut OamState, w: WINDOW);
+}
+extern "C" {
+    #[doc = "    \\brief Disables the specified window."]
+    #[doc = "    \\param oam must be: &oamMain or &oamSub"]
+    #[doc = "    \\param the window to disable"]
+    pub fn oamWindowDisable(oam: *mut OamState, w: WINDOW);
+}
 pub type u_int8_t = __uint8_t;
 pub type u_int16_t = __uint16_t;
 pub type u_int32_t = __uint32_t;
@@ -1127,6 +6214,424 @@ pub struct pthread_once_t {
     pub is_initialized: libc::c_int,
     pub init_executed: libc::c_int,
 }
+extern "C" {
+    pub static mut environ: *mut *mut libc::c_char;
+}
+extern "C" {
+    pub fn _exit(__status: libc::c_int);
+}
+extern "C" {
+    pub fn access(__path: *const libc::c_char, __amode: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn alarm(__secs: libc::c_uint) -> libc::c_uint;
+}
+extern "C" {
+    pub fn chdir(__path: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn chmod(__path: *const libc::c_char, __mode: mode_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn chown(__path: *const libc::c_char, __owner: uid_t, __group: gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn chroot(__path: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn close(__fildes: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn confstr(__name: libc::c_int, __buf: *mut libc::c_char, __len: usize) -> usize;
+}
+extern "C" {
+    pub fn daemon(nochdir: libc::c_int, noclose: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn dup(__fildes: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn dup2(__fildes: libc::c_int, __fildes2: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn endusershell();
+}
+extern "C" {
+    pub fn execl(__path: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
+}
+extern "C" {
+    pub fn execle(__path: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
+}
+extern "C" {
+    pub fn execlp(__file: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
+}
+extern "C" {
+    pub fn execlpe(__file: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
+}
+extern "C" {
+    pub fn execv(__path: *const libc::c_char, __argv: *const *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn execve(
+        __path: *const libc::c_char,
+        __argv: *const *mut libc::c_char,
+        __envp: *const *mut libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn execvp(__file: *const libc::c_char, __argv: *const *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn faccessat(
+        __dirfd: libc::c_int,
+        __path: *const libc::c_char,
+        __mode: libc::c_int,
+        __flags: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn fchdir(__fildes: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn fchmod(__fildes: libc::c_int, __mode: mode_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn fchown(__fildes: libc::c_int, __owner: uid_t, __group: gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn fchownat(
+        __dirfd: libc::c_int,
+        __path: *const libc::c_char,
+        __owner: uid_t,
+        __group: gid_t,
+        __flags: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn fexecve(
+        __fd: libc::c_int,
+        __argv: *const *mut libc::c_char,
+        __envp: *const *mut libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn fork() -> pid_t;
+}
+extern "C" {
+    pub fn fpathconf(__fd: libc::c_int, __name: libc::c_int) -> libc::c_long;
+}
+extern "C" {
+    pub fn fsync(__fd: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn fdatasync(__fd: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn getcwd(__buf: *mut libc::c_char, __size: usize) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn getdomainname(__name: *mut libc::c_char, __len: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn getentropy(arg1: *mut libc::c_void, arg2: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn getegid() -> gid_t;
+}
+extern "C" {
+    pub fn geteuid() -> uid_t;
+}
+extern "C" {
+    pub fn getgid() -> gid_t;
+}
+extern "C" {
+    pub fn getgroups(__gidsetsize: libc::c_int, __grouplist: *mut gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn gethostid() -> libc::c_long;
+}
+extern "C" {
+    pub fn getlogin() -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn getpass(__prompt: *const libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn getpagesize() -> libc::c_int;
+}
+extern "C" {
+    pub fn getpeereid(arg1: libc::c_int, arg2: *mut uid_t, arg3: *mut gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn getpgid(arg1: pid_t) -> pid_t;
+}
+extern "C" {
+    pub fn getpgrp() -> pid_t;
+}
+extern "C" {
+    pub fn getpid() -> pid_t;
+}
+extern "C" {
+    pub fn getppid() -> pid_t;
+}
+extern "C" {
+    pub fn getsid(arg1: pid_t) -> pid_t;
+}
+extern "C" {
+    pub fn getuid() -> uid_t;
+}
+extern "C" {
+    pub fn getusershell() -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn getwd(__buf: *mut libc::c_char) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn iruserok(
+        raddr: libc::c_ulong,
+        superuser: libc::c_int,
+        ruser: *const libc::c_char,
+        luser: *const libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn isatty(__fildes: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn issetugid() -> libc::c_int;
+}
+extern "C" {
+    pub fn lchown(__path: *const libc::c_char, __owner: uid_t, __group: gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn link(__path1: *const libc::c_char, __path2: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn linkat(
+        __dirfd1: libc::c_int,
+        __path1: *const libc::c_char,
+        __dirfd2: libc::c_int,
+        __path2: *const libc::c_char,
+        __flags: libc::c_int,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn nice(__nice_value: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn lseek(__fildes: libc::c_int, __offset: off_t, __whence: libc::c_int) -> off_t;
+}
+extern "C" {
+    pub fn lockf(__fd: libc::c_int, __cmd: libc::c_int, __len: off_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn pathconf(__path: *const libc::c_char, __name: libc::c_int) -> libc::c_long;
+}
+extern "C" {
+    pub fn pause() -> libc::c_int;
+}
+extern "C" {
+    pub fn pthread_atfork(
+        arg1: ::core::option::Option<unsafe extern "C" fn()>,
+        arg2: ::core::option::Option<unsafe extern "C" fn()>,
+        arg3: ::core::option::Option<unsafe extern "C" fn()>,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn pipe(__fildes: *mut libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn pread(
+        __fd: libc::c_int,
+        __buf: *mut libc::c_void,
+        __nbytes: usize,
+        __offset: off_t,
+    ) -> isize;
+}
+extern "C" {
+    pub fn pwrite(
+        __fd: libc::c_int,
+        __buf: *const libc::c_void,
+        __nbytes: usize,
+        __offset: off_t,
+    ) -> isize;
+}
+extern "C" {
+    pub fn read(__fd: libc::c_int, __buf: *mut libc::c_void, __nbyte: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn rresvport(__alport: *mut libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn revoke(__path: *mut libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn rmdir(__path: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn ruserok(
+        rhost: *const libc::c_char,
+        superuser: libc::c_int,
+        ruser: *const libc::c_char,
+        luser: *const libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn sbrk(__incr: isize) -> *mut libc::c_void;
+}
+extern "C" {
+    pub fn setegid(__gid: gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn seteuid(__uid: uid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn setgid(__gid: gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn setgroups(ngroups: libc::c_int, grouplist: *const gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn sethostname(arg1: *const libc::c_char, arg2: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn setpgid(__pid: pid_t, __pgid: pid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn setpgrp() -> libc::c_int;
+}
+extern "C" {
+    pub fn setregid(__rgid: gid_t, __egid: gid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn setreuid(__ruid: uid_t, __euid: uid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn setsid() -> pid_t;
+}
+extern "C" {
+    pub fn setuid(__uid: uid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn setusershell();
+}
+extern "C" {
+    pub fn sleep(__seconds: libc::c_uint) -> libc::c_uint;
+}
+extern "C" {
+    pub fn sysconf(__name: libc::c_int) -> libc::c_long;
+}
+extern "C" {
+    pub fn tcgetpgrp(__fildes: libc::c_int) -> pid_t;
+}
+extern "C" {
+    pub fn tcsetpgrp(__fildes: libc::c_int, __pgrp_id: pid_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn ttyname(__fildes: libc::c_int) -> *mut libc::c_char;
+}
+extern "C" {
+    pub fn ttyname_r(arg1: libc::c_int, arg2: *mut libc::c_char, arg3: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn unlink(__path: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn usleep(__useconds: useconds_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn vhangup() -> libc::c_int;
+}
+extern "C" {
+    pub fn write(__fd: libc::c_int, __buf: *const libc::c_void, __nbyte: usize) -> libc::c_int;
+}
+extern "C" {
+    pub static mut optarg: *mut libc::c_char;
+}
+extern "C" {
+    pub static mut optind: libc::c_int;
+}
+extern "C" {
+    pub static mut opterr: libc::c_int;
+}
+extern "C" {
+    pub static mut optopt: libc::c_int;
+}
+extern "C" {
+    pub fn getopt(
+        arg1: libc::c_int,
+        arg2: *const *mut libc::c_char,
+        arg3: *const libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub static mut optreset: libc::c_int;
+}
+extern "C" {
+    pub fn vfork() -> libc::c_int;
+}
+extern "C" {
+    pub fn ftruncate(__fd: libc::c_int, __length: off_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn truncate(arg1: *const libc::c_char, __length: off_t) -> libc::c_int;
+}
+extern "C" {
+    pub fn getdtablesize() -> libc::c_int;
+}
+extern "C" {
+    pub fn ualarm(__useconds: useconds_t, __interval: useconds_t) -> useconds_t;
+}
+extern "C" {
+    pub fn gethostname(__name: *mut libc::c_char, __len: usize) -> libc::c_int;
+}
+extern "C" {
+    pub fn setdtablesize(arg1: libc::c_int) -> libc::c_int;
+}
+extern "C" {
+    pub fn sync();
+}
+extern "C" {
+    pub fn readlink(
+        __path: *const libc::c_char,
+        __buf: *mut libc::c_char,
+        __buflen: usize,
+    ) -> isize;
+}
+extern "C" {
+    pub fn symlink(__name1: *const libc::c_char, __name2: *const libc::c_char) -> libc::c_int;
+}
+extern "C" {
+    pub fn readlinkat(
+        __dirfd1: libc::c_int,
+        __path: *const libc::c_char,
+        __buf: *mut libc::c_char,
+        __buflen: usize,
+    ) -> isize;
+}
+extern "C" {
+    pub fn symlinkat(
+        arg1: *const libc::c_char,
+        arg2: libc::c_int,
+        arg3: *const libc::c_char,
+    ) -> libc::c_int;
+}
+extern "C" {
+    pub fn unlinkat(arg1: libc::c_int, arg2: *const libc::c_char, arg3: libc::c_int)
+        -> libc::c_int;
+}
+extern "C" {
+    pub fn nand_ReadSectors(sector: sec_t, numSectors: sec_t, buffer: *mut libc::c_void) -> bool;
+}
+extern "C" {
+    pub fn nand_WriteSectors(sector: sec_t, numSectors: sec_t, buffer: *const libc::c_void)
+        -> bool;
+}
+extern "C" {
+    pub fn nand_GetSize() -> isize;
+}
+pub type va_list = __builtin_va_list;
+pub type __gnuc_va_list = __builtin_va_list;
 pub type FILE = __FILE;
 pub type fpos_t = _fpos_t;
 extern "C" {
@@ -2142,924 +7647,6 @@ extern "C" {
         >,
     ) -> *mut FILE;
 }
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct mallinfo {
-    pub arena: usize,
-    pub ordblks: usize,
-    pub smblks: usize,
-    pub hblks: usize,
-    pub hblkhd: usize,
-    pub usmblks: usize,
-    pub fsmblks: usize,
-    pub uordblks: usize,
-    pub fordblks: usize,
-    pub keepcost: usize,
-}
-extern "C" {
-    pub fn malloc(arg1: libc::c_uint) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn _malloc_r(arg1: *mut _reent, arg2: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn free(arg1: *mut libc::c_void);
-}
-extern "C" {
-    pub fn _free_r(arg1: *mut _reent, arg2: *mut libc::c_void);
-}
-extern "C" {
-    pub fn realloc(arg1: *mut libc::c_void, arg2: libc::c_uint) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn _realloc_r(arg1: *mut _reent, arg2: *mut libc::c_void, arg3: usize)
-        -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn calloc(arg1: libc::c_uint, arg2: libc::c_uint) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn _calloc_r(arg1: *mut _reent, arg2: usize, arg3: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn memalign(arg1: usize, arg2: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn _memalign_r(arg1: *mut _reent, arg2: usize, arg3: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn mallinfo() -> mallinfo;
-}
-extern "C" {
-    pub fn _mallinfo_r(arg1: *mut _reent) -> mallinfo;
-}
-extern "C" {
-    pub fn malloc_stats();
-}
-extern "C" {
-    pub fn _malloc_stats_r(arg1: *mut _reent);
-}
-extern "C" {
-    pub fn mallopt(arg1: libc::c_int, arg2: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mallopt_r(arg1: *mut _reent, arg2: libc::c_int, arg3: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn malloc_usable_size(arg1: *mut libc::c_void) -> usize;
-}
-extern "C" {
-    pub fn _malloc_usable_size_r(arg1: *mut _reent, arg2: *mut libc::c_void) -> usize;
-}
-extern "C" {
-    pub fn valloc(arg1: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn _valloc_r(arg1: *mut _reent, arg2: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn pvalloc(arg1: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn _pvalloc_r(arg1: *mut _reent, arg2: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn malloc_trim(arg1: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn _malloc_trim_r(arg1: *mut _reent, arg2: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn __malloc_lock(arg1: *mut _reent);
-}
-extern "C" {
-    pub fn __malloc_unlock(arg1: *mut _reent);
-}
-extern "C" {
-    pub fn mstats(arg1: *mut libc::c_char);
-}
-extern "C" {
-    pub fn _mstats_r(arg1: *mut _reent, arg2: *mut libc::c_char);
-}
-extern "C" {
-    pub fn cfree(arg1: *mut libc::c_void);
-}
-pub type locale_t = *mut __locale_t;
-extern "C" {
-    pub fn bcmp(
-        arg1: *const libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: libc::c_uint,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn bcopy(arg1: *const libc::c_void, arg2: *mut libc::c_void, arg3: usize);
-}
-extern "C" {
-    pub fn bzero(arg1: *mut libc::c_void, arg2: libc::c_uint);
-}
-extern "C" {
-    pub fn explicit_bzero(arg1: *mut libc::c_void, arg2: usize);
-}
-extern "C" {
-    pub fn ffs(arg1: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn ffsl(arg1: libc::c_long) -> libc::c_int;
-}
-extern "C" {
-    pub fn ffsll(arg1: libc::c_longlong) -> libc::c_int;
-}
-extern "C" {
-    pub fn fls(arg1: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn flsl(arg1: libc::c_long) -> libc::c_int;
-}
-extern "C" {
-    pub fn flsll(arg1: libc::c_longlong) -> libc::c_int;
-}
-extern "C" {
-    pub fn index(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn rindex(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strcasecmp(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn strncasecmp(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn strcasecmp_l(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: locale_t,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn strncasecmp_l(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: usize,
-        arg4: locale_t,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn memchr(
-        arg1: *const libc::c_void,
-        arg2: libc::c_int,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn memcmp(
-        arg1: *const libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: libc::c_uint,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn memcpy(
-        arg1: *mut libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn memmove(
-        arg1: *mut libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn memset(
-        arg1: *mut libc::c_void,
-        arg2: libc::c_int,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn strcat(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strchr(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strcmp(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn strcoll(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn strcpy(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strcspn(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_uint;
-}
-extern "C" {
-    pub fn strerror(arg1: libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strlen(arg1: *const libc::c_char) -> libc::c_uint;
-}
-extern "C" {
-    pub fn strncat(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strncmp(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn strncpy(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strpbrk(arg1: *const libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strrchr(arg1: *const libc::c_char, arg2: libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strspn(arg1: *const libc::c_char, arg2: *const libc::c_char) -> libc::c_uint;
-}
-extern "C" {
-    pub fn strstr(arg1: *const libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strtok(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strxfrm(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> libc::c_uint;
-}
-extern "C" {
-    pub fn strcoll_l(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: locale_t,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn strerror_l(arg1: libc::c_int, arg2: locale_t) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strxfrm_l(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: usize,
-        arg4: locale_t,
-    ) -> usize;
-}
-extern "C" {
-    pub fn strtok_r(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: *mut *mut libc::c_char,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn timingsafe_bcmp(
-        arg1: *const libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: usize,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn timingsafe_memcmp(
-        arg1: *const libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: usize,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn memccpy(
-        arg1: *mut libc::c_void,
-        arg2: *const libc::c_void,
-        arg3: libc::c_int,
-        arg4: libc::c_uint,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn stpcpy(arg1: *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn stpncpy(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strdup(arg1: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _strdup_r(arg1: *mut _reent, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strndup(arg1: *const libc::c_char, arg2: libc::c_uint) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _strndup_r(
-        arg1: *mut _reent,
-        arg2: *const libc::c_char,
-        arg3: usize,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strerror_r(arg1: libc::c_int, arg2: *mut libc::c_char, arg3: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn _strerror_r(
-        arg1: *mut _reent,
-        arg2: libc::c_int,
-        arg3: libc::c_int,
-        arg4: *mut libc::c_int,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strlcat(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> libc::c_uint;
-}
-extern "C" {
-    pub fn strlcpy(
-        arg1: *mut libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-    ) -> libc::c_uint;
-}
-extern "C" {
-    pub fn strnlen(arg1: *const libc::c_char, arg2: usize) -> usize;
-}
-extern "C" {
-    pub fn strsep(arg1: *mut *mut libc::c_char, arg2: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strnstr(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: usize,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strlwr(arg1: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strupr(arg1: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn strsignal(__signo: libc::c_int) -> *mut libc::c_char;
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct div_t {
-    pub quot: libc::c_int,
-    pub rem: libc::c_int,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct ldiv_t {
-    pub quot: libc::c_long,
-    pub rem: libc::c_long,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct lldiv_t {
-    pub quot: libc::c_longlong,
-    pub rem: libc::c_longlong,
-}
-pub type __compar_fn_t = ::core::option::Option<
-    unsafe extern "C" fn(arg1: *const libc::c_void, arg2: *const libc::c_void) -> libc::c_int,
->;
-extern "C" {
-    pub fn __locale_mb_cur_max() -> libc::c_int;
-}
-extern "C" {
-    pub fn abort();
-}
-extern "C" {
-    pub fn abs(arg1: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn arc4random() -> __uint32_t;
-}
-extern "C" {
-    pub fn arc4random_uniform(arg1: __uint32_t) -> __uint32_t;
-}
-extern "C" {
-    pub fn arc4random_buf(arg1: *mut libc::c_void, arg2: usize);
-}
-extern "C" {
-    pub fn atexit(__func: ::core::option::Option<unsafe extern "C" fn()>) -> libc::c_int;
-}
-extern "C" {
-    pub fn atof(__nptr: *const libc::c_char) -> f64;
-}
-extern "C" {
-    pub fn atoff(__nptr: *const libc::c_char) -> f32;
-}
-extern "C" {
-    pub fn atoi(__nptr: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn _atoi_r(arg1: *mut _reent, __nptr: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn atol(__nptr: *const libc::c_char) -> libc::c_long;
-}
-extern "C" {
-    pub fn _atol_r(arg1: *mut _reent, __nptr: *const libc::c_char) -> libc::c_long;
-}
-extern "C" {
-    pub fn bsearch(
-        __key: *const libc::c_void,
-        __base: *const libc::c_void,
-        __nmemb: usize,
-        __size: usize,
-        _compar: __compar_fn_t,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn div(__numer: libc::c_int, __denom: libc::c_int) -> div_t;
-}
-extern "C" {
-    pub fn exit(__status: libc::c_int);
-}
-extern "C" {
-    pub fn getenv(__string: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _getenv_r(arg1: *mut _reent, __string: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _findenv(arg1: *const libc::c_char, arg2: *mut libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _findenv_r(
-        arg1: *mut _reent,
-        arg2: *const libc::c_char,
-        arg3: *mut libc::c_int,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub static mut suboptarg: *mut libc::c_char;
-}
-extern "C" {
-    pub fn getsubopt(
-        arg1: *mut *mut libc::c_char,
-        arg2: *const *mut libc::c_char,
-        arg3: *mut *mut libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn labs(arg1: libc::c_long) -> libc::c_long;
-}
-extern "C" {
-    pub fn ldiv(__numer: libc::c_long, __denom: libc::c_long) -> ldiv_t;
-}
-extern "C" {
-    pub fn mblen(arg1: *const libc::c_char, arg2: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mblen_r(
-        arg1: *mut _reent,
-        arg2: *const libc::c_char,
-        arg3: usize,
-        arg4: *mut _mbstate_t,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn mbtowc(arg1: *mut wchar_t, arg2: *const libc::c_char, arg3: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mbtowc_r(
-        arg1: *mut _reent,
-        arg2: *mut wchar_t,
-        arg3: *const libc::c_char,
-        arg4: usize,
-        arg5: *mut _mbstate_t,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn wctomb(arg1: *mut libc::c_char, arg2: wchar_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn _wctomb_r(
-        arg1: *mut _reent,
-        arg2: *mut libc::c_char,
-        arg3: wchar_t,
-        arg4: *mut _mbstate_t,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn mbstowcs(arg1: *mut wchar_t, arg2: *const libc::c_char, arg3: usize) -> usize;
-}
-extern "C" {
-    pub fn _mbstowcs_r(
-        arg1: *mut _reent,
-        arg2: *mut wchar_t,
-        arg3: *const libc::c_char,
-        arg4: usize,
-        arg5: *mut _mbstate_t,
-    ) -> usize;
-}
-extern "C" {
-    pub fn wcstombs(arg1: *mut libc::c_char, arg2: *const wchar_t, arg3: usize) -> usize;
-}
-extern "C" {
-    pub fn _wcstombs_r(
-        arg1: *mut _reent,
-        arg2: *mut libc::c_char,
-        arg3: *const wchar_t,
-        arg4: usize,
-        arg5: *mut _mbstate_t,
-    ) -> usize;
-}
-extern "C" {
-    pub fn mkdtemp(arg1: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn mkstemp(arg1: *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn mkstemps(arg1: *mut libc::c_char, arg2: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn mktemp(arg1: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _mkdtemp_r(arg1: *mut _reent, arg2: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _mkostemp_r(
-        arg1: *mut _reent,
-        arg2: *mut libc::c_char,
-        arg3: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mkostemps_r(
-        arg1: *mut _reent,
-        arg2: *mut libc::c_char,
-        arg3: libc::c_int,
-        arg4: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mkstemp_r(arg1: *mut _reent, arg2: *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mkstemps_r(
-        arg1: *mut _reent,
-        arg2: *mut libc::c_char,
-        arg3: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn _mktemp_r(arg1: *mut _reent, arg2: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn qsort(__base: *mut libc::c_void, __nmemb: usize, __size: usize, _compar: __compar_fn_t);
-}
-extern "C" {
-    pub fn rand() -> libc::c_int;
-}
-extern "C" {
-    pub fn reallocarray(arg1: *mut libc::c_void, arg2: usize, arg3: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn reallocf(arg1: *mut libc::c_void, arg2: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn realpath(
-        path: *const libc::c_char,
-        resolved_path: *mut libc::c_char,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn rpmatch(response: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn srand(__seed: libc::c_uint);
-}
-extern "C" {
-    pub fn strtod(__n: *const libc::c_char, __end_PTR: *mut *mut libc::c_char) -> f64;
-}
-extern "C" {
-    pub fn _strtod_r(
-        arg1: *mut _reent,
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-    ) -> f64;
-}
-extern "C" {
-    pub fn strtof(__n: *const libc::c_char, __end_PTR: *mut *mut libc::c_char) -> f32;
-}
-extern "C" {
-    pub fn strtol(
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_long;
-}
-extern "C" {
-    pub fn _strtol_r(
-        arg1: *mut _reent,
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_long;
-}
-extern "C" {
-    pub fn strtoul(
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_ulong;
-}
-extern "C" {
-    pub fn _strtoul_r(
-        arg1: *mut _reent,
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_ulong;
-}
-extern "C" {
-    pub fn system(__string: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn a64l(__input: *const libc::c_char) -> libc::c_long;
-}
-extern "C" {
-    pub fn l64a(__input: libc::c_long) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _l64a_r(arg1: *mut _reent, __input: libc::c_long) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn on_exit(
-        __func: ::core::option::Option<
-            unsafe extern "C" fn(arg1: libc::c_int, arg2: *mut libc::c_void),
-        >,
-        __arg: *mut libc::c_void,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn _Exit(__status: libc::c_int);
-}
-extern "C" {
-    pub fn putenv(__string: *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn _putenv_r(arg1: *mut _reent, __string: *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn _reallocf_r(
-        arg1: *mut _reent,
-        arg2: *mut libc::c_void,
-        arg3: usize,
-    ) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn setenv(
-        __string: *const libc::c_char,
-        __value: *const libc::c_char,
-        __overwrite: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn _setenv_r(
-        arg1: *mut _reent,
-        __string: *const libc::c_char,
-        __value: *const libc::c_char,
-        __overwrite: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn __itoa(
-        arg1: libc::c_int,
-        arg2: *mut libc::c_char,
-        arg3: libc::c_int,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn __utoa(
-        arg1: libc::c_uint,
-        arg2: *mut libc::c_char,
-        arg3: libc::c_int,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn itoa(arg1: libc::c_int, arg2: *mut libc::c_char, arg3: libc::c_int)
-        -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn utoa(
-        arg1: libc::c_uint,
-        arg2: *mut libc::c_char,
-        arg3: libc::c_int,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn rand_r(__seed: *mut libc::c_uint) -> libc::c_int;
-}
-extern "C" {
-    pub fn drand48() -> f64;
-}
-extern "C" {
-    pub fn _drand48_r(arg1: *mut _reent) -> f64;
-}
-extern "C" {
-    pub fn erand48(arg1: *mut libc::c_ushort) -> f64;
-}
-extern "C" {
-    pub fn _erand48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> f64;
-}
-extern "C" {
-    pub fn jrand48(arg1: *mut libc::c_ushort) -> libc::c_long;
-}
-extern "C" {
-    pub fn _jrand48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> libc::c_long;
-}
-extern "C" {
-    pub fn lcong48(arg1: *mut libc::c_ushort);
-}
-extern "C" {
-    pub fn _lcong48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort);
-}
-extern "C" {
-    pub fn lrand48() -> libc::c_long;
-}
-extern "C" {
-    pub fn _lrand48_r(arg1: *mut _reent) -> libc::c_long;
-}
-extern "C" {
-    pub fn mrand48() -> libc::c_long;
-}
-extern "C" {
-    pub fn _mrand48_r(arg1: *mut _reent) -> libc::c_long;
-}
-extern "C" {
-    pub fn nrand48(arg1: *mut libc::c_ushort) -> libc::c_long;
-}
-extern "C" {
-    pub fn _nrand48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> libc::c_long;
-}
-extern "C" {
-    pub fn seed48(arg1: *mut libc::c_ushort) -> *mut libc::c_ushort;
-}
-extern "C" {
-    pub fn _seed48_r(arg1: *mut _reent, arg2: *mut libc::c_ushort) -> *mut libc::c_ushort;
-}
-extern "C" {
-    pub fn srand48(arg1: libc::c_long);
-}
-extern "C" {
-    pub fn _srand48_r(arg1: *mut _reent, arg2: libc::c_long);
-}
-extern "C" {
-    pub fn initstate(arg1: libc::c_uint, arg2: *mut libc::c_char, arg3: usize)
-        -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn random() -> libc::c_long;
-}
-extern "C" {
-    pub fn setstate(arg1: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn srandom(arg1: libc::c_uint);
-}
-extern "C" {
-    pub fn atoll(__nptr: *const libc::c_char) -> libc::c_longlong;
-}
-extern "C" {
-    pub fn _atoll_r(arg1: *mut _reent, __nptr: *const libc::c_char) -> libc::c_longlong;
-}
-extern "C" {
-    pub fn llabs(arg1: libc::c_longlong) -> libc::c_longlong;
-}
-extern "C" {
-    pub fn lldiv(__numer: libc::c_longlong, __denom: libc::c_longlong) -> lldiv_t;
-}
-extern "C" {
-    pub fn strtoll(
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_longlong;
-}
-extern "C" {
-    pub fn _strtoll_r(
-        arg1: *mut _reent,
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_longlong;
-}
-extern "C" {
-    pub fn strtoull(
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_ulonglong;
-}
-extern "C" {
-    pub fn _strtoull_r(
-        arg1: *mut _reent,
-        __n: *const libc::c_char,
-        __end_PTR: *mut *mut libc::c_char,
-        __base: libc::c_int,
-    ) -> libc::c_ulonglong;
-}
-extern "C" {
-    pub fn unsetenv(__string: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn _unsetenv_r(arg1: *mut _reent, __string: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn posix_memalign(arg1: *mut *mut libc::c_void, arg2: usize, arg3: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn _dtoa_r(
-        arg1: *mut _reent,
-        arg2: f64,
-        arg3: libc::c_int,
-        arg4: libc::c_int,
-        arg5: *mut libc::c_int,
-        arg6: *mut libc::c_int,
-        arg7: *mut *mut libc::c_char,
-    ) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn _system_r(arg1: *mut _reent, arg2: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn __eprintf(
-        arg1: *const libc::c_char,
-        arg2: *const libc::c_char,
-        arg3: libc::c_uint,
-        arg4: *const libc::c_char,
-    );
-}
-extern "C" {
-    pub fn qsort_r(
-        __base: *mut libc::c_void,
-        __nmemb: usize,
-        __size: usize,
-        __thunk: *mut libc::c_void,
-        _compar: ::core::option::Option<
-            unsafe extern "C" fn(
-                arg1: *mut libc::c_void,
-                arg2: *const libc::c_void,
-                arg3: *const libc::c_void,
-            ) -> libc::c_int,
-        >,
-    );
-}
-extern "C" {
-    pub fn _strtold_r(
-        arg1: *mut _reent,
-        arg2: *const libc::c_char,
-        arg3: *mut *mut libc::c_char,
-    ) -> f64;
-}
-extern "C" {
-    pub fn strtold(arg1: *const libc::c_char, arg2: *mut *mut libc::c_char) -> f64;
-}
-extern "C" {
-    pub fn aligned_alloc(arg1: usize, arg2: usize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn at_quick_exit(arg1: ::core::option::Option<unsafe extern "C" fn()>) -> libc::c_int;
-}
-extern "C" {
-    pub fn quick_exit(arg1: libc::c_int);
-}
 extern "C" {
     pub fn atan(arg1: f64) -> f64;
 }
@@ -3694,3161 +8281,6 @@ pub const __fdlibm_posix: __fdlibm_version = 0;
 pub type __fdlibm_version = i32;
 extern "C" {
     pub static mut __fdlib_version: __fdlibm_version;
-}
-pub type uint8 = u8;
-pub type uint16 = u16;
-pub type uint32 = u32;
-pub type uint64 = u64;
-pub type int8 = i8;
-pub type int16 = i16;
-pub type int32 = i32;
-pub type int64 = i64;
-pub type float32 = f32;
-pub type float64 = f64;
-pub type vuint8 = u8;
-pub type vuint16 = u16;
-pub type vuint32 = u32;
-pub type vuint64 = u64;
-pub type vint8 = i8;
-pub type vint16 = i16;
-pub type vint32 = i32;
-pub type vint64 = i64;
-pub type vfloat32 = float32;
-pub type vfloat64 = float64;
-pub type byte = u8;
-pub type s8 = i8;
-pub type s16 = i16;
-pub type s32 = i32;
-pub type s64 = i64;
-pub type vu8 = u8;
-pub type vu16 = u16;
-pub type vu32 = u32;
-pub type vu64 = u64;
-pub type vs8 = s8;
-pub type vs16 = s16;
-pub type vs32 = s32;
-pub type vs64 = s64;
-pub type sec_t = u32;
-pub type VoidFn = ::core::option::Option<unsafe extern "C" fn()>;
-pub type IntFn = ::core::option::Option<unsafe extern "C" fn()>;
-pub type fp = ::core::option::Option<unsafe extern "C" fn()>;
-pub type getHeaderCallback = ::core::option::Option<
-    unsafe extern "C" fn(source: *mut u8, dest: *mut u16, arg: u32) -> libc::c_int,
->;
-pub type getResultCallback =
-    ::core::option::Option<unsafe extern "C" fn(source: *mut u8) -> libc::c_int>;
-pub type getByteCallback = ::core::option::Option<unsafe extern "C" fn(source: *mut u8) -> u8>;
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct DecompressionStream {
-    pub getSize: getHeaderCallback,
-    pub getResult: getResultCallback,
-    pub readByte: getByteCallback,
-}
-pub type TDecompressionStream = DecompressionStream;
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct UnpackStruct {
-    pub sourceSize: uint16,
-    pub sourceWidth: uint8,
-    pub destWidth: uint8,
-    pub dataOffset: uint32,
-}
-pub type TUnpackStruct = UnpackStruct;
-pub type PUnpackStruct = *mut UnpackStruct;
-extern "C" {
-    pub fn swiSoftReset();
-}
-extern "C" {
-    pub fn swiDelay(duration: uint32);
-}
-extern "C" {
-    pub fn swiDivide(numerator: libc::c_int, divisor: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiRemainder(numerator: libc::c_int, divisor: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiDivMod(
-        numerator: libc::c_int,
-        divisor: libc::c_int,
-        result: *mut libc::c_int,
-        remainder: *mut libc::c_int,
-    );
-}
-extern "C" {
-    pub fn swiCopy(source: *const libc::c_void, dest: *mut libc::c_void, flags: libc::c_int);
-}
-extern "C" {
-    pub fn swiFastCopy(source: *const libc::c_void, dest: *mut libc::c_void, flags: libc::c_int);
-}
-extern "C" {
-    pub fn swiSqrt(value: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiCRC16(crc: uint16, data: *mut libc::c_void, size: uint32) -> uint16;
-}
-extern "C" {
-    pub fn swiIsDebugger() -> libc::c_int;
-}
-extern "C" {
-    pub fn swiUnpackBits(source: *mut uint8, destination: *mut uint32, params: PUnpackStruct);
-}
-extern "C" {
-    pub fn swiDecompressLZSSWram(source: *mut libc::c_void, destination: *mut libc::c_void);
-}
-extern "C" {
-    pub fn swiDecompressLZSSVram(
-        source: *mut libc::c_void,
-        destination: *mut libc::c_void,
-        toGetSize: uint32,
-        stream: *mut TDecompressionStream,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiDecompressLZSSVramNTR(
-        source: *mut libc::c_void,
-        destination: *mut libc::c_void,
-        toGetSize: uint32,
-        stream: *mut TDecompressionStream,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiDecompressLZSSVramTWL(
-        source: *mut libc::c_void,
-        destination: *mut libc::c_void,
-        toGetSize: uint32,
-        stream: *mut TDecompressionStream,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiDecompressHuffman(
-        source: *mut libc::c_void,
-        destination: *mut libc::c_void,
-        toGetSize: uint32,
-        stream: *mut TDecompressionStream,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiDecompressRLEWram(source: *mut libc::c_void, destination: *mut libc::c_void);
-}
-extern "C" {
-    pub fn swiDecompressRLEVram(
-        source: *mut libc::c_void,
-        destination: *mut libc::c_void,
-        toGetSize: uint32,
-        stream: *mut TDecompressionStream,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn swiWaitForIRQ();
-}
-extern "C" {
-    pub fn swiSetHaltCR(data: uint32);
-}
-extern "C" {
-    pub fn swiDecodeDelta8(source: *mut libc::c_void, destination: *mut libc::c_void);
-}
-extern "C" {
-    pub fn swiDecodeDelta16(source: *mut libc::c_void, destination: *mut libc::c_void);
-}
-extern "C" {
-    pub fn enableSlot1();
-}
-extern "C" {
-    pub fn disableSlot1();
-}
-extern "C" {
-    pub fn cardWriteCommand(command: *const u8);
-}
-extern "C" {
-    pub fn cardPolledTransfer(flags: u32, destination: *mut u32, length: u32, command: *const u8);
-}
-extern "C" {
-    pub fn cardStartTransfer(
-        command: *const u8,
-        destination: *mut u32,
-        channel: libc::c_int,
-        flags: u32,
-    );
-}
-extern "C" {
-    pub fn cardWriteAndRead(command: *const u8, flags: u32) -> uint32;
-}
-extern "C" {
-    pub fn cardParamCommand(
-        command: u8,
-        parameter: u32,
-        flags: u32,
-        destination: *mut u32,
-        length: u32,
-    );
-}
-extern "C" {
-    pub fn cardReadHeader(header: *mut u8);
-}
-extern "C" {
-    pub fn cardReadID(flags: u32) -> u32;
-}
-extern "C" {
-    pub fn cardReset();
-}
-extern "C" {
-    pub fn cardReadEeprom(address: u32, data: *mut u8, length: u32, addrtype: u32);
-}
-extern "C" {
-    pub fn cardWriteEeprom(address: u32, data: *mut u8, length: u32, addrtype: u32);
-}
-extern "C" {
-    pub fn cardEepromReadID() -> u32;
-}
-extern "C" {
-    pub fn cardEepromCommand(command: u8) -> u8;
-}
-extern "C" {
-    pub fn cardEepromGetType() -> libc::c_int;
-}
-extern "C" {
-    pub fn cardEepromGetSize() -> u32;
-}
-extern "C" {
-    pub fn cardEepromChipErase();
-}
-extern "C" {
-    pub fn cardEepromSectorErase(address: u32);
-}
-extern "C" {
-    pub fn nocashWrite(message: *const libc::c_char, len: libc::c_int);
-}
-extern "C" {
-    pub fn nocashMessage(message: *const libc::c_char);
-}
-pub const IRQ_VBLANK: IRQ_MASKS = 1;
-pub const IRQ_HBLANK: IRQ_MASKS = 2;
-pub const IRQ_VCOUNT: IRQ_MASKS = 4;
-pub const IRQ_TIMER0: IRQ_MASKS = 8;
-pub const IRQ_TIMER1: IRQ_MASKS = 16;
-pub const IRQ_TIMER2: IRQ_MASKS = 32;
-pub const IRQ_TIMER3: IRQ_MASKS = 64;
-pub const IRQ_NETWORK: IRQ_MASKS = 128;
-pub const IRQ_DMA0: IRQ_MASKS = 256;
-pub const IRQ_DMA1: IRQ_MASKS = 512;
-pub const IRQ_DMA2: IRQ_MASKS = 1024;
-pub const IRQ_DMA3: IRQ_MASKS = 2048;
-pub const IRQ_KEYS: IRQ_MASKS = 4096;
-pub const IRQ_CART: IRQ_MASKS = 8192;
-pub const IRQ_IPC_SYNC: IRQ_MASKS = 65536;
-pub const IRQ_FIFO_EMPTY: IRQ_MASKS = 131072;
-pub const IRQ_FIFO_NOT_EMPTY: IRQ_MASKS = 262144;
-pub const IRQ_CARD: IRQ_MASKS = 524288;
-pub const IRQ_CARD_LINE: IRQ_MASKS = 1048576;
-pub const IRQ_GEOMETRY_FIFO: IRQ_MASKS = 2097152;
-pub const IRQ_LID: IRQ_MASKS = 4194304;
-pub const IRQ_SPI: IRQ_MASKS = 8388608;
-pub const IRQ_WIFI: IRQ_MASKS = 16777216;
-pub const IRQ_ALL: IRQ_MASKS = -1;
-pub type IRQ_MASKS = i32;
-pub use self::IRQ_MASKS as IRQ_MASK;
-pub const IRQ_I2C: IRQ_MASKSAUX = 64;
-pub const IRQ_SDMMC: IRQ_MASKSAUX = 256;
-pub type IRQ_MASKSAUX = u32;
-pub const IME_DISABLE: IME_VALUE = 0;
-pub const IME_ENABLE: IME_VALUE = 1;
-pub type IME_VALUE = u32;
-extern "C" {
-    pub static mut __irq_vector: [VoidFn; 0usize];
-}
-extern "C" {
-    pub static mut __irq_flags: [vuint32; 0usize];
-}
-extern "C" {
-    pub static mut __irq_flagsaux: [vuint32; 0usize];
-}
-#[repr(C)]
-pub struct IntTable {
-    pub handler: IntFn,
-    pub mask: u32,
-}
-extern "C" {
-    pub fn irqInit();
-}
-extern "C" {
-    pub fn irqSet(irq: u32, handler: VoidFn);
-}
-extern "C" {
-    pub fn irqSetAUX(irq: u32, handler: VoidFn);
-}
-extern "C" {
-    pub fn irqClear(irq: u32);
-}
-extern "C" {
-    pub fn irqClearAUX(irq: u32);
-}
-extern "C" {
-    pub fn irqInitHandler(handler: VoidFn);
-}
-extern "C" {
-    pub fn irqEnable(irq: u32);
-}
-extern "C" {
-    pub fn irqEnableAUX(irq: u32);
-}
-extern "C" {
-    pub fn irqDisable(irq: u32);
-}
-extern "C" {
-    pub fn irqDisableAUX(irq: u32);
-}
-extern "C" {
-    pub fn swiIntrWait(waitForSet: u32, flags: uint32);
-}
-extern "C" {
-    pub fn swiWaitForVBlank();
-}
-extern "C" {
-    pub fn setPowerButtonCB(CB: VoidFn) -> VoidFn;
-}
-pub const IPC_SYNC_IRQ_ENABLE: IPC_SYNC_BITS = 16384;
-pub const IPC_SYNC_IRQ_REQUEST: IPC_SYNC_BITS = 8192;
-pub type IPC_SYNC_BITS = u32;
-pub const IPC_FIFO_SEND_EMPTY: IPC_CONTROL_BITS = 1;
-pub const IPC_FIFO_SEND_FULL: IPC_CONTROL_BITS = 2;
-pub const IPC_FIFO_SEND_IRQ: IPC_CONTROL_BITS = 4;
-pub const IPC_FIFO_SEND_CLEAR: IPC_CONTROL_BITS = 8;
-pub const IPC_FIFO_RECV_EMPTY: IPC_CONTROL_BITS = 256;
-pub const IPC_FIFO_RECV_FULL: IPC_CONTROL_BITS = 512;
-pub const IPC_FIFO_RECV_IRQ: IPC_CONTROL_BITS = 1024;
-pub const IPC_FIFO_ERROR: IPC_CONTROL_BITS = 16384;
-pub const IPC_FIFO_ENABLE: IPC_CONTROL_BITS = 32768;
-pub type IPC_CONTROL_BITS = u32;
-extern "C" {
-    pub fn __assert(arg1: *const libc::c_char, arg2: libc::c_int, arg3: *const libc::c_char);
-}
-extern "C" {
-    pub fn __assert_func(
-        arg1: *const libc::c_char,
-        arg2: libc::c_int,
-        arg3: *const libc::c_char,
-        arg4: *const libc::c_char,
-    );
-}
-#[repr(C)]
-pub struct sGBAHeader {
-    pub entryPoint: u32,
-    pub logo: [u8; 156usize],
-    pub title: [libc::c_char; 12usize],
-    pub gamecode: [libc::c_char; 4usize],
-    pub makercode: u16,
-    pub is96h: u8,
-    pub unitcode: u8,
-    pub devicecode: u8,
-    pub unused: [u8; 7usize],
-    pub version: u8,
-    pub complement: u8,
-    pub checksum: u16,
-}
-pub type tGBAHeader = sGBAHeader;
-#[repr(C)]
-pub struct sNDSHeader {
-    pub gameTitle: [libc::c_char; 12usize],
-    pub gameCode: [libc::c_char; 4usize],
-    pub makercode: [libc::c_char; 2usize],
-    pub unitCode: u8,
-    pub deviceType: u8,
-    pub deviceSize: u8,
-    pub reserved1: [u8; 9usize],
-    pub romversion: u8,
-    pub flags: u8,
-    pub arm9romOffset: u32,
-    pub arm9executeAddress: *mut libc::c_void,
-    pub arm9destination: *mut libc::c_void,
-    pub arm9binarySize: u32,
-    pub arm7romOffset: u32,
-    pub arm7executeAddress: *mut libc::c_void,
-    pub arm7destination: *mut libc::c_void,
-    pub arm7binarySize: u32,
-    pub filenameOffset: u32,
-    pub filenameSize: u32,
-    pub fatOffset: u32,
-    pub fatSize: u32,
-    pub arm9overlaySource: u32,
-    pub arm9overlaySize: u32,
-    pub arm7overlaySource: u32,
-    pub arm7overlaySize: u32,
-    pub cardControl13: u32,
-    pub cardControlBF: u32,
-    pub bannerOffset: u32,
-    pub secureCRC16: u16,
-    pub readTimeout: u16,
-    pub unknownRAM1: u32,
-    pub unknownRAM2: u32,
-    pub bfPrime1: u32,
-    pub bfPrime2: u32,
-    pub romSize: u32,
-    pub headerSize: u32,
-    pub zeros88: [u32; 14usize],
-    pub gbaLogo: [u8; 156usize],
-    pub logoCRC16: u16,
-    pub headerCRC16: u16,
-}
-pub type tNDSHeader = sNDSHeader;
-#[repr(C)]
-pub struct __DSiHeader {
-    pub ndshdr: tNDSHeader,
-    pub debugRomSource: u32,
-    pub debugRomSize: u32,
-    pub debugRomDestination: u32,
-    pub offset_0x16C: u32,
-    pub zero: [u8; 16usize],
-    pub global_mbk_setting: [[u8; 4usize]; 5usize],
-    pub arm9_mbk_setting: [u32; 3usize],
-    pub arm7_mbk_setting: [u32; 3usize],
-    pub mbk9_wramcnt_setting: u32,
-    pub region_flags: u32,
-    pub access_control: u32,
-    pub scfg_ext_mask: u32,
-    pub offset_0x1BC: [u8; 3usize],
-    pub appflags: u8,
-    pub arm9iromOffset: *mut libc::c_void,
-    pub offset_0x1C4: u32,
-    pub arm9idestination: *mut libc::c_void,
-    pub arm9ibinarySize: u32,
-    pub arm7iromOffset: *mut libc::c_void,
-    pub offset_0x1D4: u32,
-    pub arm7idestination: *mut libc::c_void,
-    pub arm7ibinarySize: u32,
-    pub digest_ntr_start: u32,
-    pub digest_ntr_size: u32,
-    pub digest_twl_start: u32,
-    pub digest_twl_size: u32,
-    pub sector_hashtable_start: u32,
-    pub sector_hashtable_size: u32,
-    pub block_hashtable_start: u32,
-    pub block_hashtable_size: u32,
-    pub digest_sector_size: u32,
-    pub digest_block_sectorcount: u32,
-    pub banner_size: u32,
-    pub offset_0x20C: u32,
-    pub total_rom_size: u32,
-    pub offset_0x214: u32,
-    pub offset_0x218: u32,
-    pub offset_0x21C: u32,
-    pub modcrypt1_start: u32,
-    pub modcrypt1_size: u32,
-    pub modcrypt2_start: u32,
-    pub modcrypt2_size: u32,
-    pub tid_low: u32,
-    pub tid_high: u32,
-    pub public_sav_size: u32,
-    pub private_sav_size: u32,
-    pub reserved3: [u8; 176usize],
-    pub age_ratings: [u8; 16usize],
-    pub hmac_arm9: [u8; 20usize],
-    pub hmac_arm7: [u8; 20usize],
-    pub hmac_digest_master: [u8; 20usize],
-    pub hmac_icon_title: [u8; 20usize],
-    pub hmac_arm9i: [u8; 20usize],
-    pub hmac_arm7i: [u8; 20usize],
-    pub reserved4: [u8; 40usize],
-    pub hmac_arm9_no_secure: [u8; 20usize],
-    pub reserved5: [u8; 2636usize],
-    pub debug_args: [u8; 384usize],
-    pub rsa_signature: [u8; 128usize],
-}
-pub type tDSiHeader = __DSiHeader;
-#[repr(C)]
-pub struct sNDSBanner {
-    pub version: u16,
-    pub crc: u16,
-    pub reserved: [u8; 28usize],
-    pub icon: [u8; 512usize],
-    pub palette: [u16; 16usize],
-    pub titles: [[u16; 128usize]; 6usize],
-}
-pub type tNDSBanner = sNDSBanner;
-pub const DISP_IN_VBLANK: DISP_BITS = 1;
-pub const DISP_IN_HBLANK: DISP_BITS = 2;
-pub const DISP_YTRIGGERED: DISP_BITS = 4;
-pub const DISP_VBLANK_IRQ: DISP_BITS = 8;
-pub const DISP_HBLANK_IRQ: DISP_BITS = 16;
-pub const DISP_YTRIGGER_IRQ: DISP_BITS = 32;
-pub type DISP_BITS = u32;
-pub const PM_SOUND_AMP: PM_Bits = 1;
-pub const PM_SOUND_MUTE: PM_Bits = 2;
-pub const PM_BACKLIGHT_BOTTOM: PM_Bits = 4;
-pub const PM_BACKLIGHT_TOP: PM_Bits = 8;
-pub const PM_SYSTEM_PWR: PM_Bits = 64;
-pub const POWER_LCD: PM_Bits = 65537;
-pub const POWER_2D_A: PM_Bits = 65538;
-pub const POWER_MATRIX: PM_Bits = 65540;
-pub const POWER_3D_CORE: PM_Bits = 65544;
-pub const POWER_2D_B: PM_Bits = 66048;
-pub const POWER_SWAP_LCDS: PM_Bits = 98304;
-pub const POWER_ALL_2D: PM_Bits = 66051;
-pub const POWER_ALL: PM_Bits = 66063;
-pub type PM_Bits = u32;
-extern "C" {
-    pub fn systemSleep();
-}
-extern "C" {
-    pub fn ledBlink(bm: libc::c_int);
-}
-extern "C" {
-    pub fn powerOn(bits: libc::c_int);
-}
-extern "C" {
-    pub fn powerOff(bits: libc::c_int);
-}
-extern "C" {
-    pub fn systemMsgHandler(bytes: libc::c_int, user_data: *mut libc::c_void);
-}
-extern "C" {
-    pub fn systemValueHandler(value: u32, data: *mut libc::c_void);
-}
-extern "C" {
-    pub fn readFirmware(address: u32, buffer: *mut libc::c_void, length: u32);
-}
-extern "C" {
-    pub fn writeFirmware(address: u32, buffer: *mut libc::c_void, length: u32) -> libc::c_int;
-}
-extern "C" {
-    pub fn getBatteryLevel() -> u32;
-}
-extern "C" {
-    pub fn setVectorBase(highVector: libc::c_int);
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct sysVectors_t {
-    pub reset: VoidFn,
-    pub undefined: VoidFn,
-    pub swi: VoidFn,
-    pub prefetch_abort: VoidFn,
-    pub data_abort: VoidFn,
-    pub fiq: VoidFn,
-}
-pub type sysVectors = sysVectors_t;
-extern "C" {
-    pub static mut SystemVectors: sysVectors;
-}
-extern "C" {
-    pub fn setSDcallback(callback: ::core::option::Option<unsafe extern "C" fn(arg1: libc::c_int)>);
-}
-extern "C" {
-    pub fn setCpuClock(speed: bool) -> bool;
-}
-extern "C" {
-    pub fn getHeapStart() -> *mut u8;
-}
-extern "C" {
-    pub fn getHeapEnd() -> *mut u8;
-}
-extern "C" {
-    pub fn getHeapLimit() -> *mut u8;
-}
-pub const BACKLIGHT_LOW: BACKLIGHT_LEVELS = 0;
-pub const BACKLIGHT_MED: BACKLIGHT_LEVELS = 1;
-pub const BACKLIGHT_HIGH: BACKLIGHT_LEVELS = 2;
-pub const BACKLIGHT_MAX: BACKLIGHT_LEVELS = 3;
-pub type BACKLIGHT_LEVELS = u32;
-#[repr(C, packed)]
-pub struct tPERSONAL_DATA {
-    pub RESERVED0: [u8; 2usize],
-    pub theme: u8,
-    pub birthMonth: u8,
-    pub birthDay: u8,
-    pub RESERVED1: [u8; 1usize],
-    pub name: [s16; 10usize],
-    pub nameLen: u16,
-    pub message: [s16; 26usize],
-    pub messageLen: u16,
-    pub alarmHour: u8,
-    pub alarmMinute: u8,
-    pub RESERVED2: [u8; 4usize],
-    pub calX1: u16,
-    pub calY1: u16,
-    pub calX1px: u8,
-    pub calY1px: u8,
-    pub calX2: u16,
-    pub calY2: u16,
-    pub calX2px: u8,
-    pub calY2px: u8,
-    pub __bindgen_anon_1: tPERSONAL_DATA__bindgen_ty_1,
-    pub RESERVED3: u16,
-    pub rtcOffset: u32,
-    pub RESERVED4: u32,
-}
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct tPERSONAL_DATA__bindgen_ty_1 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u8>,
-}
-impl tPERSONAL_DATA__bindgen_ty_1 {
-    #[inline]
-    pub fn language(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 3u8) as u32) }
-    }
-    #[inline]
-    pub fn set_language(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(0usize, 3u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn gbaScreen(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(3usize, 1u8) as u32) }
-    }
-    #[inline]
-    pub fn set_gbaScreen(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(3usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn defaultBrightness(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(4usize, 2u8) as u32) }
-    }
-    #[inline]
-    pub fn set_defaultBrightness(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(4usize, 2u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn autoMode(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(6usize, 1u8) as u32) }
-    }
-    #[inline]
-    pub fn set_autoMode(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(6usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn RESERVED5(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(7usize, 2u8) as u32) }
-    }
-    #[inline]
-    pub fn set_RESERVED5(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(7usize, 2u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn settingsLost(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(9usize, 1u8) as u32) }
-    }
-    #[inline]
-    pub fn set_settingsLost(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(9usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn RESERVED6(&self) -> libc::c_uint {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(10usize, 6u8) as u32) }
-    }
-    #[inline]
-    pub fn set_RESERVED6(&mut self, val: libc::c_uint) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(10usize, 6u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(
-        language: libc::c_uint,
-        gbaScreen: libc::c_uint,
-        defaultBrightness: libc::c_uint,
-        autoMode: libc::c_uint,
-        RESERVED5: libc::c_uint,
-        settingsLost: libc::c_uint,
-        RESERVED6: libc::c_uint,
-    ) -> __BindgenBitfieldUnit<[u8; 2usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit.set(0usize, 3u8, {
-            let language: u32 = unsafe { ::core::mem::transmute(language) };
-            language as u64
-        });
-        __bindgen_bitfield_unit.set(3usize, 1u8, {
-            let gbaScreen: u32 = unsafe { ::core::mem::transmute(gbaScreen) };
-            gbaScreen as u64
-        });
-        __bindgen_bitfield_unit.set(4usize, 2u8, {
-            let defaultBrightness: u32 = unsafe { ::core::mem::transmute(defaultBrightness) };
-            defaultBrightness as u64
-        });
-        __bindgen_bitfield_unit.set(6usize, 1u8, {
-            let autoMode: u32 = unsafe { ::core::mem::transmute(autoMode) };
-            autoMode as u64
-        });
-        __bindgen_bitfield_unit.set(7usize, 2u8, {
-            let RESERVED5: u32 = unsafe { ::core::mem::transmute(RESERVED5) };
-            RESERVED5 as u64
-        });
-        __bindgen_bitfield_unit.set(9usize, 1u8, {
-            let settingsLost: u32 = unsafe { ::core::mem::transmute(settingsLost) };
-            settingsLost as u64
-        });
-        __bindgen_bitfield_unit.set(10usize, 6u8, {
-            let RESERVED6: u32 = unsafe { ::core::mem::transmute(RESERVED6) };
-            RESERVED6 as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-pub type PERSONAL_DATA = tPERSONAL_DATA;
-#[repr(C)]
-pub struct RTCtime {
-    pub year: u8,
-    pub month: u8,
-    pub day: u8,
-    pub weekday: u8,
-    pub hours: u8,
-    pub minutes: u8,
-    pub seconds: u8,
-}
-#[repr(C)]
-pub struct __argv {
-    pub argvMagic: libc::c_int,
-    pub commandLine: *mut libc::c_char,
-    pub length: libc::c_int,
-    pub argc: libc::c_int,
-    pub argv: *mut *mut libc::c_char,
-    pub dummy: libc::c_int,
-    pub host: u32,
-}
-#[repr(C)]
-pub struct __bootstub {
-    pub bootsig: u64,
-    pub arm9reboot: VoidFn,
-    pub arm7reboot: VoidFn,
-    pub bootsize: u32,
-    pub __bindgen_padding_0: u32,
-}
-extern "C" {
-    pub fn memCached(address: *mut libc::c_void) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn memUncached(address: *mut libc::c_void) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn resetARM7(address: u32);
-}
-pub const ClockDivider_1: ClockDivider = 0;
-pub const ClockDivider_64: ClockDivider = 1;
-pub const ClockDivider_256: ClockDivider = 2;
-pub const ClockDivider_1024: ClockDivider = 3;
-pub type ClockDivider = u32;
-extern "C" {
-    pub fn timerStart(timer: libc::c_int, divider: ClockDivider, ticks: u16, callback: VoidFn);
-}
-extern "C" {
-    pub fn timerElapsed(timer: libc::c_int) -> u16;
-}
-extern "C" {
-    pub fn timerPause(timer: libc::c_int) -> u16;
-}
-extern "C" {
-    pub fn timerStop(timer: libc::c_int) -> u16;
-}
-extern "C" {
-    pub fn cpuStartTiming(timer: libc::c_int);
-}
-extern "C" {
-    pub fn cpuGetTiming() -> u32;
-}
-extern "C" {
-    pub fn cpuEndTiming() -> u32;
-}
-pub const FIFO_PM: FifoChannels = 0;
-pub const FIFO_SOUND: FifoChannels = 1;
-pub const FIFO_SYSTEM: FifoChannels = 2;
-pub const FIFO_MAXMOD: FifoChannels = 3;
-pub const FIFO_DSWIFI: FifoChannels = 4;
-pub const FIFO_SDMMC: FifoChannels = 5;
-pub const FIFO_FIRMWARE: FifoChannels = 6;
-pub const FIFO_RSVD_01: FifoChannels = 7;
-pub const FIFO_USER_01: FifoChannels = 8;
-pub const FIFO_USER_02: FifoChannels = 9;
-pub const FIFO_USER_03: FifoChannels = 10;
-pub const FIFO_USER_04: FifoChannels = 11;
-pub const FIFO_USER_05: FifoChannels = 12;
-pub const FIFO_USER_06: FifoChannels = 13;
-pub const FIFO_USER_07: FifoChannels = 14;
-pub const FIFO_USER_08: FifoChannels = 15;
-pub type FifoChannels = u32;
-pub const SOUND_SET_PAN: FifoSoundCommand = 0;
-pub const SOUND_SET_VOLUME: FifoSoundCommand = 1048576;
-pub const SOUND_SET_FREQ: FifoSoundCommand = 2097152;
-pub const SOUND_SET_WAVEDUTY: FifoSoundCommand = 3145728;
-pub const SOUND_MASTER_ENABLE: FifoSoundCommand = 4194304;
-pub const SOUND_MASTER_DISABLE: FifoSoundCommand = 5242880;
-pub const SOUND_PAUSE: FifoSoundCommand = 6291456;
-pub const SOUND_RESUME: FifoSoundCommand = 7340032;
-pub const SOUND_KILL: FifoSoundCommand = 8388608;
-pub const SOUND_SET_MASTER_VOL: FifoSoundCommand = 9437184;
-pub const MIC_STOP: FifoSoundCommand = 10485760;
-pub type FifoSoundCommand = u32;
-pub const SYS_REQ_TOUCH: FifoSystemCommands = 0;
-pub const SYS_REQ_KEYS: FifoSystemCommands = 1;
-pub const SYS_REQ_TIME: FifoSystemCommands = 2;
-pub const SYS_SET_TIME: FifoSystemCommands = 3;
-pub const SDMMC_INSERT: FifoSystemCommands = 4;
-pub const SDMMC_REMOVE: FifoSystemCommands = 5;
-pub type FifoSystemCommands = u32;
-pub const SDMMC_HAVE_SD: FifoSdmmcCommands = 0;
-pub const SDMMC_SD_START: FifoSdmmcCommands = 1;
-pub const SDMMC_SD_IS_INSERTED: FifoSdmmcCommands = 2;
-pub const SDMMC_SD_STOP: FifoSdmmcCommands = 3;
-pub const SDMMC_NAND_START: FifoSdmmcCommands = 4;
-pub const SDMMC_NAND_STOP: FifoSdmmcCommands = 5;
-pub const SDMMC_NAND_SIZE: FifoSdmmcCommands = 6;
-pub type FifoSdmmcCommands = u32;
-pub const FW_READ: FifoFirmwareCommands = 0;
-pub const FW_WRITE: FifoFirmwareCommands = 1;
-pub type FifoFirmwareCommands = u32;
-pub const PM_REQ_ON: FifoPMCommands = 65536;
-pub const PM_REQ_OFF: FifoPMCommands = 131072;
-pub const PM_REQ_LED: FifoPMCommands = 196608;
-pub const PM_REQ_SLEEP: FifoPMCommands = 262144;
-pub const PM_REQ_SLEEP_DISABLE: FifoPMCommands = 327680;
-pub const PM_REQ_SLEEP_ENABLE: FifoPMCommands = 393216;
-pub const PM_REQ_BATTERY: FifoPMCommands = 458752;
-pub const PM_REQ_SLOT1_DISABLE: FifoPMCommands = 524288;
-pub const PM_REQ_SLOT1_ENABLE: FifoPMCommands = 589824;
-pub type FifoPMCommands = u32;
-pub const WIFI_ENABLE: FifoWifiCommands = 0;
-pub const WIFI_DISABLE: FifoWifiCommands = 1;
-pub const WIFI_SYNC: FifoWifiCommands = 2;
-pub const WIFI_STARTUP: FifoWifiCommands = 3;
-pub type FifoWifiCommands = u32;
-pub const PM_LED_ON: PM_LedBlinkMode = 0;
-pub const PM_LED_SLEEP: PM_LedBlinkMode = 1;
-pub const PM_LED_BLINK: PM_LedBlinkMode = 3;
-pub type PM_LedBlinkMode = u32;
-pub type FifoAddressHandlerFunc = ::core::option::Option<
-    unsafe extern "C" fn(address: *mut libc::c_void, userdata: *mut libc::c_void),
->;
-pub type FifoValue32HandlerFunc =
-    ::core::option::Option<unsafe extern "C" fn(value32: u32, userdata: *mut libc::c_void)>;
-pub type FifoDatamsgHandlerFunc = ::core::option::Option<
-    unsafe extern "C" fn(num_bytes: libc::c_int, userdata: *mut libc::c_void),
->;
-extern "C" {
-    pub fn fifoInit() -> bool;
-}
-extern "C" {
-    pub fn fifoSendAddress(channel: libc::c_int, address: *mut libc::c_void) -> bool;
-}
-extern "C" {
-    pub fn fifoSendValue32(channel: libc::c_int, value32: u32) -> bool;
-}
-extern "C" {
-    pub fn fifoSendDatamsg(
-        channel: libc::c_int,
-        num_bytes: libc::c_int,
-        data_array: *mut u8,
-    ) -> bool;
-}
-extern "C" {
-    pub fn fifoSetAddressHandler(
-        channel: libc::c_int,
-        newhandler: FifoAddressHandlerFunc,
-        userdata: *mut libc::c_void,
-    ) -> bool;
-}
-extern "C" {
-    pub fn fifoSetValue32Handler(
-        channel: libc::c_int,
-        newhandler: FifoValue32HandlerFunc,
-        userdata: *mut libc::c_void,
-    ) -> bool;
-}
-extern "C" {
-    pub fn fifoSetDatamsgHandler(
-        channel: libc::c_int,
-        newhandler: FifoDatamsgHandlerFunc,
-        userdata: *mut libc::c_void,
-    ) -> bool;
-}
-extern "C" {
-    pub fn fifoCheckAddress(channel: libc::c_int) -> bool;
-}
-extern "C" {
-    pub fn fifoCheckValue32(channel: libc::c_int) -> bool;
-}
-extern "C" {
-    pub fn fifoCheckDatamsg(channel: libc::c_int) -> bool;
-}
-extern "C" {
-    pub fn fifoCheckDatamsgLength(channel: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn fifoGetAddress(channel: libc::c_int) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn fifoGetValue32(channel: libc::c_int) -> u32;
-}
-extern "C" {
-    pub fn fifoGetDatamsg(
-        channel: libc::c_int,
-        buffersize: libc::c_int,
-        destbuffer: *mut u8,
-    ) -> libc::c_int;
-}
-#[repr(C)]
-pub struct touchPosition {
-    pub rawx: u16,
-    pub rawy: u16,
-    pub px: u16,
-    pub py: u16,
-    pub z1: u16,
-    pub z2: u16,
-}
-pub const KEY_A: KEYPAD_BITS = 1;
-pub const KEY_B: KEYPAD_BITS = 2;
-pub const KEY_SELECT: KEYPAD_BITS = 4;
-pub const KEY_START: KEYPAD_BITS = 8;
-pub const KEY_RIGHT: KEYPAD_BITS = 16;
-pub const KEY_LEFT: KEYPAD_BITS = 32;
-pub const KEY_UP: KEYPAD_BITS = 64;
-pub const KEY_DOWN: KEYPAD_BITS = 128;
-pub const KEY_R: KEYPAD_BITS = 256;
-pub const KEY_L: KEYPAD_BITS = 512;
-pub const KEY_X: KEYPAD_BITS = 1024;
-pub const KEY_Y: KEYPAD_BITS = 2048;
-pub const KEY_TOUCH: KEYPAD_BITS = 4096;
-pub const KEY_LID: KEYPAD_BITS = 8192;
-pub type KEYPAD_BITS = u32;
-#[repr(C)]
-pub struct swiSHA1context {
-    pub state: [u32; 5usize],
-    pub total: [u32; 2usize],
-    pub buffer: [u8; 64usize],
-    pub fragment_size: u32,
-    pub sha_block: ::core::option::Option<
-        unsafe extern "C" fn(ctx: *mut swiSHA1context, src: *const libc::c_void, len: usize),
-    >,
-}
-pub type swiSHA1context_t = swiSHA1context;
-extern "C" {
-    pub fn swiSHA1Init(ctx: *mut swiSHA1context_t);
-}
-extern "C" {
-    pub fn swiSHA1Update(ctx: *mut swiSHA1context_t, data: *const libc::c_void, len: usize);
-}
-extern "C" {
-    pub fn swiSHA1Final(digest: *mut libc::c_void, ctx: *mut swiSHA1context_t);
-}
-extern "C" {
-    pub fn swiSHA1Calc(digest: *mut libc::c_void, data: *const libc::c_void, len: usize);
-}
-extern "C" {
-    pub fn swiSHA1Verify(digest1: *const libc::c_void, digest2: *const libc::c_void);
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct DynamicArray {
-    pub data: *mut *mut libc::c_void,
-    pub cur_size: libc::c_uint,
-}
-extern "C" {
-    pub fn DynamicArrayInit(v: *mut DynamicArray, initialSize: libc::c_uint) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn DynamicArrayDelete(v: *mut DynamicArray);
-}
-extern "C" {
-    pub fn DynamicArrayGet(v: *mut DynamicArray, index: libc::c_uint) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn DynamicArraySet(
-        v: *mut DynamicArray,
-        index: libc::c_uint,
-        item: *mut libc::c_void,
-    ) -> bool;
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct LinkedList {
-    pub next: *mut LinkedList,
-    pub prev: *mut LinkedList,
-    pub data: *mut libc::c_void,
-}
-extern "C" {
-    pub fn linkedlistAdd(front: *mut *mut LinkedList, data: *mut libc::c_void) -> *mut LinkedList;
-}
-extern "C" {
-    pub fn linkedlistRemove(node: *mut LinkedList);
-}
-extern "C" {
-    pub fn __sassert(
-        fileName: *const libc::c_char,
-        lineNumber: libc::c_int,
-        conditionString: *const libc::c_char,
-        format: *const libc::c_char,
-        ...
-    );
-}
-extern "C" {
-    pub static mut mosaicShadow: u16;
-}
-extern "C" {
-    pub static mut mosaicShadowSub: u16;
-}
-pub const VRAM_A_LCD: VRAM_A_TYPE = 0;
-pub const VRAM_A_MAIN_BG: VRAM_A_TYPE = 1;
-pub const VRAM_A_MAIN_BG_0x06000000: VRAM_A_TYPE = 1;
-pub const VRAM_A_MAIN_BG_0x06020000: VRAM_A_TYPE = 9;
-pub const VRAM_A_MAIN_BG_0x06040000: VRAM_A_TYPE = 17;
-pub const VRAM_A_MAIN_BG_0x06060000: VRAM_A_TYPE = 25;
-pub const VRAM_A_MAIN_SPRITE: VRAM_A_TYPE = 2;
-pub const VRAM_A_MAIN_SPRITE_0x06400000: VRAM_A_TYPE = 2;
-pub const VRAM_A_MAIN_SPRITE_0x06420000: VRAM_A_TYPE = 10;
-pub const VRAM_A_TEXTURE: VRAM_A_TYPE = 3;
-pub const VRAM_A_TEXTURE_SLOT0: VRAM_A_TYPE = 3;
-pub const VRAM_A_TEXTURE_SLOT1: VRAM_A_TYPE = 11;
-pub const VRAM_A_TEXTURE_SLOT2: VRAM_A_TYPE = 19;
-pub const VRAM_A_TEXTURE_SLOT3: VRAM_A_TYPE = 27;
-pub type VRAM_A_TYPE = u32;
-pub const VRAM_B_LCD: VRAM_B_TYPE = 0;
-pub const VRAM_B_MAIN_BG: VRAM_B_TYPE = 9;
-pub const VRAM_B_MAIN_BG_0x06000000: VRAM_B_TYPE = 1;
-pub const VRAM_B_MAIN_BG_0x06020000: VRAM_B_TYPE = 9;
-pub const VRAM_B_MAIN_BG_0x06040000: VRAM_B_TYPE = 17;
-pub const VRAM_B_MAIN_BG_0x06060000: VRAM_B_TYPE = 25;
-pub const VRAM_B_MAIN_SPRITE: VRAM_B_TYPE = 2;
-pub const VRAM_B_MAIN_SPRITE_0x06400000: VRAM_B_TYPE = 2;
-pub const VRAM_B_MAIN_SPRITE_0x06420000: VRAM_B_TYPE = 10;
-pub const VRAM_B_TEXTURE: VRAM_B_TYPE = 11;
-pub const VRAM_B_TEXTURE_SLOT0: VRAM_B_TYPE = 3;
-pub const VRAM_B_TEXTURE_SLOT1: VRAM_B_TYPE = 11;
-pub const VRAM_B_TEXTURE_SLOT2: VRAM_B_TYPE = 19;
-pub const VRAM_B_TEXTURE_SLOT3: VRAM_B_TYPE = 27;
-pub type VRAM_B_TYPE = u32;
-pub const VRAM_C_LCD: VRAM_C_TYPE = 0;
-pub const VRAM_C_MAIN_BG: VRAM_C_TYPE = 17;
-pub const VRAM_C_MAIN_BG_0x06000000: VRAM_C_TYPE = 1;
-pub const VRAM_C_MAIN_BG_0x06020000: VRAM_C_TYPE = 9;
-pub const VRAM_C_MAIN_BG_0x06040000: VRAM_C_TYPE = 17;
-pub const VRAM_C_MAIN_BG_0x06060000: VRAM_C_TYPE = 25;
-pub const VRAM_C_ARM7: VRAM_C_TYPE = 2;
-pub const VRAM_C_ARM7_0x06000000: VRAM_C_TYPE = 2;
-pub const VRAM_C_ARM7_0x06020000: VRAM_C_TYPE = 10;
-pub const VRAM_C_SUB_BG: VRAM_C_TYPE = 4;
-pub const VRAM_C_SUB_BG_0x06200000: VRAM_C_TYPE = 4;
-pub const VRAM_C_TEXTURE: VRAM_C_TYPE = 19;
-pub const VRAM_C_TEXTURE_SLOT0: VRAM_C_TYPE = 3;
-pub const VRAM_C_TEXTURE_SLOT1: VRAM_C_TYPE = 11;
-pub const VRAM_C_TEXTURE_SLOT2: VRAM_C_TYPE = 19;
-pub const VRAM_C_TEXTURE_SLOT3: VRAM_C_TYPE = 27;
-pub type VRAM_C_TYPE = u32;
-pub const VRAM_D_LCD: VRAM_D_TYPE = 0;
-pub const VRAM_D_MAIN_BG: VRAM_D_TYPE = 25;
-pub const VRAM_D_MAIN_BG_0x06000000: VRAM_D_TYPE = 1;
-pub const VRAM_D_MAIN_BG_0x06020000: VRAM_D_TYPE = 9;
-pub const VRAM_D_MAIN_BG_0x06040000: VRAM_D_TYPE = 17;
-pub const VRAM_D_MAIN_BG_0x06060000: VRAM_D_TYPE = 25;
-pub const VRAM_D_ARM7: VRAM_D_TYPE = 10;
-pub const VRAM_D_ARM7_0x06000000: VRAM_D_TYPE = 2;
-pub const VRAM_D_ARM7_0x06020000: VRAM_D_TYPE = 10;
-pub const VRAM_D_SUB_SPRITE: VRAM_D_TYPE = 4;
-pub const VRAM_D_TEXTURE: VRAM_D_TYPE = 27;
-pub const VRAM_D_TEXTURE_SLOT0: VRAM_D_TYPE = 3;
-pub const VRAM_D_TEXTURE_SLOT1: VRAM_D_TYPE = 11;
-pub const VRAM_D_TEXTURE_SLOT2: VRAM_D_TYPE = 19;
-pub const VRAM_D_TEXTURE_SLOT3: VRAM_D_TYPE = 27;
-pub type VRAM_D_TYPE = u32;
-pub const VRAM_E_LCD: VRAM_E_TYPE = 0;
-pub const VRAM_E_MAIN_BG: VRAM_E_TYPE = 1;
-pub const VRAM_E_MAIN_SPRITE: VRAM_E_TYPE = 2;
-pub const VRAM_E_TEX_PALETTE: VRAM_E_TYPE = 3;
-pub const VRAM_E_BG_EXT_PALETTE: VRAM_E_TYPE = 4;
-pub type VRAM_E_TYPE = u32;
-pub const VRAM_F_LCD: VRAM_F_TYPE = 0;
-pub const VRAM_F_MAIN_BG: VRAM_F_TYPE = 1;
-pub const VRAM_F_MAIN_BG_0x06000000: VRAM_F_TYPE = 1;
-pub const VRAM_F_MAIN_BG_0x06004000: VRAM_F_TYPE = 9;
-pub const VRAM_F_MAIN_BG_0x06010000: VRAM_F_TYPE = 17;
-pub const VRAM_F_MAIN_BG_0x06014000: VRAM_F_TYPE = 25;
-pub const VRAM_F_MAIN_SPRITE: VRAM_F_TYPE = 2;
-pub const VRAM_F_MAIN_SPRITE_0x06400000: VRAM_F_TYPE = 2;
-pub const VRAM_F_MAIN_SPRITE_0x06404000: VRAM_F_TYPE = 10;
-pub const VRAM_F_MAIN_SPRITE_0x06410000: VRAM_F_TYPE = 18;
-pub const VRAM_F_MAIN_SPRITE_0x06414000: VRAM_F_TYPE = 26;
-pub const VRAM_F_TEX_PALETTE: VRAM_F_TYPE = 3;
-pub const VRAM_F_TEX_PALETTE_SLOT0: VRAM_F_TYPE = 3;
-pub const VRAM_F_TEX_PALETTE_SLOT1: VRAM_F_TYPE = 11;
-pub const VRAM_F_TEX_PALETTE_SLOT4: VRAM_F_TYPE = 19;
-pub const VRAM_F_TEX_PALETTE_SLOT5: VRAM_F_TYPE = 27;
-pub const VRAM_F_BG_EXT_PALETTE: VRAM_F_TYPE = 4;
-pub const VRAM_F_BG_EXT_PALETTE_SLOT01: VRAM_F_TYPE = 4;
-pub const VRAM_F_BG_EXT_PALETTE_SLOT23: VRAM_F_TYPE = 12;
-pub const VRAM_F_SPRITE_EXT_PALETTE: VRAM_F_TYPE = 5;
-pub type VRAM_F_TYPE = u32;
-pub const VRAM_G_LCD: VRAM_G_TYPE = 0;
-pub const VRAM_G_MAIN_BG: VRAM_G_TYPE = 1;
-pub const VRAM_G_MAIN_BG_0x06000000: VRAM_G_TYPE = 1;
-pub const VRAM_G_MAIN_BG_0x06004000: VRAM_G_TYPE = 9;
-pub const VRAM_G_MAIN_BG_0x06010000: VRAM_G_TYPE = 17;
-pub const VRAM_G_MAIN_BG_0x06014000: VRAM_G_TYPE = 25;
-pub const VRAM_G_MAIN_SPRITE: VRAM_G_TYPE = 2;
-pub const VRAM_G_MAIN_SPRITE_0x06400000: VRAM_G_TYPE = 2;
-pub const VRAM_G_MAIN_SPRITE_0x06404000: VRAM_G_TYPE = 10;
-pub const VRAM_G_MAIN_SPRITE_0x06410000: VRAM_G_TYPE = 18;
-pub const VRAM_G_MAIN_SPRITE_0x06414000: VRAM_G_TYPE = 26;
-pub const VRAM_G_TEX_PALETTE: VRAM_G_TYPE = 3;
-pub const VRAM_G_TEX_PALETTE_SLOT0: VRAM_G_TYPE = 3;
-pub const VRAM_G_TEX_PALETTE_SLOT1: VRAM_G_TYPE = 11;
-pub const VRAM_G_TEX_PALETTE_SLOT4: VRAM_G_TYPE = 19;
-pub const VRAM_G_TEX_PALETTE_SLOT5: VRAM_G_TYPE = 27;
-pub const VRAM_G_BG_EXT_PALETTE: VRAM_G_TYPE = 4;
-pub const VRAM_G_BG_EXT_PALETTE_SLOT01: VRAM_G_TYPE = 4;
-pub const VRAM_G_BG_EXT_PALETTE_SLOT23: VRAM_G_TYPE = 12;
-pub const VRAM_G_SPRITE_EXT_PALETTE: VRAM_G_TYPE = 5;
-pub type VRAM_G_TYPE = u32;
-pub const VRAM_H_LCD: VRAM_H_TYPE = 0;
-pub const VRAM_H_SUB_BG: VRAM_H_TYPE = 1;
-pub const VRAM_H_SUB_BG_EXT_PALETTE: VRAM_H_TYPE = 2;
-pub type VRAM_H_TYPE = u32;
-pub const VRAM_I_LCD: VRAM_I_TYPE = 0;
-pub const VRAM_I_SUB_BG_0x06208000: VRAM_I_TYPE = 1;
-pub const VRAM_I_SUB_SPRITE: VRAM_I_TYPE = 2;
-pub const VRAM_I_SUB_SPRITE_EXT_PALETTE: VRAM_I_TYPE = 3;
-pub type VRAM_I_TYPE = u32;
-pub type _palette = [u16; 256usize];
-pub type _ext_palette = [_palette; 16usize];
-extern "C" {
-    pub fn vramSetPrimaryBanks(
-        a: VRAM_A_TYPE,
-        b: VRAM_B_TYPE,
-        c: VRAM_C_TYPE,
-        d: VRAM_D_TYPE,
-    ) -> u32;
-}
-extern "C" {
-    pub fn vramSetMainBanks(a: VRAM_A_TYPE, b: VRAM_B_TYPE, c: VRAM_C_TYPE, d: VRAM_D_TYPE) -> u32;
-}
-extern "C" {
-    pub fn vramSetBanks_EFG(e: VRAM_E_TYPE, f: VRAM_F_TYPE, g: VRAM_G_TYPE) -> u32;
-}
-extern "C" {
-    pub fn vramDefault() -> u32;
-}
-extern "C" {
-    pub fn vramRestorePrimaryBanks(vramTemp: u32);
-}
-extern "C" {
-    pub fn vramRestoreMainBanks(vramTemp: u32);
-}
-extern "C" {
-    pub fn vramRestoreBanks_EFG(vramTemp: u32);
-}
-pub const MODE_0_2D: VideoMode = 65536;
-pub const MODE_1_2D: VideoMode = 65537;
-pub const MODE_2_2D: VideoMode = 65538;
-pub const MODE_3_2D: VideoMode = 65539;
-pub const MODE_4_2D: VideoMode = 65540;
-pub const MODE_5_2D: VideoMode = 65541;
-pub const MODE_6_2D: VideoMode = 65542;
-pub const MODE_0_3D: VideoMode = 65800;
-pub const MODE_1_3D: VideoMode = 65801;
-pub const MODE_2_3D: VideoMode = 65802;
-pub const MODE_3_3D: VideoMode = 65803;
-pub const MODE_4_3D: VideoMode = 65804;
-pub const MODE_5_3D: VideoMode = 65805;
-pub const MODE_6_3D: VideoMode = 65806;
-pub const MODE_FIFO: VideoMode = 196608;
-pub const MODE_FB0: VideoMode = 131072;
-pub const MODE_FB1: VideoMode = 393216;
-pub const MODE_FB2: VideoMode = 655360;
-pub const MODE_FB3: VideoMode = 917504;
-pub type VideoMode = u32;
-extern "C" {
-    pub fn setBrightness(screen: libc::c_int, level: libc::c_int);
-}
-#[repr(C)]
-pub struct bg_scroll {
-    pub x: u16,
-    pub y: u16,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct bg_transform {
-    pub hdx: s16,
-    pub vdx: s16,
-    pub hdy: s16,
-    pub vdy: s16,
-    pub dx: s32,
-    pub dy: s32,
-}
-#[repr(C)]
-pub struct bg_attribute {
-    pub control: [u16; 4usize],
-    pub scroll: [bg_scroll; 4usize],
-    pub bg2_rotation: bg_transform,
-    pub bg3_rotation: bg_transform,
-}
-#[repr(C)]
-pub struct TileMapEntry8 {
-    pub index: u8,
-}
-#[repr(C, packed)]
-pub struct TileMapEntry16 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u16>,
-}
-impl TileMapEntry16 {
-    #[inline]
-    pub fn index(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 10u8) as u16) }
-    }
-    #[inline]
-    pub fn set_index(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(0usize, 10u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn hflip(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(10usize, 1u8) as u16) }
-    }
-    #[inline]
-    pub fn set_hflip(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(10usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn vflip(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(11usize, 1u8) as u16) }
-    }
-    #[inline]
-    pub fn set_vflip(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(11usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn palette(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(12usize, 4u8) as u16) }
-    }
-    #[inline]
-    pub fn set_palette(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(12usize, 4u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(
-        index: u16,
-        hflip: u16,
-        vflip: u16,
-        palette: u16,
-    ) -> __BindgenBitfieldUnit<[u8; 2usize], u16> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u16> =
-            Default::default();
-        __bindgen_bitfield_unit.set(0usize, 10u8, {
-            let index: u16 = unsafe { ::core::mem::transmute(index) };
-            index as u64
-        });
-        __bindgen_bitfield_unit.set(10usize, 1u8, {
-            let hflip: u16 = unsafe { ::core::mem::transmute(hflip) };
-            hflip as u64
-        });
-        __bindgen_bitfield_unit.set(11usize, 1u8, {
-            let vflip: u16 = unsafe { ::core::mem::transmute(vflip) };
-            vflip as u64
-        });
-        __bindgen_bitfield_unit.set(12usize, 4u8, {
-            let palette: u16 = unsafe { ::core::mem::transmute(palette) };
-            palette as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-pub const BG_32x32: BackgroundControl = 0;
-pub const BG_64x32: BackgroundControl = 16384;
-pub const BG_32x64: BackgroundControl = 32768;
-pub const BG_64x64: BackgroundControl = 49152;
-pub const BG_RS_16x16: BackgroundControl = 0;
-pub const BG_RS_32x32: BackgroundControl = 16384;
-pub const BG_RS_64x64: BackgroundControl = 32768;
-pub const BG_RS_128x128: BackgroundControl = 49152;
-pub const BG_BMP8_128x128: BackgroundControl = 128;
-pub const BG_BMP8_256x256: BackgroundControl = 16512;
-pub const BG_BMP8_512x256: BackgroundControl = 32896;
-pub const BG_BMP8_512x512: BackgroundControl = 49280;
-pub const BG_BMP8_1024x512: BackgroundControl = 16384;
-pub const BG_BMP8_512x1024: BackgroundControl = 0;
-pub const BG_BMP16_128x128: BackgroundControl = 132;
-pub const BG_BMP16_256x256: BackgroundControl = 16516;
-pub const BG_BMP16_512x256: BackgroundControl = 32900;
-pub const BG_BMP16_512x512: BackgroundControl = 49284;
-pub const BG_MOSAIC_ON: BackgroundControl = 64;
-pub const BG_MOSAIC_OFF: BackgroundControl = 0;
-pub const BG_PRIORITY_0: BackgroundControl = 0;
-pub const BG_PRIORITY_1: BackgroundControl = 1;
-pub const BG_PRIORITY_2: BackgroundControl = 2;
-pub const BG_PRIORITY_3: BackgroundControl = 3;
-pub const BG_WRAP_OFF: BackgroundControl = 0;
-pub const BG_WRAP_ON: BackgroundControl = 8192;
-pub const BG_PALETTE_SLOT0: BackgroundControl = 0;
-pub const BG_PALETTE_SLOT1: BackgroundControl = 0;
-pub const BG_PALETTE_SLOT2: BackgroundControl = 8192;
-pub const BG_PALETTE_SLOT3: BackgroundControl = 8192;
-pub const BG_COLOR_256: BackgroundControl = 128;
-pub const BG_COLOR_16: BackgroundControl = 0;
-pub type BackgroundControl = u32;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct BgState {
-    pub angle: libc::c_int,
-    pub centerX: s32,
-    pub centerY: s32,
-    pub scaleX: s32,
-    pub scaleY: s32,
-    pub scrollX: s32,
-    pub scrollY: s32,
-    pub size: libc::c_int,
-    pub type_: libc::c_int,
-    pub dirty: bool,
-}
-extern "C" {
-    pub static mut bgControl: [*mut vuint16; 8usize];
-}
-extern "C" {
-    pub static mut bgScrollTable: [*mut bg_scroll; 8usize];
-}
-extern "C" {
-    pub static mut bgTransform: [*mut bg_transform; 8usize];
-}
-extern "C" {
-    pub static mut bgState: [BgState; 8usize];
-}
-pub const BgType_Text8bpp: BgType = 0;
-pub const BgType_Text4bpp: BgType = 1;
-pub const BgType_Rotation: BgType = 2;
-pub const BgType_ExRotation: BgType = 3;
-pub const BgType_Bmp8: BgType = 4;
-pub const BgType_Bmp16: BgType = 5;
-pub type BgType = u32;
-pub const BgSize_R_128x128: BgSize = 0;
-pub const BgSize_R_256x256: BgSize = 16384;
-pub const BgSize_R_512x512: BgSize = 32768;
-pub const BgSize_R_1024x1024: BgSize = 49152;
-pub const BgSize_T_256x256: BgSize = 65536;
-pub const BgSize_T_512x256: BgSize = 81920;
-pub const BgSize_T_256x512: BgSize = 98304;
-pub const BgSize_T_512x512: BgSize = 114688;
-pub const BgSize_ER_128x128: BgSize = 131072;
-pub const BgSize_ER_256x256: BgSize = 147456;
-pub const BgSize_ER_512x512: BgSize = 163840;
-pub const BgSize_ER_1024x1024: BgSize = 180224;
-pub const BgSize_B8_128x128: BgSize = 196736;
-pub const BgSize_B8_256x256: BgSize = 213120;
-pub const BgSize_B8_512x256: BgSize = 229504;
-pub const BgSize_B8_512x512: BgSize = 245888;
-pub const BgSize_B8_1024x512: BgSize = 212992;
-pub const BgSize_B8_512x1024: BgSize = 196608;
-pub const BgSize_B16_128x128: BgSize = 262276;
-pub const BgSize_B16_256x256: BgSize = 278660;
-pub const BgSize_B16_512x256: BgSize = 295044;
-pub const BgSize_B16_512x512: BgSize = 311428;
-pub type BgSize = u32;
-extern "C" {
-    pub fn bgIsText(id: libc::c_int) -> bool;
-}
-extern "C" {
-    pub fn bgInit_call(
-        layer: libc::c_int,
-        type_: BgType,
-        size: BgSize,
-        mapBase: libc::c_int,
-        tileBase: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn bgInitSub_call(
-        layer: libc::c_int,
-        type_: BgType,
-        size: BgSize,
-        mapBase: libc::c_int,
-        tileBase: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn bgUpdate();
-}
-extern "C" {
-    pub fn IC_InvalidateAll();
-}
-extern "C" {
-    pub fn IC_InvalidateRange(base: *const libc::c_void, size: u32);
-}
-extern "C" {
-    pub fn DC_FlushAll();
-}
-extern "C" {
-    pub fn DC_FlushRange(base: *const libc::c_void, size: u32);
-}
-extern "C" {
-    pub fn DC_InvalidateAll();
-}
-extern "C" {
-    pub fn DC_InvalidateRange(base: *const libc::c_void, size: u32);
-}
-extern "C" {
-    pub fn sinLerp(angle: s16) -> s16;
-}
-extern "C" {
-    pub fn cosLerp(angle: s16) -> s16;
-}
-extern "C" {
-    pub fn tanLerp(angle: s16) -> s32;
-}
-extern "C" {
-    pub fn asinLerp(par: s16) -> s16;
-}
-extern "C" {
-    pub fn acosLerp(par: s16) -> s16;
-}
-pub type fixed12d3 = uint16;
-pub type t16 = libc::c_short;
-pub type v16 = libc::c_short;
-pub type v10 = libc::c_short;
-pub type rgb = libc::c_ushort;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct m3x3 {
-    pub m: [libc::c_int; 9usize],
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct m4x4 {
-    pub m: [libc::c_int; 16usize],
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct m4x3 {
-    pub m: [libc::c_int; 12usize],
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct GLvector {
-    pub x: libc::c_int,
-    pub y: libc::c_int,
-    pub z: libc::c_int,
-}
-pub const GL_TRIANGLES: GL_GLBEGIN_ENUM = 0;
-pub const GL_QUADS: GL_GLBEGIN_ENUM = 1;
-pub const GL_TRIANGLE_STRIP: GL_GLBEGIN_ENUM = 2;
-pub const GL_QUAD_STRIP: GL_GLBEGIN_ENUM = 3;
-pub const GL_TRIANGLE: GL_GLBEGIN_ENUM = 0;
-pub const GL_QUAD: GL_GLBEGIN_ENUM = 1;
-pub type GL_GLBEGIN_ENUM = u32;
-pub const GL_PROJECTION: GL_MATRIX_MODE_ENUM = 0;
-pub const GL_POSITION: GL_MATRIX_MODE_ENUM = 1;
-pub const GL_MODELVIEW: GL_MATRIX_MODE_ENUM = 2;
-pub const GL_TEXTURE: GL_MATRIX_MODE_ENUM = 3;
-pub type GL_MATRIX_MODE_ENUM = u32;
-pub const GL_AMBIENT: GL_MATERIALS_ENUM = 1;
-pub const GL_DIFFUSE: GL_MATERIALS_ENUM = 2;
-pub const GL_AMBIENT_AND_DIFFUSE: GL_MATERIALS_ENUM = 3;
-pub const GL_SPECULAR: GL_MATERIALS_ENUM = 4;
-pub const GL_SHININESS: GL_MATERIALS_ENUM = 8;
-pub const GL_EMISSION: GL_MATERIALS_ENUM = 16;
-pub type GL_MATERIALS_ENUM = u32;
-pub const POLY_FORMAT_LIGHT0: GL_POLY_FORMAT_ENUM = 1;
-pub const POLY_FORMAT_LIGHT1: GL_POLY_FORMAT_ENUM = 2;
-pub const POLY_FORMAT_LIGHT2: GL_POLY_FORMAT_ENUM = 4;
-pub const POLY_FORMAT_LIGHT3: GL_POLY_FORMAT_ENUM = 8;
-pub const POLY_MODULATION: GL_POLY_FORMAT_ENUM = 0;
-pub const POLY_DECAL: GL_POLY_FORMAT_ENUM = 16;
-pub const POLY_TOON_HIGHLIGHT: GL_POLY_FORMAT_ENUM = 32;
-pub const POLY_SHADOW: GL_POLY_FORMAT_ENUM = 48;
-pub const POLY_CULL_FRONT: GL_POLY_FORMAT_ENUM = 64;
-pub const POLY_CULL_BACK: GL_POLY_FORMAT_ENUM = 128;
-pub const POLY_CULL_NONE: GL_POLY_FORMAT_ENUM = 192;
-pub const POLY_FOG: GL_POLY_FORMAT_ENUM = 32768;
-pub type GL_POLY_FORMAT_ENUM = u32;
-pub const TEXTURE_SIZE_8: GL_TEXTURE_SIZE_ENUM = 0;
-pub const TEXTURE_SIZE_16: GL_TEXTURE_SIZE_ENUM = 1;
-pub const TEXTURE_SIZE_32: GL_TEXTURE_SIZE_ENUM = 2;
-pub const TEXTURE_SIZE_64: GL_TEXTURE_SIZE_ENUM = 3;
-pub const TEXTURE_SIZE_128: GL_TEXTURE_SIZE_ENUM = 4;
-pub const TEXTURE_SIZE_256: GL_TEXTURE_SIZE_ENUM = 5;
-pub const TEXTURE_SIZE_512: GL_TEXTURE_SIZE_ENUM = 6;
-pub const TEXTURE_SIZE_1024: GL_TEXTURE_SIZE_ENUM = 7;
-pub type GL_TEXTURE_SIZE_ENUM = u32;
-pub const GL_TEXTURE_WRAP_S: GL_TEXTURE_PARAM_ENUM = 65536;
-pub const GL_TEXTURE_WRAP_T: GL_TEXTURE_PARAM_ENUM = 131072;
-pub const GL_TEXTURE_FLIP_S: GL_TEXTURE_PARAM_ENUM = 262144;
-pub const GL_TEXTURE_FLIP_T: GL_TEXTURE_PARAM_ENUM = 524288;
-pub const GL_TEXTURE_COLOR0_TRANSPARENT: GL_TEXTURE_PARAM_ENUM = 536870912;
-pub const TEXGEN_OFF: GL_TEXTURE_PARAM_ENUM = 0;
-pub const TEXGEN_TEXCOORD: GL_TEXTURE_PARAM_ENUM = 1073741824;
-pub const TEXGEN_NORMAL: GL_TEXTURE_PARAM_ENUM = -2147483648;
-pub const TEXGEN_POSITION: GL_TEXTURE_PARAM_ENUM = -1073741824;
-pub type GL_TEXTURE_PARAM_ENUM = i32;
-pub const GL_NOTEXTURE: GL_TEXTURE_TYPE_ENUM = 0;
-pub const GL_RGB32_A3: GL_TEXTURE_TYPE_ENUM = 1;
-pub const GL_RGB4: GL_TEXTURE_TYPE_ENUM = 2;
-pub const GL_RGB16: GL_TEXTURE_TYPE_ENUM = 3;
-pub const GL_RGB256: GL_TEXTURE_TYPE_ENUM = 4;
-pub const GL_COMPRESSED: GL_TEXTURE_TYPE_ENUM = 5;
-pub const GL_RGB8_A5: GL_TEXTURE_TYPE_ENUM = 6;
-pub const GL_RGBA: GL_TEXTURE_TYPE_ENUM = 7;
-pub const GL_RGB: GL_TEXTURE_TYPE_ENUM = 8;
-pub type GL_TEXTURE_TYPE_ENUM = u32;
-pub const GL_COLOR_TABLE_FORMAT_EXT: GL_TEXTURE_PALETTE_PARAM_ENUM = 0;
-pub const GL_COLOR_TABLE_WIDTH_EXT: GL_TEXTURE_PALETTE_PARAM_ENUM = 1;
-pub type GL_TEXTURE_PALETTE_PARAM_ENUM = u32;
-pub const GL_TEXTURE_2D: DISP3DCNT_ENUM = 1;
-pub const GL_TOON_HIGHLIGHT: DISP3DCNT_ENUM = 2;
-pub const GL_ALPHA_TEST: DISP3DCNT_ENUM = 4;
-pub const GL_BLEND: DISP3DCNT_ENUM = 8;
-pub const GL_ANTIALIAS: DISP3DCNT_ENUM = 16;
-pub const GL_OUTLINE: DISP3DCNT_ENUM = 32;
-pub const GL_FOG_ONLY_ALPHA: DISP3DCNT_ENUM = 64;
-pub const GL_FOG: DISP3DCNT_ENUM = 128;
-pub const GL_COLOR_UNDERFLOW: DISP3DCNT_ENUM = 4096;
-pub const GL_POLY_OVERFLOW: DISP3DCNT_ENUM = 8192;
-pub const GL_CLEAR_BMP: DISP3DCNT_ENUM = 16384;
-pub type DISP3DCNT_ENUM = u32;
-pub const GL_GET_VERTEX_RAM_COUNT: GL_GET_ENUM = 0;
-pub const GL_GET_POLYGON_RAM_COUNT: GL_GET_ENUM = 1;
-pub const GL_GET_MATRIX_VECTOR: GL_GET_ENUM = 2;
-pub const GL_GET_MATRIX_POSITION: GL_GET_ENUM = 3;
-pub const GL_GET_MATRIX_PROJECTION: GL_GET_ENUM = 4;
-pub const GL_GET_MATRIX_CLIP: GL_GET_ENUM = 5;
-pub const GL_GET_TEXTURE_WIDTH: GL_GET_ENUM = 6;
-pub const GL_GET_TEXTURE_HEIGHT: GL_GET_ENUM = 7;
-pub type GL_GET_ENUM = u32;
-pub const GL_TRANS_MANUALSORT: GLFLUSH_ENUM = 1;
-pub const GL_WBUFFERING: GLFLUSH_ENUM = 2;
-pub type GLFLUSH_ENUM = u32;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct s_SingleBlock {
-    pub indexOut: uint32,
-    pub AddrSet: *mut uint8,
-    pub node: [*mut s_SingleBlock; 4usize],
-    pub blockSize: uint32,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct s_vramBlock {
-    pub startAddr: *mut uint8,
-    pub endAddr: *mut uint8,
-    pub firstBlock: *mut s_SingleBlock,
-    pub firstEmpty: *mut s_SingleBlock,
-    pub firstAlloc: *mut s_SingleBlock,
-    pub lastExamined: *mut s_SingleBlock,
-    pub lastExaminedAddr: *mut uint8,
-    pub lastExaminedSize: uint32,
-    pub blockPtrs: DynamicArray,
-    pub deallocBlocks: DynamicArray,
-    pub blockCount: uint32,
-    pub deallocCount: uint32,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct gl_texture_data {
-    pub vramAddr: *mut libc::c_void,
-    pub texIndex: uint32,
-    pub texIndexExt: uint32,
-    pub palIndex: libc::c_int,
-    pub texFormat: uint32,
-    pub texSize: uint32,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct gl_palette_data {
-    pub vramAddr: *mut libc::c_void,
-    pub palIndex: uint32,
-    pub addr: uint16,
-    pub palSize: uint16,
-    pub connectCount: uint32,
-}
-#[repr(C)]
-pub struct gl_hidden_globals {
-    pub matrixMode: GL_MATRIX_MODE_ENUM,
-    pub vramBlocks: [*mut s_vramBlock; 2usize],
-    pub vramLock: [libc::c_int; 2usize],
-    pub texturePtrs: DynamicArray,
-    pub palettePtrs: DynamicArray,
-    pub deallocTex: DynamicArray,
-    pub deallocPal: DynamicArray,
-    pub deallocTexSize: uint32,
-    pub deallocPalSize: uint32,
-    pub activeTexture: libc::c_int,
-    pub activePalette: libc::c_int,
-    pub texCount: libc::c_int,
-    pub palCount: libc::c_int,
-    pub clearColor: u32,
-    pub isActive: uint8,
-}
-extern "C" {
-    pub static mut glGlobalData: gl_hidden_globals;
-}
-extern "C" {
-    pub static mut glGlob: *mut gl_hidden_globals;
-}
-extern "C" {
-    pub fn glRotatef32i(angle: libc::c_int, x: int32, y: int32, z: int32);
-}
-extern "C" {
-    pub fn glTexImage2D(
-        target: libc::c_int,
-        empty1: libc::c_int,
-        type_: GL_TEXTURE_TYPE_ENUM,
-        sizeX: libc::c_int,
-        sizeY: libc::c_int,
-        empty2: libc::c_int,
-        param: libc::c_int,
-        texture: *const libc::c_void,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn glColorTableEXT(
-        target: libc::c_int,
-        empty1: libc::c_int,
-        width: uint16,
-        empty2: libc::c_int,
-        empty3: libc::c_int,
-        table: *const uint16,
-    );
-}
-extern "C" {
-    pub fn glColorSubTableEXT(
-        target: libc::c_int,
-        start: libc::c_int,
-        count: libc::c_int,
-        empty1: libc::c_int,
-        empty2: libc::c_int,
-        data: *const uint16,
-    );
-}
-extern "C" {
-    pub fn glGetColorTableEXT(
-        target: libc::c_int,
-        empty1: libc::c_int,
-        empty2: libc::c_int,
-        table: *mut uint16,
-    );
-}
-extern "C" {
-    pub fn glAssignColorTable(target: libc::c_int, name: libc::c_int);
-}
-extern "C" {
-    pub fn glTexParameter(target: libc::c_int, param: libc::c_int);
-}
-extern "C" {
-    pub fn glGetTexParameter() -> u32;
-}
-extern "C" {
-    pub fn glGetColorTableParameterEXT(
-        target: libc::c_int,
-        pname: libc::c_int,
-        params: *mut libc::c_int,
-    );
-}
-extern "C" {
-    pub fn glGetTexturePointer(name: libc::c_int) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn glBindTexture(target: libc::c_int, name: libc::c_int);
-}
-extern "C" {
-    pub fn glGenTextures(n: libc::c_int, names: *mut libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn glDeleteTextures(n: libc::c_int, names: *mut libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn glResetTextures();
-}
-extern "C" {
-    pub fn glLockVRAMBank(addr: *mut uint16) -> libc::c_int;
-}
-extern "C" {
-    pub fn glUnlockVRAMBank(addr: *mut uint16) -> libc::c_int;
-}
-extern "C" {
-    pub fn glTexCoord2f32(u: int32, v: int32);
-}
-extern "C" {
-    pub fn glMaterialf(mode: GL_MATERIALS_ENUM, color: rgb);
-}
-extern "C" {
-    pub fn glInit_C();
-}
-extern "C" {
-    pub fn glGetGlobals() -> *mut gl_hidden_globals;
-}
-extern "C" {
-    pub fn BoxTest(x: v16, y: v16, z: v16, width: v16, height: v16, depth: v16) -> libc::c_int;
-}
-extern "C" {
-    pub fn BoxTestf(x: f32, y: f32, z: f32, width: f32, height: f32, depth: f32) -> libc::c_int;
-}
-extern "C" {
-    pub fn BoxTest_Asynch(x: v16, y: v16, z: v16, height: v16, width: v16, depth: v16);
-}
-extern "C" {
-    pub fn BoxTestf_Asynch(x: f32, y: f32, z: f32, width: f32, height: f32, depth: f32);
-}
-extern "C" {
-    pub fn BoxTestResult() -> libc::c_int;
-}
-pub type ConsolePrint =
-    ::core::option::Option<unsafe extern "C" fn(con: *mut libc::c_void, c: libc::c_char) -> bool>;
-#[repr(C)]
-pub struct ConsoleFont {
-    pub gfx: *mut u16,
-    pub pal: *mut u16,
-    pub numColors: u16,
-    pub bpp: u8,
-    pub asciiOffset: u16,
-    pub numChars: u16,
-    pub convertSingleColor: bool,
-}
-#[repr(C)]
-pub struct PrintConsole {
-    pub font: ConsoleFont,
-    pub fontBgMap: *mut u16,
-    pub fontBgGfx: *mut u16,
-    pub mapBase: u8,
-    pub gfxBase: u8,
-    pub bgLayer: u8,
-    pub bgId: libc::c_int,
-    pub cursorX: libc::c_int,
-    pub cursorY: libc::c_int,
-    pub prevCursorX: libc::c_int,
-    pub prevCursorY: libc::c_int,
-    pub consoleWidth: libc::c_int,
-    pub consoleHeight: libc::c_int,
-    pub windowX: libc::c_int,
-    pub windowY: libc::c_int,
-    pub windowWidth: libc::c_int,
-    pub windowHeight: libc::c_int,
-    pub tabSize: libc::c_int,
-    pub fontCharOffset: u16,
-    pub fontCurPal: u16,
-    pub PrintChar: ConsolePrint,
-    pub consoleInitialised: bool,
-    pub loadGraphics: bool,
-}
-pub const DebugDevice_NULL: DebugDevice = 0;
-pub const DebugDevice_NOCASH: DebugDevice = 1;
-pub const DebugDevice_CONSOLE: DebugDevice = 2;
-pub type DebugDevice = u32;
-extern "C" {
-    pub fn consoleSetFont(console: *mut PrintConsole, font: *mut ConsoleFont);
-}
-extern "C" {
-    pub fn consoleSetWindow(
-        console: *mut PrintConsole,
-        x: libc::c_int,
-        y: libc::c_int,
-        width: libc::c_int,
-        height: libc::c_int,
-    );
-}
-extern "C" {
-    pub fn consoleGetDefault() -> *mut PrintConsole;
-}
-extern "C" {
-    pub fn consoleSelect(console: *mut PrintConsole) -> *mut PrintConsole;
-}
-extern "C" {
-    pub fn consoleInit(
-        console: *mut PrintConsole,
-        layer: libc::c_int,
-        type_: BgType,
-        size: BgSize,
-        mapBase: libc::c_int,
-        tileBase: libc::c_int,
-        mainDisplay: bool,
-        loadGraphics: bool,
-    ) -> *mut PrintConsole;
-}
-extern "C" {
-    pub fn consoleDemoInit() -> *mut PrintConsole;
-}
-extern "C" {
-    pub fn consoleClear();
-}
-extern "C" {
-    pub fn consoleDebugInit(device: DebugDevice);
-}
-pub const LZ77: DecompressType = 0;
-pub const LZ77Vram: DecompressType = 1;
-pub const HUFF: DecompressType = 2;
-pub const RLE: DecompressType = 3;
-pub const RLEVram: DecompressType = 4;
-pub type DecompressType = u32;
-extern "C" {
-    pub fn decompress(data: *const libc::c_void, dst: *mut libc::c_void, type_: DecompressType);
-}
-extern "C" {
-    pub fn decompressStream(
-        data: *const libc::c_void,
-        dst: *mut libc::c_void,
-        type_: DecompressType,
-        readCB: getByteCallback,
-        getHeaderCB: getHeaderCallback,
-    );
-}
-extern "C" {
-    pub static mut exceptionC: [VoidFn; 0usize];
-}
-extern "C" {
-    pub static mut exceptionStack: u32;
-}
-extern "C" {
-    pub static mut exceptionRegisters: [s32; 0usize];
-}
-extern "C" {
-    pub fn enterException();
-}
-extern "C" {
-    pub fn setExceptionHandler(handler: VoidFn);
-}
-extern "C" {
-    pub fn defaultExceptionHandler();
-}
-extern "C" {
-    pub fn getCPSR() -> u32;
-}
-extern "C" {
-    pub fn guitarGripIsInserted() -> bool;
-}
-extern "C" {
-    pub fn guitarGripScanKeys();
-}
-extern "C" {
-    pub fn guitarGripKeysHeld() -> u8;
-}
-extern "C" {
-    pub fn guitarGripKeysDown() -> u16;
-}
-extern "C" {
-    pub fn guitarGripKeysUp() -> u16;
-}
-#[repr(C, packed)]
-#[derive(Debug, Copy, Clone)]
-pub struct RGB_24 {
-    pub r: libc::c_uchar,
-    pub g: libc::c_uchar,
-    pub b: libc::c_uchar,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct sImage {
-    pub height: libc::c_short,
-    pub width: libc::c_short,
-    pub bpp: libc::c_int,
-    pub palette: *mut libc::c_ushort,
-    pub image: sImage__bindgen_ty_1,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct sImage__bindgen_ty_1 {
-    pub data8: __BindgenUnionField<*mut u8>,
-    pub data16: __BindgenUnionField<*mut u16>,
-    pub data32: __BindgenUnionField<*mut u32>,
-    pub bindgen_union_field: u32,
-}
-pub type psImage = *mut sImage;
-extern "C" {
-    pub fn image24to16(img: *mut sImage);
-}
-extern "C" {
-    pub fn image8to16(img: *mut sImage);
-}
-extern "C" {
-    pub fn image8to16trans(img: *mut sImage, transparentColor: u8);
-}
-extern "C" {
-    pub fn imageDestroy(img: *mut sImage);
-}
-extern "C" {
-    pub fn imageTileData(img: *mut sImage);
-}
-#[repr(C, packed)]
-#[derive(Copy, Clone)]
-pub struct PCXHeader {
-    pub manufacturer: libc::c_char,
-    pub version: libc::c_char,
-    pub encoding: libc::c_char,
-    pub bitsPerPixel: libc::c_char,
-    pub xmin: libc::c_short,
-    pub ymin: libc::c_short,
-    pub xmax: libc::c_short,
-    pub ymax: libc::c_short,
-    pub hres: libc::c_short,
-    pub vres: libc::c_short,
-    pub palette16: [libc::c_char; 48usize],
-    pub reserved: libc::c_char,
-    pub colorPlanes: libc::c_char,
-    pub bytesPerLine: libc::c_short,
-    pub paletteYype: libc::c_short,
-    pub filler: [libc::c_char; 58usize],
-}
-pub type pPCXHeader = *mut PCXHeader;
-extern "C" {
-    pub fn loadPCX(pcx: *const libc::c_uchar, image: *mut sImage) -> libc::c_int;
-}
-extern "C" {
-    pub fn scanKeys();
-}
-extern "C" {
-    pub fn keysCurrent() -> uint32;
-}
-extern "C" {
-    pub fn keysHeld() -> uint32;
-}
-extern "C" {
-    pub fn keysDown() -> uint32;
-}
-extern "C" {
-    pub fn keysDownRepeat() -> uint32;
-}
-extern "C" {
-    pub fn keysSetRepeat(setDelay: u8, setRepeat: u8);
-}
-extern "C" {
-    pub fn keysUp() -> uint32;
-}
-extern "C" {
-    pub fn touchReadXY() -> touchPosition;
-}
-extern "C" {
-    pub fn touchRead(data: *mut touchPosition);
-}
-pub type KeyChangeCallback = ::core::option::Option<unsafe extern "C" fn(key: libc::c_int)>;
-pub const Lower: KeyboardState = 0;
-pub const Upper: KeyboardState = 1;
-pub const Numeric: KeyboardState = 2;
-pub const Reduced: KeyboardState = 3;
-pub type KeyboardState = u32;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct KeyMap {
-    pub mapDataPressed: *const u16,
-    pub mapDataReleased: *const u16,
-    pub keymap: *const libc::c_int,
-    pub width: libc::c_int,
-    pub height: libc::c_int,
-}
-#[repr(C)]
-pub struct Keyboard {
-    pub background: libc::c_int,
-    pub keyboardOnSub: libc::c_int,
-    pub offset_x: libc::c_int,
-    pub offset_y: libc::c_int,
-    pub grid_width: libc::c_int,
-    pub grid_height: libc::c_int,
-    pub state: KeyboardState,
-    pub shifted: libc::c_int,
-    pub visible: libc::c_int,
-    pub mappings: [*mut KeyMap; 4usize],
-    pub tiles: *const u16,
-    pub tileLen: u32,
-    pub palette: *const u16,
-    pub paletteLen: u32,
-    pub mapBase: libc::c_int,
-    pub tileBase: libc::c_int,
-    pub tileOffset: libc::c_int,
-    pub scrollSpeed: u32,
-    pub OnKeyPressed: KeyChangeCallback,
-    pub OnKeyReleased: KeyChangeCallback,
-}
-pub const NOKEY: Keys = -1;
-pub const DVK_FOLD: Keys = -23;
-pub const DVK_TAB: Keys = 9;
-pub const DVK_BACKSPACE: Keys = 8;
-pub const DVK_CAPS: Keys = -15;
-pub const DVK_SHIFT: Keys = -14;
-pub const DVK_SPACE: Keys = 32;
-pub const DVK_MENU: Keys = -5;
-pub const DVK_ENTER: Keys = 10;
-pub const DVK_CTRL: Keys = -16;
-pub const DVK_UP: Keys = -17;
-pub const DVK_RIGHT: Keys = -18;
-pub const DVK_DOWN: Keys = -19;
-pub const DVK_LEFT: Keys = -20;
-pub const DVK_ALT: Keys = -26;
-pub type Keys = i32;
-extern "C" {
-    pub fn keyboardGetDefault() -> *mut Keyboard;
-}
-extern "C" {
-    pub fn keyboardInit(
-        keyboard: *mut Keyboard,
-        layer: libc::c_int,
-        type_: BgType,
-        size: BgSize,
-        mapBase: libc::c_int,
-        tileBase: libc::c_int,
-        mainDisplay: bool,
-        loadGraphics: bool,
-    ) -> *mut Keyboard;
-}
-extern "C" {
-    pub fn keyboardDemoInit() -> *mut Keyboard;
-}
-extern "C" {
-    pub fn keyboardShow();
-}
-extern "C" {
-    pub fn keyboardHide();
-}
-extern "C" {
-    pub fn keyboardGetKey(x: libc::c_int, y: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn keyboardGetString(buffer: *mut libc::c_char, maxLen: libc::c_int);
-}
-extern "C" {
-    pub fn keyboardGetChar() -> libc::c_int;
-}
-extern "C" {
-    pub fn keyboardUpdate() -> libc::c_int;
-}
-extern "C" {
-    pub fn paddleIsInserted() -> bool;
-}
-extern "C" {
-    pub fn paddleRead() -> u16;
-}
-extern "C" {
-    pub fn paddleReset();
-}
-extern "C" {
-    pub fn pianoIsInserted() -> bool;
-}
-extern "C" {
-    pub fn pianoScanKeys();
-}
-extern "C" {
-    pub fn pianoKeysHeld() -> u16;
-}
-extern "C" {
-    pub fn pianoKeysDown() -> u16;
-}
-extern "C" {
-    pub fn pianoKeysUp() -> u16;
-}
-pub const RUMBLE: RUMBLE_TYPE = 0;
-pub const WARIOWARE: RUMBLE_TYPE = 1;
-pub type RUMBLE_TYPE = u32;
-extern "C" {
-    pub fn isRumbleInserted() -> bool;
-}
-extern "C" {
-    pub fn setRumble(position: bool);
-}
-pub type MicCallback = ::core::option::Option<
-    unsafe extern "C" fn(completedBuffer: *mut libc::c_void, length: libc::c_int),
->;
-pub const SoundFormat_16Bit: SoundFormat = 1;
-pub const SoundFormat_8Bit: SoundFormat = 0;
-pub const SoundFormat_PSG: SoundFormat = 3;
-pub const SoundFormat_ADPCM: SoundFormat = 2;
-pub type SoundFormat = u32;
-pub const MicFormat_8Bit: MicFormat = 1;
-pub const MicFormat_12Bit: MicFormat = 0;
-pub type MicFormat = u32;
-pub const DutyCycle_0: DutyCycle = 7;
-pub const DutyCycle_12: DutyCycle = 0;
-pub const DutyCycle_25: DutyCycle = 1;
-pub const DutyCycle_37: DutyCycle = 2;
-pub const DutyCycle_50: DutyCycle = 3;
-pub const DutyCycle_62: DutyCycle = 4;
-pub const DutyCycle_75: DutyCycle = 5;
-pub const DutyCycle_87: DutyCycle = 6;
-pub type DutyCycle = u32;
-extern "C" {
-    pub fn soundEnable();
-}
-extern "C" {
-    pub fn soundDisable();
-}
-extern "C" {
-    pub fn soundPlaySample(
-        data: *const libc::c_void,
-        format: SoundFormat,
-        dataSize: u32,
-        freq: u16,
-        volume: u8,
-        pan: u8,
-        loop_: bool,
-        loopPoint: u16,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn soundPlayPSG(cycle: DutyCycle, freq: u16, volume: u8, pan: u8) -> libc::c_int;
-}
-extern "C" {
-    pub fn soundPlayNoise(freq: u16, volume: u8, pan: u8) -> libc::c_int;
-}
-extern "C" {
-    pub fn soundPause(soundId: libc::c_int);
-}
-extern "C" {
-    pub fn soundSetWaveDuty(soundId: libc::c_int, cycle: DutyCycle);
-}
-extern "C" {
-    pub fn soundKill(soundId: libc::c_int);
-}
-extern "C" {
-    pub fn soundResume(soundId: libc::c_int);
-}
-extern "C" {
-    pub fn soundSetVolume(soundId: libc::c_int, volume: u8);
-}
-extern "C" {
-    pub fn soundSetPan(soundId: libc::c_int, pan: u8);
-}
-extern "C" {
-    pub fn soundSetFreq(soundId: libc::c_int, freq: u16);
-}
-extern "C" {
-    pub fn soundMicRecord(
-        buffer: *mut libc::c_void,
-        bufferLength: u32,
-        format: MicFormat,
-        freq: libc::c_int,
-        callback: MicCallback,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn soundMicOff();
-}
-pub const OBJMODE_NORMAL: ObjBlendMode = 0;
-pub const OBJMODE_BLENDED: ObjBlendMode = 1;
-pub const OBJMODE_WINDOWED: ObjBlendMode = 2;
-pub const OBJMODE_BITMAP: ObjBlendMode = 3;
-pub type ObjBlendMode = u32;
-pub const OBJSHAPE_SQUARE: ObjShape = 0;
-pub const OBJSHAPE_WIDE: ObjShape = 1;
-pub const OBJSHAPE_TALL: ObjShape = 2;
-pub const OBJSHAPE_FORBIDDEN: ObjShape = 3;
-pub type ObjShape = u32;
-pub const OBJSIZE_8: ObjSize = 0;
-pub const OBJSIZE_16: ObjSize = 1;
-pub const OBJSIZE_32: ObjSize = 2;
-pub const OBJSIZE_64: ObjSize = 3;
-pub type ObjSize = u32;
-pub const OBJCOLOR_16: ObjColMode = 0;
-pub const OBJCOLOR_256: ObjColMode = 1;
-pub type ObjColMode = u32;
-pub const OBJPRIORITY_0: ObjPriority = 0;
-pub const OBJPRIORITY_1: ObjPriority = 1;
-pub const OBJPRIORITY_2: ObjPriority = 2;
-pub const OBJPRIORITY_3: ObjPriority = 3;
-pub type ObjPriority = u32;
-#[repr(C)]
-#[derive(Debug)]
-pub struct SpriteEntry {
-    pub __bindgen_anon_1: __BindgenUnionField<SpriteEntry__bindgen_ty_1>,
-    pub __bindgen_anon_2: __BindgenUnionField<SpriteEntry__bindgen_ty_2>,
-    pub bindgen_union_field: [u32; 6usize],
-}
-#[repr(C)]
-pub struct SpriteEntry__bindgen_ty_1 {
-    pub __bindgen_anon_1: SpriteEntry__bindgen_ty_1__bindgen_ty_1,
-    pub __bindgen_anon_2: SpriteEntry__bindgen_ty_1__bindgen_ty_2,
-    pub __bindgen_anon_3: SpriteEntry__bindgen_ty_1__bindgen_ty_3,
-    pub attribute3: u16,
-}
-#[repr(C)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
-    pub __bindgen_anon_1: SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1,
-}
-#[repr(C)]
-#[derive(Debug)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
-    pub __bindgen_anon_1:
-        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1>,
-    pub __bindgen_anon_2:
-        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_2>,
-    pub bindgen_union_field: u32,
-}
-#[repr(C, packed)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1 {
-    #[inline]
-    pub fn isHidden(&self) -> bool {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(1usize, 1u8) as u8) }
-    }
-    #[inline]
-    pub fn set_isHidden(&mut self, val: bool) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(1usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(isHidden: bool) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit.set(1usize, 1u8, {
-            let isHidden: u8 = unsafe { ::core::mem::transmute(isHidden) };
-            isHidden as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-#[repr(C)]
-#[repr(align(4))]
-#[derive(Debug, Copy, Clone)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_2 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
-    pub __bindgen_padding_0: [u8; 3usize],
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_1__bindgen_ty_1__bindgen_ty_2 {
-    #[inline]
-    pub fn isRotateScale(&self) -> bool {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 1u8) as u8) }
-    }
-    #[inline]
-    pub fn set_isRotateScale(&mut self, val: bool) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(0usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn isSizeDouble(&self) -> bool {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(1usize, 1u8) as u8) }
-    }
-    #[inline]
-    pub fn set_isSizeDouble(&mut self, val: bool) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(1usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn blendMode(&self) -> ObjBlendMode {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(2usize, 2u8) as u32) }
-    }
-    #[inline]
-    pub fn set_blendMode(&mut self, val: ObjBlendMode) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(2usize, 2u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn isMosaic(&self) -> bool {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(4usize, 1u8) as u8) }
-    }
-    #[inline]
-    pub fn set_isMosaic(&mut self, val: bool) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(4usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn colorMode(&self) -> ObjColMode {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(5usize, 1u8) as u32) }
-    }
-    #[inline]
-    pub fn set_colorMode(&mut self, val: ObjColMode) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(5usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn shape(&self) -> ObjShape {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(6usize, 2u8) as u32) }
-    }
-    #[inline]
-    pub fn set_shape(&mut self, val: ObjShape) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(6usize, 2u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(
-        isRotateScale: bool,
-        isSizeDouble: bool,
-        blendMode: ObjBlendMode,
-        isMosaic: bool,
-        colorMode: ObjColMode,
-        shape: ObjShape,
-    ) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit.set(0usize, 1u8, {
-            let isRotateScale: u8 = unsafe { ::core::mem::transmute(isRotateScale) };
-            isRotateScale as u64
-        });
-        __bindgen_bitfield_unit.set(1usize, 1u8, {
-            let isSizeDouble: u8 = unsafe { ::core::mem::transmute(isSizeDouble) };
-            isSizeDouble as u64
-        });
-        __bindgen_bitfield_unit.set(2usize, 2u8, {
-            let blendMode: u32 = unsafe { ::core::mem::transmute(blendMode) };
-            blendMode as u64
-        });
-        __bindgen_bitfield_unit.set(4usize, 1u8, {
-            let isMosaic: u8 = unsafe { ::core::mem::transmute(isMosaic) };
-            isMosaic as u64
-        });
-        __bindgen_bitfield_unit.set(5usize, 1u8, {
-            let colorMode: u32 = unsafe { ::core::mem::transmute(colorMode) };
-            colorMode as u64
-        });
-        __bindgen_bitfield_unit.set(6usize, 2u8, {
-            let shape: u32 = unsafe { ::core::mem::transmute(shape) };
-            shape as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_1 {
-    #[inline]
-    pub fn y(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 8u8) as u16) }
-    }
-    #[inline]
-    pub fn set_y(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(0usize, 8u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(y: u16) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit.set(0usize, 8u8, {
-            let y: u16 = unsafe { ::core::mem::transmute(y) };
-            y as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-#[repr(C)]
-#[derive(Debug)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2 {
-    pub __bindgen_anon_1:
-        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1>,
-    pub __bindgen_anon_2:
-        __BindgenUnionField<SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2>,
-    pub bindgen_union_field: [u32; 2usize],
-}
-#[repr(C)]
-#[repr(align(2))]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u16>,
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_1 {
-    #[inline]
-    pub fn x(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 9u8) as u16) }
-    }
-    #[inline]
-    pub fn set_x(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(0usize, 9u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(x: u16) -> __BindgenBitfieldUnit<[u8; 2usize], u16> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u16> =
-            Default::default();
-        __bindgen_bitfield_unit.set(0usize, 9u8, {
-            let x: u16 = unsafe { ::core::mem::transmute(x) };
-            x as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-#[repr(C)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
-    pub __bindgen_anon_1: SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1,
-}
-#[repr(C)]
-#[derive(Debug)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1 {
-    pub __bindgen_anon_1: __BindgenUnionField<
-        SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_1,
-    >,
-    pub __bindgen_anon_2: __BindgenUnionField<
-        SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_2,
-    >,
-    pub bindgen_union_field: u32,
-}
-#[repr(C, packed)]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_1 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_1 {
-    #[inline]
-    pub fn hFlip(&self) -> bool {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(4usize, 1u8) as u8) }
-    }
-    #[inline]
-    pub fn set_hFlip(&mut self, val: bool) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(4usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn vFlip(&self) -> bool {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(5usize, 1u8) as u8) }
-    }
-    #[inline]
-    pub fn set_vFlip(&mut self, val: bool) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(5usize, 1u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(hFlip: bool, vFlip: bool) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit.set(4usize, 1u8, {
-            let hFlip: u8 = unsafe { ::core::mem::transmute(hFlip) };
-            hFlip as u64
-        });
-        __bindgen_bitfield_unit.set(5usize, 1u8, {
-            let vFlip: u8 = unsafe { ::core::mem::transmute(vFlip) };
-            vFlip as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-#[repr(C)]
-#[repr(align(4))]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_2 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 1usize], u8>,
-    pub __bindgen_padding_0: [u8; 3usize],
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2__bindgen_ty_1__bindgen_ty_2 {
-    #[inline]
-    pub fn rotationIndex(&self) -> u8 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(1usize, 5u8) as u8) }
-    }
-    #[inline]
-    pub fn set_rotationIndex(&mut self, val: u8) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(1usize, 5u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn size(&self) -> ObjSize {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(6usize, 2u8) as u32) }
-    }
-    #[inline]
-    pub fn set_size(&mut self, val: ObjSize) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(6usize, 2u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(
-        rotationIndex: u8,
-        size: ObjSize,
-    ) -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit.set(1usize, 5u8, {
-            let rotationIndex: u8 = unsafe { ::core::mem::transmute(rotationIndex) };
-            rotationIndex as u64
-        });
-        __bindgen_bitfield_unit.set(6usize, 2u8, {
-            let size: u32 = unsafe { ::core::mem::transmute(size) };
-            size as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_2__bindgen_ty_2 {
-    #[inline]
-    pub fn new_bitfield_1() -> __BindgenBitfieldUnit<[u8; 1usize], u8> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 1usize], u8> =
-            Default::default();
-        __bindgen_bitfield_unit
-    }
-}
-#[repr(C)]
-#[repr(align(4))]
-pub struct SpriteEntry__bindgen_ty_1__bindgen_ty_3 {
-    pub _bitfield_1: __BindgenBitfieldUnit<[u8; 2usize], u16>,
-    pub __bindgen_padding_0: u16,
-}
-impl SpriteEntry__bindgen_ty_1__bindgen_ty_3 {
-    #[inline]
-    pub fn gfxIndex(&self) -> u16 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(0usize, 10u8) as u16) }
-    }
-    #[inline]
-    pub fn set_gfxIndex(&mut self, val: u16) {
-        unsafe {
-            let val: u16 = ::core::mem::transmute(val);
-            self._bitfield_1.set(0usize, 10u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn priority(&self) -> ObjPriority {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(10usize, 2u8) as u32) }
-    }
-    #[inline]
-    pub fn set_priority(&mut self, val: ObjPriority) {
-        unsafe {
-            let val: u32 = ::core::mem::transmute(val);
-            self._bitfield_1.set(10usize, 2u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn palette(&self) -> u8 {
-        unsafe { ::core::mem::transmute(self._bitfield_1.get(12usize, 4u8) as u8) }
-    }
-    #[inline]
-    pub fn set_palette(&mut self, val: u8) {
-        unsafe {
-            let val: u8 = ::core::mem::transmute(val);
-            self._bitfield_1.set(12usize, 4u8, val as u64)
-        }
-    }
-    #[inline]
-    pub fn new_bitfield_1(
-        gfxIndex: u16,
-        priority: ObjPriority,
-        palette: u8,
-    ) -> __BindgenBitfieldUnit<[u8; 2usize], u16> {
-        let mut __bindgen_bitfield_unit: __BindgenBitfieldUnit<[u8; 2usize], u16> =
-            Default::default();
-        __bindgen_bitfield_unit.set(0usize, 10u8, {
-            let gfxIndex: u16 = unsafe { ::core::mem::transmute(gfxIndex) };
-            gfxIndex as u64
-        });
-        __bindgen_bitfield_unit.set(10usize, 2u8, {
-            let priority: u32 = unsafe { ::core::mem::transmute(priority) };
-            priority as u64
-        });
-        __bindgen_bitfield_unit.set(12usize, 4u8, {
-            let palette: u8 = unsafe { ::core::mem::transmute(palette) };
-            palette as u64
-        });
-        __bindgen_bitfield_unit
-    }
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct SpriteEntry__bindgen_ty_2 {
-    pub attribute: [uint16; 3usize],
-    pub filler: uint16,
-}
-pub type pSpriteEntry = *mut SpriteEntry;
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct SpriteRotation {
-    pub filler1: [uint16; 3usize],
-    pub hdx: int16,
-    pub filler2: [uint16; 3usize],
-    pub vdx: int16,
-    pub filler3: [uint16; 3usize],
-    pub hdy: int16,
-    pub filler4: [uint16; 3usize],
-    pub vdy: int16,
-}
-pub type pSpriteRotation = *mut SpriteRotation;
-#[repr(C)]
-pub struct OAMTable {
-    pub oamBuffer: __BindgenUnionField<[SpriteEntry; 128usize]>,
-    pub matrixBuffer: __BindgenUnionField<[SpriteRotation; 32usize]>,
-    pub bindgen_union_field: [u32; 768usize],
-}
-pub const SpriteSize_8x8: SpriteSize = 2;
-pub const SpriteSize_16x16: SpriteSize = 16392;
-pub const SpriteSize_32x32: SpriteSize = 32800;
-pub const SpriteSize_64x64: SpriteSize = 49280;
-pub const SpriteSize_16x8: SpriteSize = 4100;
-pub const SpriteSize_32x8: SpriteSize = 20488;
-pub const SpriteSize_32x16: SpriteSize = 36880;
-pub const SpriteSize_64x32: SpriteSize = 53312;
-pub const SpriteSize_8x16: SpriteSize = 8196;
-pub const SpriteSize_8x32: SpriteSize = 24584;
-pub const SpriteSize_16x32: SpriteSize = 40976;
-pub const SpriteSize_32x64: SpriteSize = 57408;
-pub type SpriteSize = u32;
-pub const SpriteMapping_1D_32: SpriteMapping = 16;
-pub const SpriteMapping_1D_64: SpriteMapping = 269484049;
-pub const SpriteMapping_1D_128: SpriteMapping = 538968082;
-pub const SpriteMapping_1D_256: SpriteMapping = 808452115;
-pub const SpriteMapping_2D: SpriteMapping = 1073741824;
-pub const SpriteMapping_Bmp_1D_128: SpriteMapping = 1344274514;
-pub const SpriteMapping_Bmp_1D_256: SpriteMapping = 1617952851;
-pub const SpriteMapping_Bmp_2D_128: SpriteMapping = 1879048194;
-pub const SpriteMapping_Bmp_2D_256: SpriteMapping = -2147483613;
-pub type SpriteMapping = i32;
-pub const SpriteColorFormat_16Color: SpriteColorFormat = 0;
-pub const SpriteColorFormat_256Color: SpriteColorFormat = 1;
-pub const SpriteColorFormat_Bmp: SpriteColorFormat = 3;
-pub type SpriteColorFormat = u32;
-#[repr(C)]
-pub struct AllocHeader {
-    pub nextFree: u16,
-    pub size: u16,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct OamState {
-    pub gfxOffsetStep: libc::c_int,
-    pub firstFree: s16,
-    pub allocBuffer: *mut AllocHeader,
-    pub allocBufferSize: s16,
-    pub __bindgen_anon_1: OamState__bindgen_ty_1,
-    pub spriteMapping: SpriteMapping,
-}
-#[repr(C)]
-#[derive(Debug, Copy, Clone)]
-pub struct OamState__bindgen_ty_1 {
-    pub oamMemory: __BindgenUnionField<*mut SpriteEntry>,
-    pub oamRotationMemory: __BindgenUnionField<*mut SpriteRotation>,
-    pub bindgen_union_field: u32,
-}
-extern "C" {
-    pub static mut oamMain: OamState;
-}
-extern "C" {
-    pub static mut oamSub: OamState;
-}
-extern "C" {
-    pub fn oamGfxPtrToOffset(oam: *mut OamState, offset: *const libc::c_void) -> libc::c_uint;
-}
-extern "C" {
-    pub fn oamInit(oam: *mut OamState, mapping: SpriteMapping, extPalette: bool);
-}
-extern "C" {
-    pub fn oamDisable(oam: *mut OamState);
-}
-extern "C" {
-    pub fn oamEnable(oam: *mut OamState);
-}
-extern "C" {
-    pub fn oamGetGfxPtr(oam: *mut OamState, gfxOffsetIndex: libc::c_int) -> *mut u16;
-}
-extern "C" {
-    pub fn oamAllocateGfx(
-        oam: *mut OamState,
-        size: SpriteSize,
-        colorFormat: SpriteColorFormat,
-    ) -> *mut u16;
-}
-extern "C" {
-    pub fn oamFreeGfx(oam: *mut OamState, gfxOffset: *const libc::c_void);
-}
-extern "C" {
-    pub fn oamSet(
-        oam: *mut OamState,
-        id: libc::c_int,
-        x: libc::c_int,
-        y: libc::c_int,
-        priority: libc::c_int,
-        palette_alpha: libc::c_int,
-        size: SpriteSize,
-        format: SpriteColorFormat,
-        gfxOffset: *const libc::c_void,
-        affineIndex: libc::c_int,
-        sizeDouble: bool,
-        hide: bool,
-        hflip: bool,
-        vflip: bool,
-        mosaic: bool,
-    );
-}
-extern "C" {
-    pub fn oamClear(oam: *mut OamState, start: libc::c_int, count: libc::c_int);
-}
-extern "C" {
-    pub fn oamUpdate(oam: *mut OamState);
-}
-extern "C" {
-    pub fn oamRotateScale(
-        oam: *mut OamState,
-        rotId: libc::c_int,
-        angle: libc::c_int,
-        sx: libc::c_int,
-        sy: libc::c_int,
-    );
-}
-extern "C" {
-    pub fn oamCountFragments(oam: *mut OamState) -> libc::c_int;
-}
-extern "C" {
-    pub fn oamAllocReset(oam: *mut OamState);
-}
-pub const WINDOW_0: WINDOW = 8192;
-pub const WINDOW_1: WINDOW = 16384;
-pub const WINDOW_OBJ: WINDOW = 32768;
-pub const WINDOW_OUT: WINDOW = 65536;
-pub type WINDOW = u32;
-extern "C" {
-    pub fn windowSetBounds(window: WINDOW, left: u8, top: u8, right: u8, bottom: u8);
-}
-extern "C" {
-    pub fn windowSetBoundsSub(window: WINDOW, left: u8, top: u8, right: u8, bottom: u8);
-}
-extern "C" {
-    pub fn bgWindowEnable(id: libc::c_int, window: WINDOW);
-}
-extern "C" {
-    pub fn bgWindowDisable(id: libc::c_int, window: WINDOW);
-}
-extern "C" {
-    pub fn oamWindowEnable(oam: *mut OamState, w: WINDOW);
-}
-extern "C" {
-    pub fn oamWindowDisable(oam: *mut OamState, w: WINDOW);
-}
-extern "C" {
-    pub static mut environ: *mut *mut libc::c_char;
-}
-extern "C" {
-    pub fn _exit(__status: libc::c_int);
-}
-extern "C" {
-    pub fn access(__path: *const libc::c_char, __amode: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn alarm(__secs: libc::c_uint) -> libc::c_uint;
-}
-extern "C" {
-    pub fn chdir(__path: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn chmod(__path: *const libc::c_char, __mode: mode_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn chown(__path: *const libc::c_char, __owner: uid_t, __group: gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn chroot(__path: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn close(__fildes: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn confstr(__name: libc::c_int, __buf: *mut libc::c_char, __len: usize) -> usize;
-}
-extern "C" {
-    pub fn daemon(nochdir: libc::c_int, noclose: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn dup(__fildes: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn dup2(__fildes: libc::c_int, __fildes2: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn endusershell();
-}
-extern "C" {
-    pub fn execl(__path: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
-}
-extern "C" {
-    pub fn execle(__path: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
-}
-extern "C" {
-    pub fn execlp(__file: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
-}
-extern "C" {
-    pub fn execlpe(__file: *const libc::c_char, arg1: *const libc::c_char, ...) -> libc::c_int;
-}
-extern "C" {
-    pub fn execv(__path: *const libc::c_char, __argv: *const *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn execve(
-        __path: *const libc::c_char,
-        __argv: *const *mut libc::c_char,
-        __envp: *const *mut libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn execvp(__file: *const libc::c_char, __argv: *const *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn faccessat(
-        __dirfd: libc::c_int,
-        __path: *const libc::c_char,
-        __mode: libc::c_int,
-        __flags: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn fchdir(__fildes: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn fchmod(__fildes: libc::c_int, __mode: mode_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn fchown(__fildes: libc::c_int, __owner: uid_t, __group: gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn fchownat(
-        __dirfd: libc::c_int,
-        __path: *const libc::c_char,
-        __owner: uid_t,
-        __group: gid_t,
-        __flags: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn fexecve(
-        __fd: libc::c_int,
-        __argv: *const *mut libc::c_char,
-        __envp: *const *mut libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn fork() -> pid_t;
-}
-extern "C" {
-    pub fn fpathconf(__fd: libc::c_int, __name: libc::c_int) -> libc::c_long;
-}
-extern "C" {
-    pub fn fsync(__fd: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn fdatasync(__fd: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn getcwd(__buf: *mut libc::c_char, __size: usize) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn getdomainname(__name: *mut libc::c_char, __len: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn getentropy(arg1: *mut libc::c_void, arg2: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn getegid() -> gid_t;
-}
-extern "C" {
-    pub fn geteuid() -> uid_t;
-}
-extern "C" {
-    pub fn getgid() -> gid_t;
-}
-extern "C" {
-    pub fn getgroups(__gidsetsize: libc::c_int, __grouplist: *mut gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn gethostid() -> libc::c_long;
-}
-extern "C" {
-    pub fn getlogin() -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn getpass(__prompt: *const libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn getpagesize() -> libc::c_int;
-}
-extern "C" {
-    pub fn getpeereid(arg1: libc::c_int, arg2: *mut uid_t, arg3: *mut gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn getpgid(arg1: pid_t) -> pid_t;
-}
-extern "C" {
-    pub fn getpgrp() -> pid_t;
-}
-extern "C" {
-    pub fn getpid() -> pid_t;
-}
-extern "C" {
-    pub fn getppid() -> pid_t;
-}
-extern "C" {
-    pub fn getsid(arg1: pid_t) -> pid_t;
-}
-extern "C" {
-    pub fn getuid() -> uid_t;
-}
-extern "C" {
-    pub fn getusershell() -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn getwd(__buf: *mut libc::c_char) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn iruserok(
-        raddr: libc::c_ulong,
-        superuser: libc::c_int,
-        ruser: *const libc::c_char,
-        luser: *const libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn isatty(__fildes: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn issetugid() -> libc::c_int;
-}
-extern "C" {
-    pub fn lchown(__path: *const libc::c_char, __owner: uid_t, __group: gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn link(__path1: *const libc::c_char, __path2: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn linkat(
-        __dirfd1: libc::c_int,
-        __path1: *const libc::c_char,
-        __dirfd2: libc::c_int,
-        __path2: *const libc::c_char,
-        __flags: libc::c_int,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn nice(__nice_value: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn lseek(__fildes: libc::c_int, __offset: off_t, __whence: libc::c_int) -> off_t;
-}
-extern "C" {
-    pub fn lockf(__fd: libc::c_int, __cmd: libc::c_int, __len: off_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn pathconf(__path: *const libc::c_char, __name: libc::c_int) -> libc::c_long;
-}
-extern "C" {
-    pub fn pause() -> libc::c_int;
-}
-extern "C" {
-    pub fn pthread_atfork(
-        arg1: ::core::option::Option<unsafe extern "C" fn()>,
-        arg2: ::core::option::Option<unsafe extern "C" fn()>,
-        arg3: ::core::option::Option<unsafe extern "C" fn()>,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn pipe(__fildes: *mut libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn pread(
-        __fd: libc::c_int,
-        __buf: *mut libc::c_void,
-        __nbytes: usize,
-        __offset: off_t,
-    ) -> isize;
-}
-extern "C" {
-    pub fn pwrite(
-        __fd: libc::c_int,
-        __buf: *const libc::c_void,
-        __nbytes: usize,
-        __offset: off_t,
-    ) -> isize;
-}
-extern "C" {
-    pub fn read(__fd: libc::c_int, __buf: *mut libc::c_void, __nbyte: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn rresvport(__alport: *mut libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn revoke(__path: *mut libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn rmdir(__path: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn ruserok(
-        rhost: *const libc::c_char,
-        superuser: libc::c_int,
-        ruser: *const libc::c_char,
-        luser: *const libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn sbrk(__incr: isize) -> *mut libc::c_void;
-}
-extern "C" {
-    pub fn setegid(__gid: gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn seteuid(__uid: uid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn setgid(__gid: gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn setgroups(ngroups: libc::c_int, grouplist: *const gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn sethostname(arg1: *const libc::c_char, arg2: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn setpgid(__pid: pid_t, __pgid: pid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn setpgrp() -> libc::c_int;
-}
-extern "C" {
-    pub fn setregid(__rgid: gid_t, __egid: gid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn setreuid(__ruid: uid_t, __euid: uid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn setsid() -> pid_t;
-}
-extern "C" {
-    pub fn setuid(__uid: uid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn setusershell();
-}
-extern "C" {
-    pub fn sleep(__seconds: libc::c_uint) -> libc::c_uint;
-}
-extern "C" {
-    pub fn sysconf(__name: libc::c_int) -> libc::c_long;
-}
-extern "C" {
-    pub fn tcgetpgrp(__fildes: libc::c_int) -> pid_t;
-}
-extern "C" {
-    pub fn tcsetpgrp(__fildes: libc::c_int, __pgrp_id: pid_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn ttyname(__fildes: libc::c_int) -> *mut libc::c_char;
-}
-extern "C" {
-    pub fn ttyname_r(arg1: libc::c_int, arg2: *mut libc::c_char, arg3: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn unlink(__path: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn usleep(__useconds: useconds_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn vhangup() -> libc::c_int;
-}
-extern "C" {
-    pub fn write(__fd: libc::c_int, __buf: *const libc::c_void, __nbyte: usize) -> libc::c_int;
-}
-extern "C" {
-    pub static mut optarg: *mut libc::c_char;
-}
-extern "C" {
-    pub static mut optind: libc::c_int;
-}
-extern "C" {
-    pub static mut opterr: libc::c_int;
-}
-extern "C" {
-    pub static mut optopt: libc::c_int;
-}
-extern "C" {
-    pub fn getopt(
-        arg1: libc::c_int,
-        arg2: *const *mut libc::c_char,
-        arg3: *const libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub static mut optreset: libc::c_int;
-}
-extern "C" {
-    pub fn vfork() -> libc::c_int;
-}
-extern "C" {
-    pub fn ftruncate(__fd: libc::c_int, __length: off_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn truncate(arg1: *const libc::c_char, __length: off_t) -> libc::c_int;
-}
-extern "C" {
-    pub fn getdtablesize() -> libc::c_int;
-}
-extern "C" {
-    pub fn ualarm(__useconds: useconds_t, __interval: useconds_t) -> useconds_t;
-}
-extern "C" {
-    pub fn gethostname(__name: *mut libc::c_char, __len: usize) -> libc::c_int;
-}
-extern "C" {
-    pub fn setdtablesize(arg1: libc::c_int) -> libc::c_int;
-}
-extern "C" {
-    pub fn sync();
-}
-extern "C" {
-    pub fn readlink(
-        __path: *const libc::c_char,
-        __buf: *mut libc::c_char,
-        __buflen: usize,
-    ) -> isize;
-}
-extern "C" {
-    pub fn symlink(__name1: *const libc::c_char, __name2: *const libc::c_char) -> libc::c_int;
-}
-extern "C" {
-    pub fn readlinkat(
-        __dirfd1: libc::c_int,
-        __path: *const libc::c_char,
-        __buf: *mut libc::c_char,
-        __buflen: usize,
-    ) -> isize;
-}
-extern "C" {
-    pub fn symlinkat(
-        arg1: *const libc::c_char,
-        arg2: libc::c_int,
-        arg3: *const libc::c_char,
-    ) -> libc::c_int;
-}
-extern "C" {
-    pub fn unlinkat(arg1: libc::c_int, arg2: *const libc::c_char, arg3: libc::c_int)
-        -> libc::c_int;
-}
-extern "C" {
-    pub fn nand_ReadSectors(sector: sec_t, numSectors: sec_t, buffer: *mut libc::c_void) -> bool;
-}
-extern "C" {
-    pub fn nand_WriteSectors(sector: sec_t, numSectors: sec_t, buffer: *const libc::c_void)
-        -> bool;
-}
-extern "C" {
-    pub fn nand_GetSize() -> isize;
 }
 pub type __builtin_va_list = __va_list;
 #[repr(C)]

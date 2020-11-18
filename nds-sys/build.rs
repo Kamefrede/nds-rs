@@ -8,6 +8,16 @@ use std::path::PathBuf;
 
 #[cfg(feature = "use-bindgen")]
 fn main() {
+
+	let libnds_header: PathBuf = [
+		&env::var("DEVKITPRO").unwrap(),
+		"libnds",
+		"include",
+		"nds.h",
+	]
+		.iter()
+		.collect();
+
     let libnds_include: PathBuf = [&env::var("DEVKITPRO").unwrap(), "libnds", "include"]
         .iter()
         .collect();
@@ -22,6 +32,7 @@ fn main() {
 			.collect();
 
     let bindings = bindgen::Builder::default()
+		.header(libnds_header.to_str().unwrap())
 		.header("wrapper.h")
         .trust_clang_mangling(false)
 		.layout_tests(false)
@@ -41,19 +52,20 @@ fn main() {
         .prepend_enum_name(false)
         .blacklist_type("u(8|16|32|64)")
 		.parse_callbacks(Box::new(bindgen::CargoCallbacks))
+		.generate_inline_functions(true)
         .generate()
         .expect("Unable to generate bindings!");
 
-    let out_path = PathBuf::from("C:/dev/nds-rs/nds-sys/src");
+	let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
     bindings
         .write_to_file(out_path.join("nds.rs"))
         .expect("Couldn't write bindings!");
 }
 
-#[cfg(not(feature = "use-bindgen"))]
+/*#[cfg(not(feature = "use-bindgen"))]
 fn main() {
 
-	/*let dkp_path = std::env::var("DEVKITPRO").unwrap();
+	let dkp_path = std::env::var("DEVKITPRO").unwrap();
 
 	println!(
 		"cargo:rustc-link-search=native={}/devkitARM/arm-none-eabi/lib",
@@ -65,5 +77,5 @@ fn main() {
 	println!("cargo:rustc-link-lib=static=nds9");
 	println!("cargo:rustc-link-lib=static=filesystem");
 	println!("cargo:rustc-link-lib=static=fat");
-	println!("cargo:rustc-link-lib=static=mm9");*/
-}
+	println!("cargo:rustc-link-lib=static=mm9");
+}*/
