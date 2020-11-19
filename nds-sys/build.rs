@@ -62,7 +62,7 @@ fn main() {
         .expect("Couldn't write bindings!");
 }
 
-/*#[cfg(not(feature = "use-bindgen"))]
+#[cfg(not(feature = "use-bindgen"))]
 fn main() {
 
 	let dkp_path = std::env::var("DEVKITPRO").unwrap();
@@ -78,4 +78,4 @@ fn main() {
 	println!("cargo:rustc-link-lib=static=filesystem");
 	println!("cargo:rustc-link-lib=static=fat");
 	println!("cargo:rustc-link-lib=static=mm9");
-}*/
+}
