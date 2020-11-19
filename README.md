@@ -11,3 +11,5 @@ https://github.com/Kamefrede/nds-testing/
 https://github.com/rrohrer/rs-nds
 
 https://github.com/rrohrer/crawler
+
+https://github.com/rust-wii/ogc-rs
