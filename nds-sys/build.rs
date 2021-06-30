@@ -17,6 +17,8 @@ fn main() {
     .iter()
     .collect();
 
+    // comment
+
     let libnds_include: PathBuf = [&env::var("DEVKITPRO").unwrap(), "libnds", "include"]
         .iter()
         .collect();
